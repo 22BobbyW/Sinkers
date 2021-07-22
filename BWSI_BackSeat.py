@@ -18,6 +18,7 @@ from AUV_Controller import AUVController
 from pynmea2 import pynmea2
 import BluefinMessages
 from Sandshark_Interface import SandsharkClient
+from MissionReconstruction import MissionReconstruction
 
 class BackSeat():
     # we assign the mission parameters on init
@@ -28,6 +29,7 @@ class BackSeat():
         self.__current_time = time.time()
         self.__start_time = self.__current_time
         self.__warp = warp
+        self.__reconstruction = MissionReconstruction()
         
         self.__autonomy = AUVController()
     
@@ -60,7 +62,8 @@ class BackSeat():
                         print(f"{str(msg, 'utf-8')}")
                 time.sleep(1/self.__warp)
 
-                ### self.__autonomy.decide() probably goes here!
+                ### command, mc_output = self.__autonomy.decide() probably goes here
+                ### self.__reconstruction.store_decide(mc_output)
                 
                 ### turn your output message into a BPRMB request! 
                 

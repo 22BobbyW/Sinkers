@@ -47,7 +47,13 @@ class AUVController():
         # determine whether and what command to issue to desired heading               
         cmd = self.__select_command()
         
-        return cmd
+        #
+        # ADDED STATUS HERE; INFORMATION FROM STUFF
+        #
+
+        mission_reconstruction_info = [self.__desired_heading, self.__speed]
+        
+        return cmd, mission_reconstruction_info
         
     # return the desired heading to a public requestor
     def get_desired_heading(self):
@@ -108,20 +114,14 @@ class AUVController():
         # how much do we want to turn the rudder
         ## Note: using STANDARD RUDDER only for now! A calculation here
         ## will improve performance!
-        turn_command = str(round(abs(delta_angle))) + " DEGREES RUDDER"
+        turn_command = str(abs(delta_angle)) + " DEGREES RUDDER"
+        
         if delta_angle > 0:
             if self.__heading > self.__desired_heading:
-                if self.__rudder < 0: # turning the other way
-                    cmd = "LEFT FULL RUDDER"
-                else:
-                    cmd = f"LEFT {turn_command}"
+                cmd = f"LEFT {turn_command}"
             elif self.__heading < self.__desired_heading:
-                if self.__rudder < 0: # turning the other way
-                    cmd = "RIGHT FULL RUDDER"
-                else:
-                    cmd = f"RIGHT {turn_command}"
+                cmd = f"RIGHT {turn_command}"
         else:
             cmd = "RUDDER AMIDSHIPS"
         
         return cmd
-    
