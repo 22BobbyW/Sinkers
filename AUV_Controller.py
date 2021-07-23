@@ -46,14 +46,18 @@ class AUVController():
         
         # determine whether and what command to issue to desired heading               
         cmd = self.__select_command()
-        
+
+        #
+        # ADDED STATUS HERE; INFORMATION FROM STUFF
+        #
+        mission_reconstruction_info = [self.__desired_heading, self.__speed]
         return cmd
         
     # return the desired heading to a public requestor
     def get_desired_heading(self):
         return self.__desired_heading
     
-    
+
     ### Private member functions
         
     # calculate the heading we want to go to reach the gate center
@@ -69,8 +73,27 @@ class AUVController():
     
     def __heading_to_angle(self, gnext, rnext):
         # relative angle to the center of the next buoy pair
-        relative_angle = (gnext[0] + rnext[0]) / 2.0
-        
+        if len(gnext) == 0 and len(rnext) == 0:
+            return self.__heading
+        elif len(gnext) == 0:
+            return max(rnext, key=abs) + self.__heading
+        elif len(rnext) == 0:
+            return max(gnext, key=abs) + self.__heading
+
+        #
+        # TODO PAIR UP THE BUOYS??? 
+        # DON'T KNOW HOW THIS WILL BE DONE THOUGH
+        # SINCE WE DON'T KNOW THEIR DISTANCES, ONLY ANGLES
+        # DEFINITELY RED ANGLE > GREEN ANGLE 
+        #
+
+        relative_angle = 0
+        angle_difference = 0
+        for i in range(0, min(len(gnext), len(rnext))):
+            if angle_difference < abs(gnext[i] - rnext[i]):
+                relative_angle = (gnext[i] + rnext[i]) / 2.0
+                angle_difference = abs(gnext[i] - rnext[i])
+                
         # heading to center of the next buoy pair        
         tgt_hdg = self.__heading + relative_angle
         
@@ -82,26 +105,22 @@ class AUVController():
         cmd = None
         
         # determine the angle between current and desired heading
-        delta_angle = self.__desired_heading - self.__heading
-        if delta_angle > 180: # angle too big, go the other way!
-            delta_angle = delta_angle - 360
-        if delta_angle < -180: # angle too big, go the other way!
-            delta_angle = delta_angle + 360
+        delta_angle = max(self.__desired_heading, self.__heading) - min(self.__desired_heading, self.__heading)
+        if abs(delta_angle) > 25:
+            delta_angle = 25
         
         # how much do we want to turn the rudder
         ## Note: using STANDARD RUDDER only for now! A calculation here
         ## will improve performance!
-        turn_command = "STANDARD RUDDER"
+        turn_command = str(abs(delta_angle)) + " DEGREES RUDDER"
         
-        # which way do we have to turn
-        if delta_angle>2: # need to turn to right!
-            if self.__rudder >= 0: # rudder is turning the other way!
-                cmd = f"RIGHT {turn_command}"
-        elif delta_angle<-2: # need to turn to left!
-            if self.__rudder <= 0: # rudder is turning the other way!
+        if delta_angle > 0:
+            if self.__heading > self.__desired_heading:
                 cmd = f"LEFT {turn_command}"
-        else: #close enough!
+            elif self.__heading < self.__desired_heading:
+                cmd = f"RIGHT {turn_command}"
+        else:
             cmd = "RUDDER AMIDSHIPS"
         
         return cmd
-    
+        
