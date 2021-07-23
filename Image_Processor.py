@@ -58,7 +58,7 @@ class ImageProcessor():
                 image = self.__camera.get_frame(auv_state['position'], auv_state['heading'], self.__simField)
 
             elif self.__camera_type == 'PICAM':
-                pass
+                image = take_photo()
         
             else:
                 print(f"Unknown camera type: {self.__camera_type}")
@@ -69,5 +69,13 @@ class ImageProcessor():
             cv2.imwrite(str(fn), image)
         
             # process and find the buoys!
-        
+ 
         return red, green
+
+def take_photo(self):
+
+    return -1
+
+def angles_from_image(self, image):
+    
+    return (-1, -1)

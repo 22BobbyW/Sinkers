@@ -22,6 +22,7 @@ from AUV_Controller import AUVController
 from pynmea2 import pynmea2
 import BluefinMessages
 from Sandshark_Interface import SandsharkClient
+from MissionReconstruction import Mission_Reconstruction
 
 class BackSeat():
     # we assign the mission parameters on init
@@ -32,6 +33,7 @@ class BackSeat():
         self.__current_time = datetime.datetime.utcnow().timestamp()
         self.__start_time = self.__current_time
         self.__warp = warp
+        self.__reconstruction = Mission_Reconstruction()
         
         self.__auv_state = dict([
             ('position', (None, None)),
@@ -75,21 +77,23 @@ class BackSeat():
                     print("\nReceived from Frontseat:")
                     for msg in msgs:
                         print(f"{str(msg, 'utf-8')}")
-                        self.process_message(str(msg, 'utf-8'))
-                        # print(f"{self.__auv_state}")
+                        self.process_message(str(msg, 'utf-8')) # basically a .get_state() command
+                        print(f"{self.__auv_state}")
+                else:
+                    continue
 
                 ### ---------------------------------------------------------- #
                 ### Here should be the request for a photo from the camera
                 ### img = self.__camera.acquire_image()
                 ###
                 ### Here you process the image and return the angles to target
-                ### green, red = self.__detect_buoys(img)
-                self.__buoy_detector.run(self.__auv_state)
-                ### ---------------------------------------------------------- #
-                
-                
-                ### self.__autonomy.decide() probably goes here!
-                ### ---------------------------------------------------------- #
+                # green, red = self.__buoy_detector.run(self.__auv_state)
+                green, red = [70], [50]
+                command, mr_info = self.__autonomy.decide(self.__auv_state, green, red, sensor_type='ANGLE')
+                self.__reconstruction.store_autonomy_decide(mr_info)
+
+                print('GOT THE DECIDE')
+                print(command)
                 
                 #
                 # call mission_reconstruction functions right here
@@ -97,12 +101,12 @@ class BackSeat():
                 # self.__reconstruction.store_decide(mc_output),
                 # among the other mission reconstruction method calls
                 #
+                ### ---------------------------------------------------------- #
                 
                 ### turn your output message into a BPRMB request! 
 
                 time.sleep(1/self.__warp)
 
-                
                 # ------------------------------------------------------------ #
                 # ----This is example code to show commands being issued
                 # ------------------------------------------------------------ #
@@ -137,8 +141,6 @@ class BackSeat():
                 # ------------------------------------------------------------ #
                 # ----End of example code
                 # ------------------------------------------------------------ #
-                
-                
         except:
             self.__client.cleanup()
             client.join()
@@ -149,9 +151,12 @@ class BackSeat():
         # STATE IN THE CONTROLLER!
         
         # JRE: skipping the checksum check for now!
+
+        print("PROCESSING MESSAGE")
                 
         fields = msg.split(',')
         if fields[0] == '$BFNVG':
+            print('this is a bfnvg')
             # don't care about message timestamp
             #nvg_time = self.receive_nmea_time(fields[1])
                     
@@ -175,6 +180,8 @@ class BackSeat():
             fields2 = fields[12].split('*')
             self.__auv_state['last_fix_time'] = self.receive_nmea_time(fields2[0])
             
+            print('the heading that i got was ', self.__auv_state['heading'])
+
         else:
             print(f"I do not know how to process this message type: {fields[0]}")
         
