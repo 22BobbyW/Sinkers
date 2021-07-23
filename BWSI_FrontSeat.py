@@ -50,74 +50,77 @@ class FrontSeat():
     
     
     def run(self):
-        try:
-            # start up the server
-            server = threading.Thread(target=self.__server.run, args=())
-            server.start()
+        # try:
+        # start up the server
+        server = threading.Thread(target=self.__server.run, args=())
+        server.start()
+        
+        if self.__doPlots:
+            fig = plt.figure()
+            ax = fig.add_subplot(111)
             
-            if self.__doPlots:
-                fig = plt.figure()
-                ax = fig.add_subplot(111)
+            self.__simField = BuoyField(self.__datum)
+
+            config = {'nGates': 50,
+                        'gate_spacing': 20,
+                        'gate_width': 2,
+                        'style': 'linear',
+                        'max_offset': 5,
+                        'heading': 120}
                 
-                self.__simField = BuoyField(self.__datum)
+            self.__simField.configure(config)
+            G, R = self.__simField.get_buoy_positions()
+            green_buoys = np.asarray(G)
+            red_buoys = np.asarray(R)
 
-                config = {'nGates': 50,
-                          'gate_spacing': 20,
-                          'gate_width': 2,
-                          'style': 'linear',
-                          'max_offset': 5,
-                          'heading': 120}
+
+        count = 0
+        while True:
+            now = datetime.datetime.utcnow().timestamp()
+            delta_time = (now-self.__current_time) * self.__warp
+            msg = self.__vehicle.update_state(delta_time)
+            print("current state of sandshark ", msg)
+            self.__server.send_command(msg)
+            self.__current_time = now
+            
+            msgs = self.__server.receive_mail()
+            if len(msgs) > 0:
+                self.__isConnected = True
+                print("\nReceived from backseat:")
+                for msg in msgs:
+                    self.parse_payload_command(str(msg, 'utf-8'))
+                    print(f"{str(msg, 'utf-8')}")
                     
-                self.__simField.configure(config)
-                G, R = self.__simField.get_buoy_positions()
-                green_buoys = np.asarray(G)
-                red_buoys = np.asarray(R)
-
-
-            count = 0
-            while True:
-                now = datetime.datetime.utcnow().timestamp()
-                delta_time = (now-self.__current_time) * self.__warp
-                msg = self.__vehicle.update_state(delta_time)
-                self.__server.send_command(msg)
-                self.__current_time = now
                 
-                msgs = self.__server.receive_mail()
-                if len(msgs) > 0:
-                    self.__isConnected = True
-                    print("\nReceived from backseat:")
-                    for msg in msgs:
-                        self.parse_payload_command(str(msg, 'utf-8'))
-                        print(f"{str(msg, 'utf-8')}")
-                        
-                    
-                if self.__doPlots and self.__isConnected:
-                    current_position = self.__vehicle.get_position()
-                    self.__position_history.append(current_position)
-                    ax.clear()
-                    ax.plot(green_buoys[:,0], green_buoys[:,1], 'go')
-                    ax.plot(red_buoys[:,0], red_buoys[:,1], 'ro')
-                    trk = np.array(self.__position_history)
-                    ax.plot(trk[-10:,0], trk[-10:,1], 'k')            
-    
-                    ax.set_xlim(current_position[0]-10, current_position[0]+10)
-                    ax.set_ylim(current_position[1]-10, current_position[1]+10)
-                    ax.set_aspect('equal')
-                    
-                    plt.pause(0.01)
-                    plt.draw()
- 
-                count += 1
-                time.sleep(1/self.__warp)
-        except:
-            self.__server.cleanup()
-            server.join()
+            if self.__doPlots and self.__isConnected:
+                current_position = self.__vehicle.get_position()
+                self.__position_history.append(current_position)
+                ax.clear()
+                ax.plot(green_buoys[:,0], green_buoys[:,1], 'go')
+                ax.plot(red_buoys[:,0], red_buoys[:,1], 'ro')
+                trk = np.array(self.__position_history)
+                ax.plot(trk[-10:,0], trk[-10:,1], 'k')            
+
+                ax.set_xlim(current_position[0]-10, current_position[0]+10)
+                ax.set_ylim(current_position[1]-10, current_position[1]+10)
+                ax.set_aspect('equal')
+                
+                plt.pause(0.01)
+                plt.draw()
+
+            count += 1
+            time.sleep(1/self.__warp)
+        # except:
+        #     print('failed')
+        #     self.__server.cleanup()
+        #     server.join()
             
     def parse_payload_command(self, msg):
         # the only one I care about for now is BPRMB
         vals = msg.split(',')
         if vals[0] == '$BPRMB':
-                
+            print('got a bprmb request')
+            print(msg)
             # heading / rudder request
             if vals[2] != '':
                 heading_mode = int(vals[7][:-3])
@@ -126,20 +129,29 @@ class FrontSeat():
                     print("SORRY, I DO NOT ACCEPT HEADING REQUESTS! I ONLY HAVE CAMERA SENSOR!")
                 elif heading_mode == 1:
                     # this is a rudder adjustment!
-                    rudder = float(vals[2])
+                    rudder = -1 * int(float(vals[2]))
                     print(f"SETTING RUDDER TO {rudder} DEGREES")
                     self.__vehicle.set_rudder(rudder)
+                    '''if int(rudder) > 0:
+                        helm = "RIGHT " + str(rudder) + " DEGREES RUDDER"
+                        print(helm)
+                        res = self.__vehicle.engine_command(helm)
+                        print(res)
+                    else:
+                        self.__vehicle.engine_command("LEFT " + str(rudder) + " DEGREES RUDDER")'''
                 
             # speed request
             if vals[5] != '':
-                speed_mode = int(vals[6])
+                speed_mode = int(float(vals[6]))
                 if speed_mode == 0:
-                    RPM = int(vals[5])
+                    RPM = int(float(vals[5]))
                     print(f"SETTING THRUSTER TO {RPM} RPM")
                     self.__vehicle.set_rpm(RPM)
                 elif speed_mode == 1:
                     # speed_request
                     print("SORRY, RPM SPEED REQUESTS ONLY! I HAVE NO GPS!")
+        else:
+            print("got request, but it was not in the bprmb format")
 
 def main():
     if len(sys.argv) > 1:

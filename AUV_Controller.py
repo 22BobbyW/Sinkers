@@ -32,8 +32,8 @@ class AUVController():
     ### Public member functions
     # also add something to change speeds and whatnot
     def decide(self, auv_state, green_buoys, red_buoys, sensor_type='POSITION'):
-
-        print(auv_state)
+        if auv_state['heading'] is None:
+            return None, []
 
         # update state information
         self.__heading = auv_state['heading']
