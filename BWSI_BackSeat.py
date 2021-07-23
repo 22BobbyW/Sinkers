@@ -91,6 +91,13 @@ class BackSeat():
                 ### self.__autonomy.decide() probably goes here!
                 ### ---------------------------------------------------------- #
                 
+                #
+                # call mission_reconstruction functions right here
+                # command, mc_output = self.autonomy.decide()
+                # self.__reconstruction.store_decide(mc_output),
+                # among the other mission reconstruction method calls
+                #
+                
                 ### turn your output message into a BPRMB request! 
 
                 time.sleep(1/self.__warp)
@@ -137,7 +144,7 @@ class BackSeat():
             client.join()
           
         
-    def process_message(self, msg):
+    def process_message(self, msg): # BFNVG
         # DEAL WITH INCOMING BFNVG MESSAGES AND USE THEM TO UPDATE THE
         # STATE IN THE CONTROLLER!
         
@@ -170,10 +177,8 @@ class BackSeat():
             
         else:
             print(f"I do not know how to process this message type: {fields[0]}")
-            
         
-        
-    def send_message(self, msg):
+    def send_message(self, msg): #BPRMB
         print(f"sending message {msg}...")
         self.__client.send_message(msg)    
         
@@ -220,10 +225,7 @@ class BackSeat():
         
         return (local_pos[0]-self.__datum_position[0], local_pos[1]-self.__datum_position[1])
 
-    
-    
-    
-            
+
 def main():
     if len(sys.argv) > 1:
         host = sys.argv[1]
@@ -237,8 +239,8 @@ def main():
     
     print(f"host = {host}, port = {port}")
     backseat = BackSeat(host=host, port=port)
-    backseat.run()
-    
-            
+    backseat.run()  
+
+
 if __name__ == '__main__':
     main()
