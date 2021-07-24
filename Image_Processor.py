@@ -12,10 +12,13 @@ import pathlib
 import datetime
 
 import cv2
+import numpy as np
 
 # For simulations
 from BWSI_BuoyField import BuoyField
 from BWSI_Sensor import BWSI_Camera
+
+from camera_util import detect_buoys
 
 
 class ImageProcessor():
@@ -32,6 +35,8 @@ class ImageProcessor():
         # create my save directory
         self.__image_dir = pathlib.Path(log_dir, 'frames')
         self.__image_dir.mkdir(parents=True, exist_ok=True)
+    
+    
 
     
     # ------------------------------------------------------------------------ #
@@ -68,14 +73,7 @@ class ImageProcessor():
             fn = self.__image_dir / f"frame_{int(datetime.datetime.utcnow().timestamp())}.jpg"
             cv2.imwrite(str(fn), image)
         
-            # process and find the buoys!
- 
-        return red, green
-
-def take_photo(self):
-
-    return -1
-
-def angles_from_image(self, image):
+            green, red = detect_buoys(image)
+        
+        return green, red
     
-    return (-1, -1)
