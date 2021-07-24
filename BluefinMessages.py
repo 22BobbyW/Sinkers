@@ -454,7 +454,7 @@ def BPRMB(timestamp, heading='',
         depth = f'{depth:.1f}'
     if speed != '':
         speed = f'{speed:.1f}'
-    msg_str = f'BPRMB,{timestamp},{depth},{depth_mode},'
+    msg_str = f'BPRMB,{timestamp},{heading},{depth},{depth_mode},'
     msg_str += f'{speed},{speed_mode},{horiz_mode}'
     
     return str_to_cmd(msg_str)

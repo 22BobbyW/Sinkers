@@ -13,6 +13,7 @@ import time
 import threading
 import time
 import datetime
+from numpy.lib.shape_base import split
 
 import utm
 
@@ -22,6 +23,7 @@ from AUV_Controller import AUVController
 from pynmea2 import pynmea2
 import BluefinMessages
 from Sandshark_Interface import SandsharkClient
+from MissionReconstruction import Mission_Reconstruction
 
 class BackSeat():
     # we assign the mission parameters on init
@@ -32,6 +34,7 @@ class BackSeat():
         self.__current_time = datetime.datetime.utcnow().timestamp()
         self.__start_time = self.__current_time
         self.__warp = warp
+        self.__reconstruction = Mission_Reconstruction()
         
         self.__auv_state = dict([
             ('position', (None, None)),
@@ -52,96 +55,95 @@ class BackSeat():
         self.__autonomy = AUVController()
     
     def run(self):
-        try:
-            # connect the client
-            client = threading.Thread(target=self.__client.run, args=())
-            client.start()
+        # try:
+        # connect the client
+        client = threading.Thread(target=self.__client.run, args=())
+        client.start()
 
-            msg = BluefinMessages.BPLOG('ALL', 'ON')
-            self.send_message(msg)
+        msg = BluefinMessages.BPLOG('ALL', 'ON')
+        self.send_message(msg)
+        
+        ### These flags are for the test code. Remove them after the initial test!
+        engine_started = False
+        turned = False
+        while True:
+            now = datetime.datetime.utcnow().timestamp()
+            delta_time = (now-self.__current_time) * self.__warp
+
+            self.send_status()
+            self.__current_time += delta_time
             
-            ### These flags are for the test code. Remove them after the initial test!
-            engine_started = False
-            turned = False
-            while True:
-                now = datetime.datetime.utcnow().timestamp()
-                delta_time = (now-self.__current_time) * self.__warp
+            msgs = self.get_mail()
+            if len(msgs) > 0:
+                print("\nReceived from Frontseat:")
+                for msg in msgs:
+                    print(f"{str(msg, 'utf-8')}")
+                    self.process_message(str(msg, 'utf-8')) # basically a .get_state() command
+                    print(f"{self.__auv_state}")
 
-                self.send_status()
-                self.__current_time += delta_time
-                
-                msgs = self.get_mail()
-                if len(msgs) > 0:
-                    print("\nReceived from Frontseat:")
-                    for msg in msgs:
-                        print(f"{str(msg, 'utf-8')}")
-                        self.process_message(str(msg, 'utf-8'))
-                        # print(f"{self.__auv_state}")
+            ### ---------------------------------------------------------- #
+            ### Here should be the request for a photo from the camera
+            ### img = self.__camera.acquire_image()
+            ###
+            ### Here you process the image and return the angles to target
+            
+            # green, red = self.__buoy_detector.run(self.__auv_state)
+            green, red = [-40], [40]
 
-                ### ---------------------------------------------------------- #
-                ### Here should be the request for a photo from the camera
-                ### img = self.__camera.acquire_image()
-                ###
-                ### Here you process the image and return the angles to target
-                ### green, red = self.__detect_buoys(img)
-                self.__buoy_detector.run(self.__auv_state)
-                ### ---------------------------------------------------------- #
-                
-                
-                ### self.__autonomy.decide() probably goes here!
-                ### ---------------------------------------------------------- #
-                
-                #
-                # call mission_reconstruction functions right here
-                # command, mc_output = self.autonomy.decide()
-                # self.__reconstruction.store_decide(mc_output),
-                # among the other mission reconstruction method calls
-                #
-                
-                ### turn your output message into a BPRMB request! 
+            command, mr_info = self.__autonomy.decide(self.__auv_state, green, red, sensor_type='ANGLE')
+            self.__reconstruction.store_autonomy_decide(mr_info)
+            self.payload_command(command)
+            print(command)
+            
+            #
+            # call mission_reconstruction functions right here
+            # command, mc_output = self.autonomy.decide()
+            # self.__reconstruction.store_decide(mc_output),
+            # among the other mission reconstruction method calls
+            #
+            ### ---------------------------------------------------------- #
+            
+            ### turn your output message into a BPRMB request! 
 
-                time.sleep(1/self.__warp)
+            time.sleep(1/self.__warp)
 
-                
-                # ------------------------------------------------------------ #
-                # ----This is example code to show commands being issued
-                # ------------------------------------------------------------ #
-                if True:
-                    print(f"{self.__current_time - self.__start_time}")
-                    if not engine_started and (self.__current_time - self.__start_time) > 3:
-                        ## We want to change the speed. For now we will always use the RPM (1500 Max)
-                        self.__current_time = datetime.datetime.utcnow().timestamp()
-                        # This is the timestamp format from NMEA: hhmmss.ss
-                        hhmmss = datetime.datetime.fromtimestamp(self.__current_time).strftime('%H%M%S.%f')[:-4]
+            # ------------------------------------------------------------ #
+            # ----This is example code to show commands being issued
+            # ------------------------------------------------------------ #
+            '''if True:
+                print(f"{self.__current_time - self.__start_time}")
+                if not engine_started and (self.__current_time - self.__start_time) > 3:
+                    ## We want to change the speed. For now we will always use the RPM (1500 Max)
+                    self.__current_time = datetime.datetime.utcnow().timestamp()
+                    # This is the timestamp format from NMEA: hhmmss.ss
+                    hhmmss = datetime.datetime.fromtimestamp(self.__current_time).strftime('%H%M%S.%f')[:-4]
 
-                        cmd = f"BPRMB,{hhmmss},,,,750,0,1"
-                        # NMEA requires a checksum on all the characters between the $ and the *
-                        # you can use the BluefinMessages.checksum() function to calculate
-                        # and write it like below. The checksum goes after the *
-                        msg = f"${cmd}*{hex(BluefinMessages.checksum(cmd))[2:]}"
-                        self.send_message(msg)
-                        engine_started = True
+                    cmd = f"BPRMB,{hhmmss},,,,750,0,1"
+                    # NMEA requires a checksum on all the characters between the $ and the *
+                    # you can use the BluefinMessages.checksum() function to calculate
+                    # and write it like below. The checksum goes after the *
+                    msg = f"${cmd}*{hex(BluefinMessages.checksum(cmd))[2:]}"
+                    self.send_message(msg)
+                    engine_started = True
 
-                    if not turned and (self.__current_time - self.__start_time) > 30:
-                        ## We want to set the rudder position, use degrees plus or minus
-                        ## This command is how much to /change/ the rudder position, not to 
-                        ## set the rudder
-                        self.__current_time = datetime.datetime.utcnow().timestamp()
-                        hhmmss = datetime.datetime.fromtimestamp(self.__current_time).strftime('%H%M%S.%f')[:-4]
+                if not turned and (self.__current_time - self.__start_time) > 30:
+                    ## We want to set the rudder position, use degrees plus or minus
+                    ## This command is how much to /change/ the rudder position, not to 
+                    ## set the rudder
+                    self.__current_time = datetime.datetime.utcnow().timestamp()
+                    hhmmss = datetime.datetime.fromtimestamp(self.__current_time).strftime('%H%M%S.%f')[:-4]
 
-                        cmd = f"BPRMB,{hhmmss},-15,,,750,0,1"
-                        msg = f"${cmd}*{hex(BluefinMessages.checksum(cmd))[2:]}"
-                        self.send_message(msg)
-                        turned = True
+                    cmd = f"BPRMB,{hhmmss},-15,,,750,0,1"
+                    msg = f"${cmd}*{hex(BluefinMessages.checksum(cmd))[2:]}"
+                    self.send_message(msg)
+                    turned = True'''
                     
                 # ------------------------------------------------------------ #
                 # ----End of example code
                 # ------------------------------------------------------------ #
-                
-                
-        except:
-            self.__client.cleanup()
-            client.join()
+        #except:
+        #    self.__client.cleanup()
+        #    client.join()
           
         
     def process_message(self, msg): # BFNVG
@@ -149,9 +151,13 @@ class BackSeat():
         # STATE IN THE CONTROLLER!
         
         # JRE: skipping the checksum check for now!
+
+        print("PROCESSING MESSAGE")
                 
         fields = msg.split(',')
         if fields[0] == '$BFNVG':
+            self.__reconstruction.messages(msg)
+            
             # don't care about message timestamp
             #nvg_time = self.receive_nmea_time(fields[1])
                     
@@ -175,12 +181,30 @@ class BackSeat():
             fields2 = fields[12].split('*')
             self.__auv_state['last_fix_time'] = self.receive_nmea_time(fields2[0])
             
+            print('the heading that i got was ', self.__auv_state['heading'])
+
         else:
             print(f"I do not know how to process this message type: {fields[0]}")
         
     def send_message(self, msg): #BPRMB
-        print(f"sending message {msg}...")
-        self.__client.send_message(msg)    
+        print(f"sending message {msg}")
+        self.__client.send_message(msg)  
+
+    def payload_command(self, command):
+        if command is None:
+            return
+
+        self.__current_time = time.time()
+        split_command = command.split()
+        if split_command[0] == 'LEFT':
+            heading = str(int(split_command[1])*-1)
+        elif split_command[0] == 'RIGHT':
+            heading = split_command[1]
+        else:
+            heading = ''
+        print("sending a heading of ", heading)
+        message = BluefinMessages.BPRMB(timestamp=self.__current_time, heading=heading, speed=500, speed_mode=0, horiz_mode=int(1))  
+        self.send_message(message)
         
     def send_status(self):
         #print("sending status...")

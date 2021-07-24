@@ -98,6 +98,10 @@ class Sandshark(object):
         
         self.__MAX_RPM = 1500
 
+        # method calls
+
+        self.set_rpm(500)
+
     ##############################################################
     ## User request functions
     # update the vehicle state, dt seconds have passed since last update

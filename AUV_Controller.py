@@ -13,30 +13,34 @@ class AUVController():
         
         # initialize state information
         self.__heading = None
-        self.__speed = None
-        self.__rudder = None
-        self.__position = None
+        # self.__speed = None
+        # self.__rudder = None
+        # self.__position = None
         
         # assume we want to be going the direction we're going for now
         self.__desired_heading = None
         
     def initialize(self, auv_state):
         self.__heading = auv_state['heading']
-        self.__speed = auv_state['speed']
-        self.__rudder = auv_state['rudder']
-        self.__position = auv_state['position']
+        # self.__speed = auv_state['speed']
+        # self.__rudder = auv_state['rudder']
+        # self.__position = auv_state['position']
         
         # assume we want to be going the direction we're going for now
         self.__desired_heading = auv_state['heading']
 
-    ### Public member functions    
+    ### Public member functions
+    # also add something to change speeds and whatnot
     def decide(self, auv_state, green_buoys, red_buoys, sensor_type='POSITION'):
+        if auv_state['heading'] is None:
+            return None, []
 
         # update state information
         self.__heading = auv_state['heading']
-        self.__speed = auv_state['speed']
-        self.__rudder = auv_state['rudder']
-        self.__position = auv_state['position']
+        print("the heading is ", self.__heading)
+        # self.__speed = auv_state['speed']
+        # self.__rudder = auv_state['rudder']
+        # self.__position = auv_state['position']
                 
         # determine what heading we want to go
         if sensor_type.upper() == 'POSITION': # known positions of buoys
@@ -50,8 +54,8 @@ class AUVController():
         #
         # ADDED STATUS HERE; INFORMATION FROM STUFF
         #
-        mission_reconstruction_info = [self.__desired_heading, self.__speed]
-        return cmd
+        # mission_reconstruction_info = [self.__desired_heading, self.__speed]
+        return cmd, []
         
     # return the desired heading to a public requestor
     def get_desired_heading(self):
