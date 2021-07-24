@@ -88,7 +88,7 @@ class BackSeat():
             ### Here you process the image and return the angles to target
             
             # green, red = self.__buoy_detector.run(self.__auv_state)
-            green, red = [-40], [40]
+            green, red = [20], [40]
 
             command, mr_info = self.__autonomy.decide(self.__auv_state, green, red, sensor_type='ANGLE')
             self.__reconstruction.store_autonomy_decide(mr_info)

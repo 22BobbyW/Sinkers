@@ -91,6 +91,11 @@ class AUVController():
         # DEFINITELY RED ANGLE > GREEN ANGLE 
         #
 
+        #
+        # because of method of image processing, it might not be necessary to have to deal
+        # with the "multiple buoy" test case
+        #
+
         relative_angle = 0
         angle_difference = 0
         for i in range(0, min(len(gnext), len(rnext))):
