@@ -8,6 +8,8 @@ Created on Wed Jul  7 12:05:08 2021
 import sys
 import numpy as np
 
+from MissionReconstruction import Mission_Reconstruction
+
 class AUVController():
     def __init__(self):
         
@@ -51,10 +53,16 @@ class AUVController():
         # determine whether and what command to issue to desired heading               
         cmd = self.__select_command()
 
+        #want to call the messages command from mission reconstruction here
+        #because its currently not getting the data
+        reconstruction = Mission_Reconstruction()
+        reconstruction.store_autonomy_decide([self.__desired_heading])
+        reconstruction.auv_command(cmd)
+        
         #
         # ADDED STATUS HERE; INFORMATION FROM STUFF
         #
-        # mission_reconstruction_info = [self.__desired_heading, self.__speed]
+
         return cmd, []
         
     # return the desired heading to a public requestor
