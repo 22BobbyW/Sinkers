@@ -9,6 +9,7 @@ import utm
 import random
 import time
 import datetime
+import pytz
 
 
 from pynmea2 import pynmea2
@@ -19,16 +20,16 @@ def nmea_lat(lat_deg):
     degval = np.floor(val)
     minflt = (val - degval)*60
     minval = np.floor(minflt)
-    muval = np.int((minflt - minval)*1e6)
-    return f"{int(degval):02d}{int(minval):02d}.{int(muval)}"
+    muval = int((minflt - minval)*1e6)
+    return f"{int(degval):02d}{int(minval):02d}.{int(muval):06d}"
 
 def nmea_lon(lon_deg):
     val = np.abs(lon_deg)
     degval = np.floor(val)
     minflt = (val - degval)*60
     minval = np.floor(minflt)
-    muval = np.int((minflt - minval)*1e6)
-    return f"{int(degval):03d}{int(minval):02d}.{int(muval)}"
+    muval = int((minflt - minval)*1e6)
+    return f"{int(degval):03d}{int(minval):02d}.{int(muval):06d}"
 
 
 class Sandshark(object):
@@ -89,18 +90,14 @@ class Sandshark(object):
         self.__position = self.__get_local_position()
 
         ## characteristic of vehicle; should be overwritten by a subclass
-        self.__MAX_SPEED_KNOTS = 10
-        self.__HARD_RUDDER_DEG = 35
-        self.__FULL_RUDDER_DEG = 30
-        self.__STANDARD_RUDDER_DEG = 15
-        self.__MAX_TURNING_RATE = 11.67
+        self.__MAX_SPEED_KNOTS = 5
+        self.__HARD_RUDDER_DEG = 25
+        self.__FULL_RUDDER_DEG = 15
+        self.__STANDARD_RUDDER_DEG = 10
+        self.__MAX_TURNING_RATE = 15.64
         self.__RUDDER_COST = 0.35
         
-        self.__MAX_RPM = 1500
-
-        # method calls
-
-        self.set_rpm(500)
+        self.__MAX_RPM = 2500
 
     ##############################################################
     ## User request functions
@@ -160,7 +157,7 @@ class Sandshark(object):
                                               f'{hhmmss}'))
       
         print(f'{str(msg)}\n')
-        return str(msg)
+        return str(msg) + '\n'
                 
                         
     def engine_command(self, command):
@@ -211,10 +208,10 @@ class Sandshark(object):
         
     def set_rudder(self, rudder):
         desired = self.__rudder_position + rudder
-        if np.abs(desired) < self.__FULL_RUDDER_DEG:
+        if np.abs(desired) < self.__HARD_RUDDER_DEG:
             self.__rudder_position = desired
         else:
-            print("INVALID RUDDER REQUEST: {desired}")
+            print(f"INVALID RUDDER REQUEST: {desired}")
     
     def helm_command(self, command):
         ### Available commands:

@@ -108,7 +108,7 @@ class BuoyField(object):
 
         self.add_buoy_gates(green_buoys, red_buoys, position_style)
         self.__miss_start_time = float('inf')
-        
+    
     def configure(self, config):
         nGates = config['nGates']
         gate_spacing = config['gate_spacing']
@@ -119,6 +119,19 @@ class BuoyField(object):
         random_samples = np.random.random((nGates, 1))
         green_buoy = list()
         red_buoy = list()
+        
+        if config['style'].lower() == 'pool_1':
+            red_buoy.append((7.05, 4.21))
+            red_buoy.append((12.35, 12.12))
+            red_buoy.append((17.3, 14.12))
+            red_buoy.append((22.45, 13.81))
+            red_buoy.append((31.15, 14.95))
+
+            green_buoy.append((5.6, 5.67))
+            green_buoy.append((11.15, 13.76))
+            green_buoy.append((17.3, 16.09))
+            green_buoy.append((22.85, 15.73))
+            green_buoy.append((30.8, 16.87))
         
         if (config['style'].lower() == 'linear'):
             gate_max_offset = config['max_offset']

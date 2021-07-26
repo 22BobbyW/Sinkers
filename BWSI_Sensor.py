@@ -7,7 +7,10 @@ Created on Sat Apr  3 19:49:45 2021
 import sys
 
 import numpy as np
+import cv2
+
 import BWSI_BuoyField
+import matplotlib.pyplot as plt
 
 class BWSI_Camera(object):
     def __init__(self, max_angle=90, visibility=100):
@@ -30,7 +33,8 @@ class BWSI_Camera(object):
     
     
         self.__image_mat = np.zeros((self.__Hpix, self.__Wpix, 3), dtype=np.uint8)
-        background = (184, 233, 238) # blue-green
+        background = (1, 125, 224) # measured in the pool
+        #background = (184, 233, 238) # blue-green
     
         # blue-green background base image
         self.__image_mat[:,:,0].fill(background[0])
@@ -38,6 +42,8 @@ class BWSI_Camera(object):
         self.__image_mat[:,:,2].fill(background[2])
         
         self.image_snap = None
+        self.__buoy_image_green = None
+        self.__buoy_image_red = None
 
         
     def get_visible_buoys(self, pos, hdg, buoy_field):
@@ -67,7 +73,7 @@ class BWSI_Camera(object):
     
     def get_frame(self, pos, hdg, buoy_field):
         G, R = self.get_visible_buoys_with_range(pos, hdg, buoy_field)
-        # print(f"{len(G)}, {len(R)}")
+        print(f"{len(G)}, {len(R)}")
         image_snap = self.__image_mat.copy()
         for g in G:
             buoy_range, true_heading = g
@@ -77,7 +83,7 @@ class BWSI_Camera(object):
         
             # find the region of the image that this buoy spans
             # print(f"buoy_range = {buoy_range}")
-            image_snap = self.add_buoy_to_image(image_snap, buoy_range, relative_heading, elev, 'green')
+            image_snap = self.add_buoy_image_to_image(image_snap, buoy_range, relative_heading, elev, 'green')
             
         for r in R:
             buoy_range, true_heading = r
@@ -87,21 +93,75 @@ class BWSI_Camera(object):
         
             # find the region of the image that this buoy spans
             # print(f"buoy_range = {buoy_range}")
-            image_snap = self.add_buoy_to_image(image_snap, buoy_range, relative_heading, elev, 'red')
-            
-            
+            image_snap = self.add_buoy_image_to_image(image_snap, buoy_range, relative_heading, elev, 'red')
+        
         image_snap = image_snap + np.random.normal(0, 20, (self.__Hpix, self.__Wpix, 3)).astype(int)
+        #image_snap[:,:,0] = image_snap[:,:,0] + np.random.normal(0, np.sqrt(3.6), (self.__Hpix, self.__Wpix)).astype(int)
+        #image_snap[:,:,1] = image_snap[:,:,1] + np.random.normal(0, np.sqrt(1247.9), (self.__Hpix, self.__Wpix)).astype(int)
+        #image_snap[:,:,2] = image_snap[:,:,2] + np.random.normal(0, np.sqrt(137.0), (self.__Hpix, self.__Wpix)).astype(int)
         image_snap[image_snap>255] = 255
         image_snap[image_snap<0] = 0
         
         # make it BGR since we're working with cv2
         image_snap = np.flip(image_snap, axis=2)
-
-            
+           
         return image_snap
             
 
+    # take an image of a buoy an add it to the simulated background
+    def add_buoy_image_to_image(self, image_snap, R, hdg, elev, color, buoy_length=0.28):
+        if color.lower() == 'red':
+            if self.__buoy_image_red is None:
+                test = cv2.imread('data/red_buoy_pool_img.jpg')
+                print(test.shape)
+                self.__buoy_image_red = np.flip(cv2.imread('data/red_buoy_pool_img.jpg'), axis=2)
+            img = self.__buoy_image_red
+        elif color.lower() == 'green':
+            if self.__buoy_image_green is None:
+                self.__buoy_image_green = np.flip(cv2.imread('data/green_buoy_pool_img.jpg'), axis=2)
+            img = self.__buoy_image_green
+        else:
+            print(f"Unknown color: {color}")
+            sys.exit()
+            
+        H = R * np.tan(np.radians(elev))
+        center_y = np.degrees(np.arctan( H/R ) )        
     
+        center_pix_y = np.where(np.abs(self.__angles_H-center_y) == np.min(np.abs(self.__angles_H-center_y)) )
+
+        # image size is 14 cm across
+        H = R * np.tan(np.radians(hdg))
+        max_x = np.degrees(np.arctan( (H + buoy_length/2)/R ) )
+        min_x = np.degrees(np.arctan( (H - buoy_length/2)/R ) )
+    
+        # find the pixels that fit here
+        xrng = np.where(np.logical_and(self.__angles_W<=max_x, self.__angles_W>=min_x))
+        
+        pix_y, pix_x, nchan = img.shape
+        pixout_x = xrng[0][-1] - xrng[0][0] + 1
+        mult = pixout_x / pix_x
+        pixout_y = int(mult * pix_y)
+        yoffset = int((pixout_y+1)/2) - 1
+        
+        if pixout_x>0 and pixout_y>0:
+            #print(f"req: {pixout_x}, {pixout_y}")
+            img_scaled = cv2.resize(img, (pixout_x, pixout_y))
+            #print(f"got {img_scaled.shape}")
+            
+            # should never be > 1, but just in case...    
+            frac = np.min((R/self.__MAX_RANGE, 1))
+    
+            for ycnt in range(pixout_y):
+                #print(f"cpy = {center_pix_y[0]}")
+                y = ycnt + center_pix_y[0][0] - yoffset
+                if y>=0 and y<self.__Hpix:
+                    for x in xrng[0]:
+                        xcnt = x - xrng[0][0]
+                        #print(f"{ycnt}, {xcnt} -> {y}, {x}")
+                        image_snap[y, x, :] = (frac*image_snap[y,x,:] + (1-frac)*img_scaled[ycnt, xcnt, :]).astype(np.uint8)
+                                
+        return image_snap
+
 
     def add_buoy_to_image(self, image_snap, R, hdg, elev, color, buoy_size=0.25):
         if color.lower() == 'red':

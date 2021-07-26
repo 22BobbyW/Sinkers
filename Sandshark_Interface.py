@@ -6,17 +6,20 @@ Created on Fri Jul 16 23:04:06 2021
 @author: BWSI AUV Challenge Instructional Staff
 """
 
-import time, sys, os
+import time
+#import sys, os
 
 import socket
 import select
-import threading
+#import threading
 import queue
 
-import numpy as np
+import traceback
 
-from pynmea2 import pynmea2
-import BluefinMessages
+#import numpy as np
+
+#from pynmea2 import pynmea2
+#import BluefinMessages
 
 ## The main message handler
 class SandsharkServer():
@@ -43,7 +46,27 @@ class SandsharkServer():
             outputs = [ ]
             
             while inputs:
-                readable, writeable, exceptional = select.select(inputs, outputs, inputs)
+                try:
+                    readable, writeable, exceptional = select.select(inputs, outputs, inputs)
+                except ValueError:
+                    # remove the closed sockets from the list
+                    removelist = list()
+                    for s in inputs:
+                        if s.fileno() < 0:
+                            removelist.append(s)
+                    for s in removelist:
+                        print(f"removing {s} from input")
+                        inputs.remove(s)
+                    removelist = list()
+                    for s in outputs:
+                        if s.fileno() < 0:
+                            removelist.append(s)
+                    for s in removelist:
+                        print(f"removing {s} from output")
+                        outputs.remove(s)
+                    readable, writeable, exceptional = select.select(inputs, outputs, inputs)
+                    continue
+                        
                 
                 for s in readable:
                     if s is self.__sockt:
@@ -79,8 +102,12 @@ class SandsharkServer():
                     inputs.remove(s)
                     if s in outputs:
                         outputs.remove(s)
-                    s.close()                
+                    s.close()            
+
         except:
+            traceback.print_exc()
+            print(f"inputs = {inputs}")
+            print(f"outputs = {outputs}")
             self.cleanup()
             
     # send message to the payload - try without a worker thread for now
@@ -146,6 +173,7 @@ class SandsharkClient():
         
     def run(self):
         try:
+            remain = b''
             while True:
                 if not self.__outgoing.empty():
                     next_msg = self.__outgoing.get()
@@ -156,16 +184,25 @@ class SandsharkClient():
                     self.__sockt.send(next_msg)
                     self.__outgoing.task_done()
     
-                    time.sleep(0.01)
+                    #time.sleep(0.01)
                     
                     # now check for messages in return
                     data = self.__sockt.recv(self.__PACKET_SIZE)
+                    #msgs = list()
                     if data:
-                        #print(f"Putting {str(data, 'utf-8')}")
-                        self.__incoming.put(data)
+                        data = remain + data
+                        msgs = data.split(b'\n')
+                        # check if msgs[-1] is complete
+                        if len(msgs[-1])<10 or (msgs[-1][-1] != '\r' and msgs[-1][-3] != '*'):
+                            remain = msgs[-1]
+                            msgs = msgs[:-2]
+                            
+                        for msg in msgs:
+                            self.__incoming.put(msg)
                         
                 time.sleep(0.01)
         except:
+            traceback.print_exc()
             self.cleanup()
             
     # send command to the vehicle - try without a worker thread for now
