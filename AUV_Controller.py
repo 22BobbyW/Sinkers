@@ -88,9 +88,9 @@ class AUVController():
         if len(gnext) == 0 and len(rnext) == 0:
             return self.__heading
         elif len(gnext) == 0:
-            return max(rnext, key=abs) + self.__heading
+            return max(rnext, key=abs) + self.__heading + (16 * max(rnext)/abs(max(rnext)))
         elif len(rnext) == 0:
-            return max(gnext, key=abs) + self.__heading
+            return max(gnext, key=abs) + self.__heading + (16 * max(gnext)/abs(max(gnext)))
 
         #
         # TODO PAIR UP THE BUOYS??? 
@@ -123,13 +123,19 @@ class AUVController():
         
         # determine the angle between current and desired heading
         delta_angle = max(self.__desired_heading, self.__heading) - min(self.__desired_heading, self.__heading)
-        if abs(delta_angle) > 25:
+        if delta_angle > 25:
             delta_angle = 25
+        if delta_angle < 10 and delta_angle > 5:
+            delta_angle -= 3
+        if delta_angle < 15 and delta_angle > 10:
+            delta_angle -= 7
+        if delta_angle < 20 and delta_angle > 15:
+            delta_angle += 3
         
         # how much do we want to turn the rudder
         ## Note: using STANDARD RUDDER only for now! A calculation here
         ## will improve performance!
-        turn_command = str(abs(delta_angle)) + " DEGREES RUDDER"
+        turn_command = str(int(delta_angle)) + " DEGREES RUDDER"
         
         if delta_angle > 0:
             if self.__heading > self.__desired_heading:
