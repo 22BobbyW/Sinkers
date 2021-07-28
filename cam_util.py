@@ -30,6 +30,10 @@ def find_centers(filter_image, rgb_image):
     object_detection_surface = cv2.boxFilter(filter_image.astype(int), -1, (50,50), normalize=False)
 
     thresh = 1000 #Between 0 and 2500 px
+
+    if np.max(object_detection_surface) <= 0:
+        return [], []
+
     object_detection_surface = object_detection_surface * 255/np.max(object_detection_surface)
     threshold = thresh * 255/ np.max(object_detection_surface)
 
