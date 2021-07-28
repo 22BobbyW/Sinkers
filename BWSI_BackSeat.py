@@ -211,7 +211,9 @@ class BackSeat():
                 self.__auv_state['last_fix_time'] = self.receive_nmea_time(fields[12])
                 with open(self.__log_file, 'a') as f:
                     f.write(f"Interpreted as: {str(self.__auv_state)}\n")
-    
+                
+                self.__reconstruction.save_pos(self.__auv_state['position'])
+
             elif fields[0] == '$BFNVR':
                 nvr = {'timestamp': fields[1],
                        'east_velocity': float(fields[2]),
