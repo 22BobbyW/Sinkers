@@ -56,7 +56,6 @@ def find_centers(filter_image, rgb_image):
         angles.append(b)
     return centers, angles
 
-
 def get_ranges(red_range, green_range, blue_range, rgb_image):
     rgb_filt = cv2.boxFilter(rgb_image, -1, (10,10))
 

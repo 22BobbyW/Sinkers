@@ -21,8 +21,8 @@ def checkthesum(msg):
     cmd = fields[0][1:]
     expected = str(hex(BluefinMessages.checksum(cmd))[2:])
     if expected.upper() != fields[1].upper():
-        print(f"cmd = {cmd}\n")
-        print(f"{expected} != {fields[1]}\n")
+        # print(f"cmd = {cmd}\n")
+        # print(f"{expected} != {fields[1]}\n")
         return False
     
     return True
