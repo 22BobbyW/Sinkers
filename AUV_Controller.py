@@ -7,6 +7,7 @@ Created on Wed Jul  7 12:05:08 2021
 """
 import sys
 import numpy as np
+import math
 
 from MissionReconstruction import Mission_Reconstruction
 
@@ -93,10 +94,10 @@ class AUVController():
             return max(gnext, key=abs) + self.__heading + (15 * max(gnext)/abs(max(gnext)))
 
         #
-        # TODO PAIR UP THE BUOYS??? 
+        # TODO PAIR UP THE BUOYS???
         # DON'T KNOW HOW THIS WILL BE DONE THOUGH
         # SINCE WE DON'T KNOW THEIR DISTANCES, ONLY ANGLES
-        # DEFINITELY RED ANGLE > GREEN ANGLE 
+        # DEFINITELY RED ANGLE > GREEN ANGLE
         #
 
         #
@@ -110,7 +111,7 @@ class AUVController():
             if angle_difference < abs(gnext[i] - rnext[i]):
                 relative_angle = (gnext[i] + rnext[i]) / 2.0
                 angle_difference = abs(gnext[i] - rnext[i])
-                
+
         # heading to center of the next buoy pair        
         tgt_hdg = self.__heading + relative_angle
         
@@ -127,14 +128,26 @@ class AUVController():
             delta_angle = 25
 
         if delta_angle < 15 and delta_angle > 5:
-            delta_angle -= 5
-        # if delta_angle < 20 and delta_angle > 15:
-        #     delta_angle += 3
+            delta_angle += 5
+        # if delta_angle < 20 and delta_angle > 10:
+        #     delta_angle += 7
         
         # how much do we want to turn the rudder
         ## Note: using STANDARD RUDDER only for now! A calculation here
         ## will improve performance!
         turn_command = str(int(delta_angle)) + " DEGREES RUDDER"
+
+        '''thresh = 10
+        if(np.abs(delta_angle) < thresh ):
+            turn_command = f"{str(math.ceil(delta_angle))} DEGREES RUDDER"
+        elif(np.abs(delta_angle) == thresh):
+            turn_command = "20 DEGREES RUDDER"
+        else:
+            if self.__heading > self.__desired_heading:
+                cmd = f"LEFT 25 DEGREES RUDDER"
+            elif self.__heading < self.__desired_heading:
+                cmd = f"RIGHT 25 DEGREES RUDDER"
+            return cmd'''
         
         if delta_angle > 0:
             if self.__heading > self.__desired_heading:

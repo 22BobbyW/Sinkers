@@ -75,11 +75,16 @@ class FrontSeat():
 
 
             count = 0
-            while True:
+            continuing = True
+            while continuing:
                 now = datetime.datetime.utcnow().timestamp()
                 delta_time = (now-self.__current_time) * self.__warp
                 msg = self.__vehicle.update_state(delta_time)
                 self.__server.send_command(msg)
+
+                # bferc_message = "$BFERC,,," + str(self.__vehicle.get_rudder()) + ",,,"
+                # self.__server.send_command(bferc_message)
+
                 self.__current_time = now
                 
                 msgs = self.__server.receive_mail()

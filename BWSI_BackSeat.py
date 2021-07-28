@@ -47,7 +47,8 @@ class BackSeat():
             ('altitude', None),
             ('roll', None),
             ('pitch', None),
-            ('last_fix_time', None)
+            ('last_fix_time', None),
+            ('rudder', None)
             ])
         
         # we'll use the first navigation update as datum
@@ -242,6 +243,10 @@ class BackSeat():
                     outstr = f"Request {msg_type} is pending"
                 with open(self.__log_file, 'a') as f:
                     f.write(f"{outstr}")
+
+            # elif fields[0] == "$BFERC":
+            #     self.__auv_state['rudder'] = fields[3]
+            #     print("currently has rudder of " + str(fields[3]))
  
             else:
                 print(f"I do not know how to process this message type: {fields[0]}")

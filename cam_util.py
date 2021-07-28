@@ -76,6 +76,7 @@ def detect_buoys(img):
     # hsv_image = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
     # rgb_image = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
     rgb_image = np.flip(img, axis=2) 
+    # rgb_image = np.flip(rgb_image, 0)
 
     r_red_range = (40,100)
     r_green_range = (75,120)
