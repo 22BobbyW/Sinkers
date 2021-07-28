@@ -39,7 +39,7 @@ def find_centers(filter_image, rgb_image):
     thresh, img_out = cv2.threshold(img8, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_NONE, cv2.THRESH_BINARY)
 
     # contours, hierarchy = cv2.findContours(thresh, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_NONE) ###error
-    contours, hierarchy = cv2.findContours(img_out, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_NONE)
+    old_img, contours, hierarchy = cv2.findContours(img_out, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_NONE)
 
     centers = []
     angles = []
