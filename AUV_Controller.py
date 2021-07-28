@@ -128,7 +128,7 @@ class AUVController():
             delta_angle = 25
 
         if delta_angle < 15 and delta_angle > 5:
-            delta_angle += 5
+            delta_angle -= 5
         # if delta_angle < 20 and delta_angle > 10:
         #     delta_angle += 7
         
