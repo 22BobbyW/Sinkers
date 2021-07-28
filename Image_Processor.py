@@ -21,7 +21,7 @@ import picamera
 from BWSI_BuoyField import BuoyField
 from BWSI_Sensor import BWSI_Camera
 
-from cam_util import detect_buoys
+from camera_util import detect_buoys
 
 
 class ImageProcessor():
