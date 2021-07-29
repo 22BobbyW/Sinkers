@@ -135,7 +135,7 @@ class FrontSeat():
                     if vals[2] == "RUDDER AMIDSHIPS":
                         msg = self.__vehicle.engine_command(vals[2])
                     else:
-                        rudder = -1 * int(float(vals[2]))
+                        rudder = int(float(vals[2]))
                         msg = self.__vehicle.set_rudder(rudder)
             # speed request
             if vals[5] != '':
