@@ -42,8 +42,13 @@ def find_centers(filter_image, rgb_image):
     # thresh, img_out = cv2.threshold(img8, threshold, 255, cv2.THRESH_BINARY)
     thresh, img_out = cv2.threshold(img8, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_NONE, cv2.THRESH_BINARY)
 
+    if cv2.__version__ == '3.2.0':
+        _, contours, hierarchy = cv2.findContours(img_out, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_NONE)
+    else:
+        contours, hierarchy = cv2.findContours(img_out, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_NONE)
+
     # contours, hierarchy = cv2.findContours(thresh, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_NONE) ###error
-    old_img, contours, hierarchy = cv2.findContours(img_out, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_NONE)
+    # old_img, contours, hierarchy = cv2.findContours(img_out, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_NONE)
 
     centers = []
     angles = []
@@ -51,7 +56,6 @@ def find_centers(filter_image, rgb_image):
         np.max([item[0][0] for item in contour])
 
         point = np.mean(contour, axis = 0)[0,:]
-        avg_x, avg_y = point
         centers.append(point)
         
         a = sensor_position(point[0], point[1], rgb_image.shape[1], rgb_image.shape[0])

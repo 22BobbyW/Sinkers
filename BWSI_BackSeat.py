@@ -19,7 +19,7 @@ from MissionReconstruction import Mission_Reconstruction
 def checkthesum(msg):
     fields = msg.split('*')
     cmd = fields[0][1:]
-    expected = str(hex(BluefinMessages.checksum(cmd))[2:])
+    expected = str(hex(BluefinMessages.checksum(cmd))[1][0:2])
     if expected.upper() != fields[1].upper():
         # print(f"cmd = {cmd}\n")
         # print(f"{expected} != {fields[1]}\n")
@@ -55,7 +55,7 @@ class BackSeat():
         self.__datum = None
         
         # set to PICAM for the real camera
-        self.__buoy_detector = ImageProcessor()
+        self.__buoy_detector = ImageProcessor(camera='SIM')
         self.__autonomy = AUVController()
     
     def run(self):
@@ -118,7 +118,7 @@ class BackSeat():
                 
                 ### turn your output message into a BPRMB request! 
 
-                time.sleep(1/self.__warp)
+                time.sleep(0.5/self.__warp)
 
                 # ------------------------------------------------------------ #
                 # ----This is example code to show commands being issued
@@ -273,7 +273,7 @@ class BackSeat():
             heading = str(int(float(split_command[1])))
         else:
             heading = 'RUDDER AMIDSHIPS'
-        message = BluefinMessages.BPRMB(timestamp=hhmmss, heading=heading, speed=500, speed_mode=int(0), horiz_mode=int(1))  
+        message = BluefinMessages.BPRMB(timestamp=hhmmss, heading=heading, depth=1.0, depth_mode=int(0), speed=500, speed_mode=int(0), horiz_mode=int(1))  
         self.send_message(message)
         
     def send_status(self):

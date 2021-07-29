@@ -30,7 +30,7 @@ class FrontSeat():
         self.__vehicle = Sandshark(latlon=self.__datum,
                                    depth=1.0, 
                                    speed_knots=0.0,
-                                   heading=45.0,
+                                   heading=0.0,
                                    rudder_position=0.0,
                                    engine_speed='STOP',
                                    engine_direction='AHEAD',
