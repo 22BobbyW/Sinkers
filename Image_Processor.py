@@ -16,14 +16,14 @@ import cv2
 import numpy as np
 import os
 
-import picamera
-# import picamera.array
+if os.uname().nodename == 'sharkpi' or os.uname().nodename == 'auvpi':
+    import picamera
 
 # For simulations
 from BWSI_BuoyField import BuoyField
 from BWSI_Sensor import BWSI_Camera
 
-from camera_util import detect_buoys
+from cam_util import detect_buoys
 
 
 class ImageProcessor():
@@ -78,7 +78,7 @@ class ImageProcessor():
                     self.__camera.capture(self.__image, 'bgr')
                 except:
                     # restart the camera
-                    self.__camera = picamera.PiCamera()
+                    # self.__camera = picamera.PiCamera()
                     self.__camera.resolution = (640, 480)
                     self.__camera.framerate = 24
                     time.sleep(2) # camera warmup time

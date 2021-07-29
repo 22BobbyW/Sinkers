@@ -25,7 +25,7 @@ def sensor_angle(sensor_pos_x, sensor_pos_y, f):
 
 
 def find_centers(filter_image, rgb_image, thresh):
-    object_detection_surface = cv2.boxFilter(filter_image.astype(int), -1, (20, 20), normalize=False)
+    object_detection_surface = cv2.boxFilter(filter_image.astype(int), -1, (25, 25), normalize=False)
 
     if np.max(object_detection_surface) <= 0:
         return [], []
@@ -57,7 +57,7 @@ def find_centers(filter_image, rgb_image, thresh):
     return centers, angles
 
 def get_ranges(red_range, green_range, blue_range, rgb_image):
-    rgb_filt = cv2.boxFilter(rgb_image, -1, (5,5))
+    rgb_filt = cv2.boxFilter(rgb_image, -1, (8,8))
 
     red_filt = rgb_filt[:,:,0]
     green_filt = rgb_filt[:,:,1]
@@ -82,7 +82,7 @@ def detect_buoys(img):
     r_green_range = (75,120)
     r_blue_range = (180,240)
 
-    g_red_range = (7,50)
+    g_red_range = (8,50)
     g_green_range = (150,255)
     g_blue_range = (180,255)
 
