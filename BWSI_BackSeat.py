@@ -273,7 +273,7 @@ class BackSeat():
             heading = str(int(float(split_command[1])))
         else:
             heading = 'RUDDER AMIDSHIPS'
-        message = BluefinMessages.BPRMB(timestamp=hhmmss, heading=heading, depth=1.0, depth_mode=int(0), speed=500, speed_mode=int(0), horiz_mode=int(1))  
+        message = BluefinMessages.BPRMB(timestamp=hhmmss, heading=heading, depth=1.0, depth_mode=int(0), speed=1000, speed_mode=int(0), horiz_mode=int(1))  
         self.send_message(message)
         
     def send_status(self):

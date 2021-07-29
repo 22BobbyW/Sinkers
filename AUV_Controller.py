@@ -124,13 +124,15 @@ class AUVController():
         
         # determine the angle between current and desired heading
         delta_angle = max(self.__desired_heading, self.__heading) - min(self.__desired_heading, self.__heading)
+
+        if delta_angle > 15:
+            delta_angle *= 1.5
+
+        if delta_angle < 15:
+            delta_angle -= 5
+
         if delta_angle > 25:
             delta_angle = 25
-
-        if delta_angle < 15 and delta_angle > 5:
-            delta_angle -= 5
-        # if delta_angle < 20 and delta_angle > 10:
-        #     delta_angle += 7
         
         # how much do we want to turn the rudder
         ## Note: using STANDARD RUDDER only for now! A calculation here
