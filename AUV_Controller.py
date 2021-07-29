@@ -139,7 +139,7 @@ class AUVController():
         # how much do we want to turn the rudder
         ## Note: using STANDARD RUDDER only for now! A calculation here
         ## will improve performance!
-        turn_command = str(int(delta_angle)) + " DEGREES RUDDER"
+        turn_command = str(round(delta_angle)) + " DEGREES RUDDER"
 
         '''thresh = 10
         if(np.abs(delta_angle) < thresh ):
