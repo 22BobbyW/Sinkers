@@ -133,6 +133,8 @@ class AUVController():
 
         if delta_angle > 25:
             delta_angle = 25
+        if delta_angle < 0:
+            delta_angle = 0
         
         # how much do we want to turn the rudder
         ## Note: using STANDARD RUDDER only for now! A calculation here
