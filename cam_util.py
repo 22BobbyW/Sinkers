@@ -91,9 +91,9 @@ def detect_buoys(img):
 
     reds_centers, reds_angles = find_centers(img_thresh_red, rgb_image, 50)
     greens_centers, green_angles = find_centers(img_thresh_green, rgb_image, 15)
-    return green_angles, reds_angles, greens_centers, reds_centers
+    return green_angles, reds_angles # , greens_centers, reds_centers
 
-fig, ax = plt.subplots()
+'''fig, ax = plt.subplots()
 for frame_num in range(1, 4):
 
     img = cv2.imread(f'real/frame_{frame_num}.jpg') 
@@ -114,4 +114,4 @@ for frame_num in range(1, 4):
     if len(r_centers) != 0:
         ax.plot(r_centers[0][0], r_centers[0][1], 'ro')
     plt.pause(1)
-    plt.draw()
+    plt.draw()'''
