@@ -70,7 +70,7 @@ def get_ranges(red_range, green_range, blue_range, rgb_image):
     img_thresh_RG = np.logical_and(img_thresh_red, img_thresh_green)
     img_thresh_RGB = np.logical_and(img_thresh_RG, img_thresh_blue)
 
-    return(img_thresh_RG)
+    return(img_thresh_RGB)
 
 def detect_buoys(img):
     # hsv_image = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
