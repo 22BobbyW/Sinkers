@@ -28,7 +28,10 @@ def contouring(obs, thresh):
     obs = obs * 255/np.max(obs)
     img8 = obs.astype(np.uint8)
     thresh, img_out = cv2.threshold(img8, thresh, 255, cv2.THRESH_BINARY)
-    contours, hierarchy = cv2.findContours(img_out, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_NONE)
+    if cv2.__version__ == '3.2.0':
+        _, contours, hierarchy = cv2.findContours(img_out, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_NONE)
+    else:
+        contours, hierarchy = cv2.findContours(img_out, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_NONE)
     centers = []    
     angles = []
     for contour in contours:
