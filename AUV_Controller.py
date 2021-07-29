@@ -125,10 +125,10 @@ class AUVController():
         # determine the angle between current and desired heading
         delta_angle = max(self.__desired_heading, self.__heading) - min(self.__desired_heading, self.__heading)
 
-        if delta_angle > 15:
-            delta_angle *= 1.5
+        # if delta_angle > 15:
+        #     delta_angle *= 1.5
 
-        if delta_angle < 15:
+        if delta_angle < 15 and delta_angle > 5:
             delta_angle -= 5
 
         if delta_angle > 25:
