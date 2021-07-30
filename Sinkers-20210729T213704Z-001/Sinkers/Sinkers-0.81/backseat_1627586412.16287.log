@@ -1,0 +1,1162 @@
+1627586412.16287, Sending: $BPLOG,ACK,ON*1e
+
+1627586412.16287, Sending: $BPLOG,ALL,ON*16
+
+1627590014.4054527, Sending: $BPSTS,212014.40,1,BWSI Autonomy OK*44
+
+1627590014.9089637, Sending: $BPSTS,212014.90,1,BWSI Autonomy OK*49
+
+1627586413.1701407, Processing: $BFVER,023758.385,1.11*41
+Version: 1.11
+1627586413.1701407, Processing: $BFNVG,023758.474,4226.110102,N,07114.545276,W,0,0.000,0.090,96.20,1.30,-0.37,023758.472*40
+Interpreted as: {'position': (0, 0), 'latlon': (42.435168366666666, -71.24242126666667), 'heading': 96.2, 'depth': 0.09, 'altitude': 0.0, 'roll': 1.3, 'pitch': -0.37, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 37, 58), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586413.1701407, Processing: $BFNVR,023758.474,0.0000,0.0000,0.0000,0.000,0.000,0.000*40
+Interpreted as: {'timestamp': '023758.474', 'east_velocity': 0.0, 'north_velocity': 0.0, 'down_velocity': 0.0, 'pitch_rate': 0.0, 'roll_rate': 0.0, 'yaw_rate': 0.0}
+1627586413.1701407, Processing: $BFNVG,023758.574,4226.110102,N,07114.545276,W,0,0.000,0.090,96.15,1.38,-0.36,023758.572*4F
+Interpreted as: {'position': (0.0, 0.0), 'latlon': (42.435168366666666, -71.24242126666667), 'heading': 96.15, 'depth': 0.09, 'altitude': 0.0, 'roll': 1.38, 'pitch': -0.36, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 37, 58), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586413.1701407, Processing: $BFNVR,023758.574,0.0000,0.0000,0.0000,0.000,-0.000,0.000*6C
+Interpreted as: {'timestamp': '023758.574', 'east_velocity': 0.0, 'north_velocity': 0.0, 'down_velocity': 0.0, 'pitch_rate': 0.0, 'roll_rate': -0.0, 'yaw_rate': 0.0}
+1627586413.1701407, Processing: $BFNVG,023758.674,4226.110102,N,07114.545276,W,0,0.000,0.090,96.12,1.29,-0.35,023758.671*48
+Interpreted as: {'position': (0.0, 0.0), 'latlon': (42.435168366666666, -71.24242126666667), 'heading': 96.12, 'depth': 0.09, 'altitude': 0.0, 'roll': 1.29, 'pitch': -0.35, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 37, 58), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586413.1701407, Processing: $BFNVR,023758.674,0.0000,0.0000,0.0000,0.000,-0.000,0.000*6F
+Interpreted as: {'timestamp': '023758.674', 'east_velocity': 0.0, 'north_velocity': 0.0, 'down_velocity': 0.0, 'pitch_rate': 0.0, 'roll_rate': -0.0, 'yaw_rate': 0.0}
+1627586413.1701407, Processing: $BFNVG,023758.774,4226.110102,N,07114.545276,W,0,0.000,0.090,96.10,1.35,-0.32,023758.772*43
+Interpreted as: {'position': (0.0, 0.0), 'latlon': (42.435168366666666, -71.24242126666667), 'heading': 96.1, 'depth': 0.09, 'altitude': 0.0, 'roll': 1.35, 'pitch': -0.32, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 37, 58), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586413.1701407, Processing: $BFNVR,023758.774,0.0000,0.0000,0.0000,0.000,0.000,0.000*43
+Interpreted as: {'timestamp': '023758.774', 'east_velocity': 0.0, 'north_velocity': 0.0, 'down_velocity': 0.0, 'pitch_rate': 0.0, 'roll_rate': 0.0, 'yaw_rate': 0.0}
+1627586413.1701407, Processing: $BFNVG,023758.875,4226.110102,N,07114.545276,W,0,0.000,0.089,96.09,1.61,-0.30,023758.872*41
+Interpreted as: {'position': (0.0, 0.0), 'latlon': (42.435168366666666, -71.24242126666667), 'heading': 96.09, 'depth': 0.089, 'altitude': 0.0, 'roll': 1.61, 'pitch': -0.3, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 37, 58), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586413.1701407, Processing: $BFNVR,023758.875,0.0000,0.0000,0.0000,0.000,0.000,0.000*4D
+Interpreted as: {'timestamp': '023758.875', 'east_velocity': 0.0, 'north_velocity': 0.0, 'down_velocity': 0.0, 'pitch_rate': 0.0, 'roll_rate': 0.0, 'yaw_rate': 0.0}
+1627586413.1701407, Processing: $BFNVG,023758.974,4226.110102,N,07114.545276,W,0,0.000,0.089,96.10,1.71,-0.30,023758.972*49
+Interpreted as: {'position': (0.0, 0.0), 'latlon': (42.435168366666666, -71.24242126666667), 'heading': 96.1, 'depth': 0.089, 'altitude': 0.0, 'roll': 1.71, 'pitch': -0.3, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 37, 58), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586413.1701407, Processing: $BFNVR,023758.974,0.0000,0.0000,0.0000,0.000,0.000,0.000*4D
+Interpreted as: {'timestamp': '023758.974', 'east_velocity': 0.0, 'north_velocity': 0.0, 'down_velocity': 0.0, 'pitch_rate': 0.0, 'roll_rate': 0.0, 'yaw_rate': 0.0}
+1627586413.1701407, Processing: $BFNVG,023759.074,4226.110102,N,07114.545276,W,0,0.000,0.088,96.10,1.86,-0.31,023759.072*41
+Interpreted as: {'position': (0.0, 0.0), 'latlon': (42.435168366666666, -71.24242126666667), 'heading': 96.1, 'depth': 0.088, 'altitude': 0.0, 'roll': 1.86, 'pitch': -0.31, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 37, 59), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586413.1701407, Processing: $BFNVR,023759.074,0.0000,0.0000,0.0000,0.000,0.000,0.000*45
+Interpreted as: {'timestamp': '023759.074', 'east_velocity': 0.0, 'north_velocity': 0.0, 'down_velocity': 0.0, 'pitch_rate': 0.0, 'roll_rate': 0.0, 'yaw_rate': 0.0}
+1627586413.1701407, Processing: $BFNVG,023759.174,4226.110102,N,07114.545276,W,0,3.218,0.088,96.11,1.86,-0.34,023759.172*4D
+Interpreted as: {'position': (0.0, 0.0), 'latlon': (42.435168366666666, -71.24242126666667), 'heading': 96.11, 'depth': 0.088, 'altitude': 3.218, 'roll': 1.86, 'pitch': -0.34, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 37, 59), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586413.1701407, Processing: $BFNVR,023759.174,0.0000,0.0000,0.0000,-0.000,-0.000,0.000*44
+Interpreted as: {'timestamp': '023759.174', 'east_velocity': 0.0, 'north_velocity': 0.0, 'down_velocity': 0.0, 'pitch_rate': -0.0, 'roll_rate': -0.0, 'yaw_rate': 0.0}
+1627586413.1701407, Processing: $BFNVG,023759.274,4226.110102,N,07114.545276,W,0,3.218,0.088,96.12,1.91,-0.41,023759.272*4A
+Interpreted as: {'position': (0.0, 0.0), 'latlon': (42.435168366666666, -71.24242126666667), 'heading': 96.12, 'depth': 0.088, 'altitude': 3.218, 'roll': 1.91, 'pitch': -0.41, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 37, 59), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586413.1701407, Processing: $BFNVR,023759.274,0.0000,0.0000,0.0000,-0.000,0.000,0.000*6A
+Interpreted as: {'timestamp': '023759.274', 'east_velocity': 0.0, 'north_velocity': 0.0, 'down_velocity': 0.0, 'pitch_rate': -0.0, 'roll_rate': 0.0, 'yaw_rate': 0.0}
+1627586413.1701407, Processing: $BFNVG,023759.375,4226.110102,N,07114.545276,W,0,3.218,0.088,96.14,1.90,-0.47,023759.372*4A
+Interpreted as: {'position': (0.0, 0.0), 'latlon': (42.435168366666666, -71.24242126666667), 'heading': 96.14, 'depth': 0.088, 'altitude': 3.218, 'roll': 1.9, 'pitch': -0.47, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 37, 59), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586413.1701407, Processing: $BFNVR,023759.375,0.0000,0.0000,0.0000,-0.000,-0.000,-0.000*6A
+Interpreted as: {'timestamp': '023759.375', 'east_velocity': 0.0, 'north_velocity': 0.0, 'down_velocity': 0.0, 'pitch_rate': -0.0, 'roll_rate': -0.0, 'yaw_rate': -0.0}
+1627586413.1701407, Processing: $BFNVG,023759.475,4226.110102,N,07114.545276,W,0,3.218,0.088,96.23,1.96,-0.50,023759.472*4E
+Interpreted as: {'position': (0.0, 0.0), 'latlon': (42.435168366666666, -71.24242126666667), 'heading': 96.23, 'depth': 0.088, 'altitude': 3.218, 'roll': 1.96, 'pitch': -0.5, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 37, 59), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586413.1701407, Processing: $BFNVR,023759.475,0.0000,0.0000,0.0000,0.000,-0.000,-0.000*40
+Interpreted as: {'timestamp': '023759.475', 'east_velocity': 0.0, 'north_velocity': 0.0, 'down_velocity': 0.0, 'pitch_rate': 0.0, 'roll_rate': -0.0, 'yaw_rate': -0.0}
+1627586413.1701407, Processing: $BFNVG,023759.574,4226.110102,N,07114.545276,W,0,3.218,0.088,96.33,2.19,-0.52,023759.572*48
+Interpreted as: {'position': (0.0, 0.0), 'latlon': (42.435168366666666, -71.24242126666667), 'heading': 96.33, 'depth': 0.088, 'altitude': 3.218, 'roll': 2.19, 'pitch': -0.52, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 37, 59), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586413.1701407, Processing: $BFNVR,023759.574,0.0000,0.0000,0.0000,0.000,0.000,-0.000*6D
+Interpreted as: {'timestamp': '023759.574', 'east_velocity': 0.0, 'north_velocity': 0.0, 'down_velocity': 0.0, 'pitch_rate': 0.0, 'roll_rate': 0.0, 'yaw_rate': -0.0}
+1627586413.1701407, Processing: $BFNVG,023759.674,4226.110102,N,07114.545276,W,0,3.218,0.088,96.43,2.38,-0.53,023759.672*4D
+Interpreted as: {'position': (0.0, 0.0), 'latlon': (42.435168366666666, -71.24242126666667), 'heading': 96.43, 'depth': 0.088, 'altitude': 3.218, 'roll': 2.38, 'pitch': -0.53, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 37, 59), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586413.1701407, Processing: $BFNVR,023759.674,0.0000,0.0000,0.0000,0.000,-0.000,-0.000*43
+Interpreted as: {'timestamp': '023759.674', 'east_velocity': 0.0, 'north_velocity': 0.0, 'down_velocity': 0.0, 'pitch_rate': 0.0, 'roll_rate': -0.0, 'yaw_rate': -0.0}
+1627586413.1701407, Processing: $BFNVG,023759.775,4226.110102,N,07114.545276,W,0,3.218,0.088,96.51,2.32,-0.51,023759.772*47
+Interpreted as: {'position': (0.0, 0.0), 'latlon': (42.435168366666666, -71.24242126666667), 'heading': 96.51, 'depth': 0.088, 'altitude': 3.218, 'roll': 2.32, 'pitch': -0.51, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 37, 59), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586413.1701407, Processing: $BFNVR,023759.775,0.0000,0.0000,0.0000,0.000,-0.000,-0.000*43
+Interpreted as: {'timestamp': '023759.775', 'east_velocity': 0.0, 'north_velocity': 0.0, 'down_velocity': 0.0, 'pitch_rate': 0.0, 'roll_rate': -0.0, 'yaw_rate': -0.0}
+1627586413.1701407, Processing: $BFNVG,023759.874,4226.110102,N,07114.545276,W,0,3.218,0.089,96.59,2.15,-0.51,023759.872*4A
+Interpreted as: {'position': (0.0, 0.0), 'latlon': (42.435168366666666, -71.24242126666667), 'heading': 96.59, 'depth': 0.089, 'altitude': 3.218, 'roll': 2.15, 'pitch': -0.51, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 37, 59), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586413.1701407, Processing: $BFNVR,023759.874,0.0000,0.0000,0.0000,0.000,-0.000,-0.000*4D
+Interpreted as: {'timestamp': '023759.874', 'east_velocity': 0.0, 'north_velocity': 0.0, 'down_velocity': 0.0, 'pitch_rate': 0.0, 'roll_rate': -0.0, 'yaw_rate': -0.0}
+1627586413.1701407, Processing: $BFNVG,023759.975,4226.110102,N,07114.545276,W,0,3.218,0.089,96.61,2.13,-0.51,023759.972*46
+Interpreted as: {'position': (0.0, 0.0), 'latlon': (42.435168366666666, -71.24242126666667), 'heading': 96.61, 'depth': 0.089, 'altitude': 3.218, 'roll': 2.13, 'pitch': -0.51, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 37, 59), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586413.1701407, Processing: $BFNVR,023759.975,0.0000,0.0000,0.0000,0.000,0.000,0.000*4D
+Interpreted as: {'timestamp': '023759.975', 'east_velocity': 0.0, 'north_velocity': 0.0, 'down_velocity': 0.0, 'pitch_rate': 0.0, 'roll_rate': 0.0, 'yaw_rate': 0.0}
+1627586413.1701407, Processing: $BFNVG,023800.076,4226.110102,N,07114.545276,W,0,3.218,0.089,96.62,2.06,-0.52,023800.072*41
+Interpreted as: {'position': (0.0, 0.0), 'latlon': (42.435168366666666, -71.24242126666667), 'heading': 96.62, 'depth': 0.089, 'altitude': 3.218, 'roll': 2.06, 'pitch': -0.52, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586413.1701407, Processing: $BFNVR,023800.076,0.0000,0.0000,0.0000,0.000,-0.000,0.000*69
+Interpreted as: {'timestamp': '023800.076', 'east_velocity': 0.0, 'north_velocity': 0.0, 'down_velocity': 0.0, 'pitch_rate': 0.0, 'roll_rate': -0.0, 'yaw_rate': 0.0}
+1627586413.1701407, Processing: $BFNVG,023800.177,4226.110102,N,07114.545276,W,0,0.000,0.089,96.63,1.98,-0.52,023800.172*4D
+Interpreted as: {'position': (0.0, 0.0), 'latlon': (42.435168366666666, -71.24242126666667), 'heading': 96.63, 'depth': 0.089, 'altitude': 0.0, 'roll': 1.98, 'pitch': -0.52, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586413.1701407, Processing: $BFNVR,023800.177,0.0000,0.0000,0.0000,0.000,-0.000,0.000*69
+Interpreted as: {'timestamp': '023800.177', 'east_velocity': 0.0, 'north_velocity': 0.0, 'down_velocity': 0.0, 'pitch_rate': 0.0, 'roll_rate': -0.0, 'yaw_rate': 0.0}
+1627586413.1701407, Processing: $BFNVG,023800.275,4226.110102,N,07114.545276,W,0,0.000,0.089,96.65,1.86,-0.53,023800.272*47
+Interpreted as: {'position': (0.0, 0.0), 'latlon': (42.435168366666666, -71.24242126666667), 'heading': 96.65, 'depth': 0.089, 'altitude': 0.0, 'roll': 1.86, 'pitch': -0.53, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586413.1701407, Processing: $BFNVR,023800.275,0.0000,0.0000,0.0000,0.000,-0.000,0.000*68
+Interpreted as: {'timestamp': '023800.275', 'east_velocity': 0.0, 'north_velocity': 0.0, 'down_velocity': 0.0, 'pitch_rate': 0.0, 'roll_rate': -0.0, 'yaw_rate': 0.0}
+1627586413.1701407, Processing: $BFNVG,023800.376,4226.110102,N,07114.545276,W,0,0.000,0.088,96.66,1.94,-0.54,023800.372*42
+Interpreted as: {'position': (0.0, 0.0), 'latlon': (42.435168366666666, -71.24242126666667), 'heading': 96.66, 'depth': 0.088, 'altitude': 0.0, 'roll': 1.94, 'pitch': -0.54, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627590015.444876, Sending: $BPRMB,212015.44,-2,1.0,0,1000.0,0,1*56
+
+1627590015.945817, Sending: $BPSTS,212015.94,1,BWSI Autonomy OK*4c
+
+1627586416.446719, Processing: $BFNVR,023800.376,0.0000,0.0000,0.0000,0.000,0.000,0.000*47
+Interpreted as: {'timestamp': '023800.376', 'east_velocity': 0.0, 'north_velocity': 0.0, 'down_velocity': 0.0, 'pitch_rate': 0.0, 'roll_rate': 0.0, 'yaw_rate': 0.0}
+1627586416.446719, Processing: $BFNVG,023800.476,4226.110102,N,07114.545276,W,0,0.000,0.088,96.63,2.18,-0.53,023800.472*47
+Interpreted as: {'position': (0.0, 0.0), 'latlon': (42.435168366666666, -71.24242126666667), 'heading': 96.63, 'depth': 0.088, 'altitude': 0.0, 'roll': 2.18, 'pitch': -0.53, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586416.446719, Processing: $BFNVR,023800.476,0.0000,0.0000,0.0000,0.000,0.000,0.000*40
+Interpreted as: {'timestamp': '023800.476', 'east_velocity': 0.0, 'north_velocity': 0.0, 'down_velocity': 0.0, 'pitch_rate': 0.0, 'roll_rate': 0.0, 'yaw_rate': 0.0}
+1627586416.446719, Processing: $BFNVG,023800.576,4226.110102,N,07114.545276,W,0,0.000,0.087,96.60,2.32,-0.50,023800.572*40
+Interpreted as: {'position': (0.0, 0.0), 'latlon': (42.435168366666666, -71.24242126666667), 'heading': 96.6, 'depth': 0.087, 'altitude': 0.0, 'roll': 2.32, 'pitch': -0.5, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586416.446719, Processing: $BFNVR,023800.576,0.0000,0.0000,0.0000,0.000,-0.000,-0.000*41
+Interpreted as: {'timestamp': '023800.576', 'east_velocity': 0.0, 'north_velocity': 0.0, 'down_velocity': 0.0, 'pitch_rate': 0.0, 'roll_rate': -0.0, 'yaw_rate': -0.0}
+1627586416.446719, Processing: $BFACK,023800.631,LOG,000000.000,0,2,0,ACK logging enabled*55
+Vehicle successfully processed request LOG1627586416.446719, Processing: $BFACK,023800.642,LOG,000000.000,0,2,0,ALL logging enabled*59
+Vehicle successfully processed request LOG1627586416.446719, Processing: $BFACK,023800.652,STS,212014.400,0,2,0,Received status*14
+Vehicle successfully processed request STS1627586416.446719, Processing: $BFNVG,023800.675,4226.110102,N,07114.545276,W,0,0.000,0.087,96.58,2.23,-0.48,023800.672*41
+Interpreted as: {'position': (0.0, 0.0), 'latlon': (42.435168366666666, -71.24242126666667), 'heading': 96.58, 'depth': 0.087, 'altitude': 0.0, 'roll': 2.23, 'pitch': -0.48, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586416.446719, Processing: $BFNVR,023800.675,0.0000,0.0000,0.0000,0.000,-0.000,-0.000*41
+Interpreted as: {'timestamp': '023800.675', 'east_velocity': 0.0, 'north_velocity': 0.0, 'down_velocity': 0.0, 'pitch_rate': 0.0, 'roll_rate': -0.0, 'yaw_rate': -0.0}
+1627586416.446719, Processing: $BFNVG,023800.774,4226.110102,N,07114.545276,W,0,0.000,0.087,96.59,2.45,-0.48,023800.772*41
+Interpreted as: {'position': (0.0, 0.0), 'latlon': (42.435168366666666, -71.24242126666667), 'heading': 96.59, 'depth': 0.087, 'altitude': 0.0, 'roll': 2.45, 'pitch': -0.48, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586416.446719, Processing: $BFNVR,023800.774,0.0000,0.0000,0.0000,-0.000,0.000,-0.000*41
+Interpreted as: {'timestamp': '023800.774', 'east_velocity': 0.0, 'north_velocity': 0.0, 'down_velocity': 0.0, 'pitch_rate': -0.0, 'roll_rate': 0.0, 'yaw_rate': -0.0}
+1627586416.446719, Processing: $BFNVG,023800.874,4226.110102,N,07114.545276,W,0,0.000,0.087,96.61,2.64,-0.51,023800.872*41
+Interpreted as: {'position': (0.0, 0.0), 'latlon': (42.435168366666666, -71.24242126666667), 'heading': 96.61, 'depth': 0.087, 'altitude': 0.0, 'roll': 2.64, 'pitch': -0.51, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586416.446719, Processing: $BFNVR,023800.874,0.0000,0.0000,0.0000,-0.000,0.000,-0.000*4E
+Interpreted as: {'timestamp': '023800.874', 'east_velocity': 0.0, 'north_velocity': 0.0, 'down_velocity': 0.0, 'pitch_rate': -0.0, 'roll_rate': 0.0, 'yaw_rate': -0.0}
+1627586416.446719, Processing: $BFNVG,023800.974,4226.110102,N,07114.545276,W,0,0.000,0.087,96.69,2.55,-0.54,023800.972*4E
+Interpreted as: {'position': (0.0, 0.0), 'latlon': (42.435168366666666, -71.24242126666667), 'heading': 96.69, 'depth': 0.087, 'altitude': 0.0, 'roll': 2.55, 'pitch': -0.54, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586416.446719, Processing: $BFNVR,023800.974,0.0000,0.0000,0.0000,-0.000,0.000,-0.000*4F
+Interpreted as: {'timestamp': '023800.974', 'east_velocity': 0.0, 'north_velocity': 0.0, 'down_velocity': 0.0, 'pitch_rate': -0.0, 'roll_rate': 0.0, 'yaw_rate': -0.0}
+1627586416.446719, Processing: $BFNVG,023801.075,4226.110102,N,07114.545276,W,0,0.000,0.087,96.81,2.35,-0.54,023801.072*4F
+Interpreted as: {'position': (0.0, 0.0), 'latlon': (42.435168366666666, -71.24242126666667), 'heading': 96.81, 'depth': 0.087, 'altitude': 0.0, 'roll': 2.35, 'pitch': -0.54, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 1), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586416.446719, Processing: $BFNVR,023801.075,0.0000,0.0000,0.0000,0.000,-0.000,-0.000*46
+Interpreted as: {'timestamp': '023801.075', 'east_velocity': 0.0, 'north_velocity': 0.0, 'down_velocity': 0.0, 'pitch_rate': 0.0, 'roll_rate': -0.0, 'yaw_rate': -0.0}
+1627586416.446719, Processing: $BFACK,023801.138,STS,212014.900,0,2,0,Received status*13
+Vehicle successfully processed request STS1627586416.446719, Processing: $BFNVG,023801.174,4226.110102,N,07114.545276,W,0,0.000,0.087,96.95,2.09,-0.56,023801.172*46
+Interpreted as: {'position': (0.0, 0.0), 'latlon': (42.435168366666666, -71.24242126666667), 'heading': 96.95, 'depth': 0.087, 'altitude': 0.0, 'roll': 2.09, 'pitch': -0.56, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 1), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586416.446719, Processing: $BFNVR,023801.174,0.0000,0.0000,0.0000,0.000,-0.000,-0.000*46
+Interpreted as: {'timestamp': '023801.174', 'east_velocity': 0.0, 'north_velocity': 0.0, 'down_velocity': 0.0, 'pitch_rate': 0.0, 'roll_rate': -0.0, 'yaw_rate': -0.0}
+1627586416.446719, Processing: $BFNVG,023801.274,4226.110102,N,07114.545276,W,0,0.000,0.087,97.09,1.96,-0.58,023801.272*49
+Interpreted as: {'position': (0.0, 0.0), 'latlon': (42.435168366666666, -71.24242126666667), 'heading': 97.09, 'depth': 0.087, 'altitude': 0.0, 'roll': 1.96, 'pitch': -0.58, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 1), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586416.446719, Processing: $BFNVR,023801.274,0.0000,0.0000,0.0000,0.000,-0.000,-0.000*45
+Interpreted as: {'timestamp': '023801.274', 'east_velocity': 0.0, 'north_velocity': 0.0, 'down_velocity': 0.0, 'pitch_rate': 0.0, 'roll_rate': -0.0, 'yaw_rate': -0.0}
+1627586416.446719, Processing: $BFNVG,023801.375,4226.110102,N,07114.545276,W,0,0.000,0.086,97.20,1.87,-0.59,023801.372*43
+Interpreted as: {'position': (0.0, 0.0), 'latlon': (42.435168366666666, -71.24242126666667), 'heading': 97.2, 'depth': 0.086, 'altitude': 0.0, 'roll': 1.87, 'pitch': -0.59, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 1), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586416.446719, Processing: $BFNVR,023801.375,0.0000,0.0000,0.0000,0.000,-0.000,-0.000*45
+Interpreted as: {'timestamp': '023801.375', 'east_velocity': 0.0, 'north_velocity': 0.0, 'down_velocity': 0.0, 'pitch_rate': 0.0, 'roll_rate': -0.0, 'yaw_rate': -0.0}
+1627586416.446719, Processing: $BFNVG,023801.474,4226.110102,N,07114.545276,W,0,0.000,0.086,97.32,1.71,-0.57,023801.472*46
+Interpreted as: {'position': (0.0, 0.0), 'latlon': (42.435168366666666, -71.24242126666667), 'heading': 97.32, 'depth': 0.086, 'altitude': 0.0, 'roll': 1.71, 'pitch': -0.57, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 1), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586416.446719, Processing: $BFNVR,023801.474,0.0000,0.0000,0.0000,0.000,-0.000,-0.000*43
+Interpreted as: {'timestamp': '023801.474', 'east_velocity': 0.0, 'north_velocity': 0.0, 'down_velocity': 0.0, 'pitch_rate': 0.0, 'roll_rate': -0.0, 'yaw_rate': -0.0}
+1627590016.5391734, Sending: $BPRMB,212016.53,-2,1.0,0,1000.0,0,1*53
+
+1627590017.0400503, Sending: $BPSTS,212017.04,1,BWSI Autonomy OK*47
+
+1627586417.5409088, Processing: $BFNVG,023801.574,4226.110102,N,07114.545276,W,0,0.000,0.085,97.43,1.75,-0.55,023801.572*45
+Interpreted as: {'position': (0.0, 0.0), 'latlon': (42.435168366666666, -71.24242126666667), 'heading': 97.43, 'depth': 0.085, 'altitude': 0.0, 'roll': 1.75, 'pitch': -0.55, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 1), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586417.5409088, Processing: $BFNVR,023801.574,0.0000,0.0000,0.0000,0.000,-0.000,-0.000*42
+Interpreted as: {'timestamp': '023801.574', 'east_velocity': 0.0, 'north_velocity': 0.0, 'down_velocity': 0.0, 'pitch_rate': 0.0, 'roll_rate': -0.0, 'yaw_rate': -0.0}
+1627586417.5409088, Processing: $BFACK,023801.670,RMB,212015.440,0,2,0,Received modify behavior*31
+Vehicle successfully processed request RMB1627586417.5409088, Processing: $BFNVG,023801.675,4226.110102,N,07114.545276,W,0,0.000,0.085,97.48,1.84,-0.53,023801.672*47
+Interpreted as: {'position': (0.0, 0.0), 'latlon': (42.435168366666666, -71.24242126666667), 'heading': 97.48, 'depth': 0.085, 'altitude': 0.0, 'roll': 1.84, 'pitch': -0.53, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 1), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586417.5409088, Processing: $BFNVR,023801.675,0.0000,0.0000,0.0000,0.000,0.000,-0.000*6D
+Interpreted as: {'timestamp': '023801.675', 'east_velocity': 0.0, 'north_velocity': 0.0, 'down_velocity': 0.0, 'pitch_rate': 0.0, 'roll_rate': 0.0, 'yaw_rate': -0.0}
+1627586417.5409088, Processing: $BFNVG,023801.775,4226.110102,N,07114.545276,W,0,0.000,0.085,97.48,1.85,-0.51,023801.772*44
+Interpreted as: {'position': (0.0, 0.0), 'latlon': (42.435168366666666, -71.24242126666667), 'heading': 97.48, 'depth': 0.085, 'altitude': 0.0, 'roll': 1.85, 'pitch': -0.51, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 1), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586417.5409088, Processing: $BFNVR,023801.775,0.0000,0.0000,0.0000,0.000,0.000,0.000*41
+Interpreted as: {'timestamp': '023801.775', 'east_velocity': 0.0, 'north_velocity': 0.0, 'down_velocity': 0.0, 'pitch_rate': 0.0, 'roll_rate': 0.0, 'yaw_rate': 0.0}
+1627586417.5409088, Processing: $BFNVG,023801.874,4226.110102,N,07114.545276,W,0,0.000,0.086,97.48,1.98,-0.51,023801.872*4A
+Interpreted as: {'position': (0.0, 0.0), 'latlon': (42.435168366666666, -71.24242126666667), 'heading': 97.48, 'depth': 0.086, 'altitude': 0.0, 'roll': 1.98, 'pitch': -0.51, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 1), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586417.5409088, Processing: $BFNVR,023801.874,0.0000,0.0000,0.0000,-0.000,0.000,0.000*62
+Interpreted as: {'timestamp': '023801.874', 'east_velocity': 0.0, 'north_velocity': 0.0, 'down_velocity': 0.0, 'pitch_rate': -0.0, 'roll_rate': 0.0, 'yaw_rate': 0.0}
+1627586417.5409088, Processing: $BFNVG,023801.974,4226.110102,N,07114.545276,W,0,0.000,0.086,97.47,1.79,-0.52,023801.972*49
+Interpreted as: {'position': (0.0, 0.0), 'latlon': (42.435168366666666, -71.24242126666667), 'heading': 97.47, 'depth': 0.086, 'altitude': 0.0, 'roll': 1.79, 'pitch': -0.52, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 1), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586417.5409088, Processing: $BFNVR,023801.974,0.0000,0.0000,0.0000,-0.000,-0.000,-0.000*63
+Interpreted as: {'timestamp': '023801.974', 'east_velocity': 0.0, 'north_velocity': 0.0, 'down_velocity': 0.0, 'pitch_rate': -0.0, 'roll_rate': -0.0, 'yaw_rate': -0.0}
+1627586417.5409088, Processing: $BFNVG,023802.076,4226.110102,N,07114.545276,W,0,0.000,0.085,97.44,1.69,-0.58,023802.072*40
+Interpreted as: {'position': (0.0, 0.0), 'latlon': (42.435168366666666, -71.24242126666667), 'heading': 97.44, 'depth': 0.085, 'altitude': 0.0, 'roll': 1.69, 'pitch': -0.58, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 2), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586417.5409088, Processing: $BFNVR,023802.076,0.0000,0.0000,0.0000,-0.000,-0.000,0.000*46
+Interpreted as: {'timestamp': '023802.076', 'east_velocity': 0.0, 'north_velocity': 0.0, 'down_velocity': 0.0, 'pitch_rate': -0.0, 'roll_rate': -0.0, 'yaw_rate': 0.0}
+1627586417.5409088, Processing: $BFNVG,023802.174,4226.110102,N,07114.545276,W,0,0.000,0.085,97.41,1.59,-0.66,023802.172*49
+Interpreted as: {'position': (0.0, 0.0), 'latlon': (42.435168366666666, -71.24242126666667), 'heading': 97.41, 'depth': 0.085, 'altitude': 0.0, 'roll': 1.59, 'pitch': -0.66, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 2), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586417.5409088, Processing: $BFNVR,023802.174,0.0000,0.0000,0.0000,-0.000,-0.000,0.000*45
+Interpreted as: {'timestamp': '023802.174', 'east_velocity': 0.0, 'north_velocity': 0.0, 'down_velocity': 0.0, 'pitch_rate': -0.0, 'roll_rate': -0.0, 'yaw_rate': 0.0}
+1627586417.5409088, Processing: $BFACK,023802.176,STS,212015.940,0,2,0,Received status*1F
+Vehicle successfully processed request STS1627586417.5409088, Processing: $BFNVG,023802.274,4226.110099,N,07114.545240,W,0,0.000,0.085,97.37,1.42,-0.77,023802.272*44
+Interpreted as: {'position': (0.04920731671154499, -0.006856278516352177), 'latlon': (42.43516831666667, -71.24242066666666), 'heading': 97.37, 'depth': 0.085, 'altitude': 0.0, 'roll': 1.42, 'pitch': -0.77, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 2), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586417.5409088, Processing: $BFNVR,023802.274,0.4941,-0.0507,0.0067,-0.000,0.000,0.000*4D
+Interpreted as: {'timestamp': '023802.274', 'east_velocity': 0.4941, 'north_velocity': -0.0507, 'down_velocity': 0.0067, 'pitch_rate': -0.0, 'roll_rate': 0.0, 'yaw_rate': 0.0}
+1627586417.5409088, Processing: $BFNVG,023802.374,4226.110095,N,07114.545190,W,0,0.000,0.086,97.24,1.33,-0.83,023802.372*4A
+Interpreted as: {'position': (0.11755896231625229, -0.016070431098341942), 'latlon': (42.43516825, -71.24241983333333), 'heading': 97.24, 'depth': 0.086, 'altitude': 0.0, 'roll': 1.33, 'pitch': -0.83, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 2), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586417.5409088, Processing: $BFNVR,023802.374,0.6979,-0.0700,0.0102,-0.000,-0.000,0.000*6F
+Interpreted as: {'timestamp': '023802.374', 'east_velocity': 0.6979, 'north_velocity': -0.07, 'down_velocity': 0.0102, 'pitch_rate': -0.0, 'roll_rate': -0.0, 'yaw_rate': 0.0}
+1627586417.5409088, Processing: $BFNVG,023802.474,4226.110091,N,07114.545137,W,0,0.000,0.086,97.07,0.28,-0.77,023802.472*42
+Interpreted as: {'position': (0.19002344511682168, -0.02539325039833784), 'latlon': (42.43516818333333, -71.24241895), 'heading': 97.07, 'depth': 0.086, 'altitude': 0.0, 'roll': 0.28, 'pitch': -0.77, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 2), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586417.5409088, Processing: $BFNVR,023802.474,0.7384,-0.0719,0.0100,0.000,-0.000,0.000*46
+Interpreted as: {'timestamp': '023802.474', 'east_velocity': 0.7384, 'north_velocity': -0.0719, 'down_velocity': 0.01, 'pitch_rate': 0.0, 'roll_rate': -0.0, 'yaw_rate': 0.0}
+1627586417.5409088, Processing: $BFNVG,023802.574,4226.110088,N,07114.545085,W,0,0.000,0.091,96.97,-0.23,-0.63,023802.572*6F
+Interpreted as: {'position': (0.26116588339209557, -0.03282909654080868), 'latlon': (42.435168133333335, -71.24241808333333), 'heading': 96.97, 'depth': 0.091, 'altitude': 0.0, 'roll': -0.23, 'pitch': -0.63, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 2), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586417.5409088, Processing: $BFNVR,023802.574,0.7159,-0.0684,0.0079,0.000,-0.000,0.000*4F
+Interpreted as: {'timestamp': '023802.574', 'east_velocity': 0.7159, 'north_velocity': -0.0684, 'down_velocity': 0.0079, 'pitch_rate': 0.0, 'roll_rate': -0.0, 'yaw_rate': 0.0}
+1627586417.5409088, Processing: $BFNVG,023802.675,4226.110084,N,07114.545036,W,0,0.000,0.091,96.91,-0.48,-0.54,023802.672*65
+Interpreted as: {'position': (0.3281465865438804, -0.042007023468613625), 'latlon': (42.43516806666667, -71.24241726666666), 'heading': 96.91, 'depth': 0.091, 'altitude': 0.0, 'roll': -0.48, 'pitch': -0.54, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 2), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586417.5409088, Processing: $BFNVR,023802.675,0.6808,-0.0643,0.0064,0.000,-0.000,0.000*46
+Interpreted as: {'timestamp': '023802.675', 'east_velocity': 0.6808, 'north_velocity': -0.0643, 'down_velocity': 0.0064, 'pitch_rate': 0.0, 'roll_rate': -0.0, 'yaw_rate': 0.0}
+1627590017.5956242, Sending: $BPRMB,212017.59,-4,1.0,0,1000.0,0,1*5e
+
+1627590018.0966024, Sending: $BPSTS,212018.09,1,BWSI Autonomy OK*45
+
+1627586418.5975623, Processing: $BFACK,023802.765,RMB,212016.530,0,2,0,Received modify behavior*32
+Vehicle successfully processed request RMB1627586418.5975623, Processing: $BFNVG,023802.774,4226.110081,N,07114.544987,W,0,0.000,0.091,96.82,-0.45,-0.58,023802.772*60
+Interpreted as: {'position': (0.3951761901844293, -0.049334198236465454), 'latlon': (42.435168016666665, -71.24241645), 'heading': 96.82, 'depth': 0.091, 'altitude': 0.0, 'roll': -0.45, 'pitch': -0.58, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 2), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586418.5975623, Processing: $BFNVR,023802.774,0.6846,-0.0636,0.0070,-0.000,0.000,0.000*4B
+Interpreted as: {'timestamp': '023802.774', 'east_velocity': 0.6846, 'north_velocity': -0.0636, 'down_velocity': 0.007, 'pitch_rate': -0.0, 'roll_rate': 0.0, 'yaw_rate': 0.0}
+1627586418.5975623, Processing: $BFNVG,023802.874,4226.110078,N,07114.544939,W,0,0.000,0.101,96.73,-0.26,-0.78,023802.872*62
+Interpreted as: {'position': (0.4608348468900658, -0.056625149212777615), 'latlon': (42.43516796666667, -71.24241565), 'heading': 96.73, 'depth': 0.101, 'altitude': 0.0, 'roll': -0.26, 'pitch': -0.78, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 2), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586418.5975623, Processing: $BFNVR,023802.874,0.6721,-0.0613,0.0092,-0.000,0.000,0.000*41
+Interpreted as: {'timestamp': '023802.874', 'east_velocity': 0.6721, 'north_velocity': -0.0613, 'down_velocity': 0.0092, 'pitch_rate': -0.0, 'roll_rate': 0.0, 'yaw_rate': 0.0}
+1627586418.5975623, Processing: $BFNVG,023802.974,4226.110074,N,07114.544890,W,0,0.000,0.101,96.60,0.15,-1.06,023802.972*4B
+Interpreted as: {'position': (0.5278155504493043, -0.06580307334661484), 'latlon': (42.4351679, -71.24241483333333), 'heading': 96.6, 'depth': 0.101, 'altitude': 0.0, 'roll': 0.15, 'pitch': -1.06, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 2), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586418.5975623, Processing: $BFNVR,023802.974,0.6772,-0.0603,0.0126,-0.000,0.000,0.000*49
+Interpreted as: {'timestamp': '023802.974', 'east_velocity': 0.6772, 'north_velocity': -0.0603, 'down_velocity': 0.0126, 'pitch_rate': -0.0, 'roll_rate': 0.0, 'yaw_rate': 0.0}
+1627586418.5975623, Processing: $BFNVG,023803.076,4226.110071,N,07114.544839,W,0,0.000,0.119,96.42,0.77,-1.45,023803.072*45
+Interpreted as: {'position': (0.5975870443508029, -0.07320269290357828), 'latlon': (42.43516785, -71.24241398333334), 'heading': 96.42, 'depth': 0.119, 'altitude': 0.0, 'roll': 0.77, 'pitch': -1.45, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 3), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586418.5975623, Processing: $BFNVR,023803.076,0.7075,-0.0608,0.0180,-0.000,0.000,0.000*45
+Interpreted as: {'timestamp': '023803.076', 'east_velocity': 0.7075, 'north_velocity': -0.0608, 'down_velocity': 0.018, 'pitch_rate': -0.0, 'roll_rate': 0.0, 'yaw_rate': 0.0}
+1627586418.5975623, Processing: $BFNVG,023803.175,4226.110068,N,07114.544787,W,0,0.000,0.119,96.20,1.31,-1.89,023803.172*43
+Interpreted as: {'position': (0.6687294811708853, -0.08063853345811367), 'latlon': (42.4351678, -71.24241311666667), 'heading': 96.2, 'depth': 0.119, 'altitude': 0.0, 'roll': 1.31, 'pitch': -1.89, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 3), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586418.5975623, Processing: $BFNVR,023803.175,0.7303,-0.0599,0.0241,-0.000,0.000,0.000*40
+Interpreted as: {'timestamp': '023803.175', 'east_velocity': 0.7303, 'north_velocity': -0.0599, 'down_velocity': 0.0241, 'pitch_rate': -0.0, 'roll_rate': 0.0, 'yaw_rate': 0.0}
+1627586418.5975623, Processing: $BFACK,023803.269,STS,212017.040,0,2,0,Received status*18
+Vehicle successfully processed request STS1627586418.5975623, Processing: $BFNVG,023803.275,4226.110065,N,07114.544733,W,0,0.000,0.119,95.99,1.17,-2.33,023803.272*46
+Interpreted as: {'position': (0.7426138100563549, -0.0881468215957284), 'latlon': (42.43516775, -71.24241221666666), 'heading': 95.99, 'depth': 0.119, 'altitude': 0.0, 'roll': 1.17, 'pitch': -2.33, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 3), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586418.5975623, Processing: $BFNVR,023803.275,0.7466,-0.0585,0.0304,-0.000,-0.000,0.000*67
+Interpreted as: {'timestamp': '023803.275', 'east_velocity': 0.7466, 'north_velocity': -0.0585, 'down_velocity': 0.0304, 'pitch_rate': -0.0, 'roll_rate': -0.0, 'yaw_rate': 0.0}
+1627586418.5975623, Processing: $BFNVG,023803.374,4226.110063,N,07114.544693,W,0,0.000,0.142,95.83,0.68,-2.72,023803.372*43
+Interpreted as: {'position': (0.7973538099322468, -0.09329723473638296), 'latlon': (42.43516771666667, -71.24241155), 'heading': 95.83, 'depth': 0.142, 'altitude': 0.0, 'roll': 0.68, 'pitch': -2.72, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 3), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586418.5975623, Processing: $BFNVR,023803.374,0.5640,-0.0426,0.0269,-0.000,0.000,0.000*4C
+Interpreted as: {'timestamp': '023803.374', 'east_velocity': 0.564, 'north_velocity': -0.0426, 'down_velocity': 0.0269, 'pitch_rate': -0.0, 'roll_rate': 0.0, 'yaw_rate': 0.0}
+1627586418.5975623, Processing: $BFNVG,023803.474,4226.110060,N,07114.544647,W,0,0.000,0.142,95.76,0.96,-3.01,023803.472*47
+Interpreted as: {'position': (0.8602705773082562, -0.10051573719829321), 'latlon': (42.435167666666665, -71.24241078333333), 'heading': 95.76, 'depth': 0.142, 'altitude': 0.0, 'roll': 0.96, 'pitch': -3.01, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 3), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586418.5975623, Processing: $BFNVR,023803.474,0.6382,-0.0474,0.0337,-0.000,0.000,0.000*4E
+Interpreted as: {'timestamp': '023803.474', 'east_velocity': 0.6382, 'north_velocity': -0.0474, 'down_velocity': 0.0337, 'pitch_rate': -0.0, 'roll_rate': 0.0, 'yaw_rate': 0.0}
+1627586418.5975623, Processing: $BFNVG,023803.574,4226.110057,N,07114.544594,W,0,0.000,0.171,95.72,0.99,-3.23,023803.572*45
+Interpreted as: {'position': (0.9327839616453275, -0.10798779875040054), 'latlon': (42.43516761666667, -71.2424099), 'heading': 95.72, 'depth': 0.171, 'altitude': 0.0, 'roll': 0.99, 'pitch': -3.23, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 3), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586418.5975623, Processing: $BFNVR,023803.574,0.7338,-0.0540,0.0415,-0.000,0.000,0.000*4E
+Interpreted as: {'timestamp': '023803.574', 'east_velocity': 0.7338, 'north_velocity': -0.054, 'down_velocity': 0.0415, 'pitch_rate': -0.0, 'roll_rate': 0.0, 'yaw_rate': 0.0}
+1627586418.5975623, Processing: $BFNVG,023803.674,4226.110054,N,07114.544537,W,0,0.000,0.171,95.63,1.12,-3.34,023803.672*4B
+Interpreted as: {'position': (1.0107811257475987, -0.1156047498807311), 'latlon': (42.435167566666664, -71.24240895), 'heading': 95.63, 'depth': 0.171, 'altitude': 0.0, 'roll': 1.12, 'pitch': -3.34, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 3), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586418.5975623, Processing: $BFNVR,023803.674,0.7967,-0.0574,0.0466,-0.000,0.000,0.000*4E
+Interpreted as: {'timestamp': '023803.674', 'east_velocity': 0.7967, 'north_velocity': -0.0574, 'down_velocity': 0.0466, 'pitch_rate': -0.0, 'roll_rate': 0.0, 'yaw_rate': 0.0}
+1627586418.5975623, Processing: $BFNVG,023803.774,4226.110051,N,07114.544475,W,0,0.000,0.171,95.43,1.40,-3.35,023803.772*4D
+Interpreted as: {'position': (1.0956330128246918, -0.12340281624346972), 'latlon': (42.43516751666667, -71.24240791666666), 'heading': 95.43, 'depth': 0.171, 'altitude': 0.0, 'roll': 1.4, 'pitch': -3.35, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 3), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586418.5975623, Processing: $BFNVR,023803.774,0.8649,-0.0592,0.0508,-0.000,0.000,0.000*42
+Interpreted as: {'timestamp': '023803.774', 'east_velocity': 0.8649, 'north_velocity': -0.0592, 'down_velocity': 0.0508, 'pitch_rate': -0.0, 'roll_rate': 0.0, 'yaw_rate': 0.0}
+1627590018.6493123, Sending: $BPRMB,212018.64,-6,1.0,0,1000.0,0,1*5d
+
+1627590019.150171, Sending: $BPSTS,212019.15,1,BWSI Autonomy OK*49
+
+1627586419.651013, Processing: $BFACK,023803.825,RMB,212017.590,0,2,0,Received modify behavior*33
+Vehicle successfully processed request RMB1627586419.651013, Processing: $BFNVG,023803.874,4226.110048,N,07114.544408,W,0,0.000,0.204,95.27,1.72,-3.33,023803.872*4B
+Interpreted as: {'position': (1.1873396289302036, -0.13138199225068092), 'latlon': (42.43516746666667, -71.2424068), 'heading': 95.27, 'depth': 0.204, 'altitude': 0.0, 'roll': 1.72, 'pitch': -3.33, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 3), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586419.651013, Processing: $BFNVR,023803.874,0.9255,-0.0608,0.0540,-0.000,-0.000,0.000*64
+Interpreted as: {'timestamp': '023803.874', 'east_velocity': 0.9255, 'north_velocity': -0.0608, 'down_velocity': 0.054, 'pitch_rate': -0.0, 'roll_rate': -0.0, 'yaw_rate': 0.0}
+1627586419.651013, Processing: $BFNVG,023803.976,4226.110045,N,07114.544339,W,0,0.000,0.204,95.12,0.36,-3.29,023803.972*4D
+Interpreted as: {'position': (1.281788130872883, -0.1394336149096489), 'latlon': (42.435167416666665, -71.24240565), 'heading': 95.12, 'depth': 0.204, 'altitude': 0.0, 'roll': 0.36, 'pitch': -3.29, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 3), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586419.651013, Processing: $BFNVR,023803.976,0.9572,-0.0603,0.0551,0.000,-0.000,0.000*43
+Interpreted as: {'timestamp': '023803.976', 'east_velocity': 0.9572, 'north_velocity': -0.0603, 'down_velocity': 0.0551, 'pitch_rate': 0.0, 'roll_rate': -0.0, 'yaw_rate': 0.0}
+1627586419.651013, Processing: $BFNVG,023804.077,4226.110041,N,07114.544268,W,0,0.000,0.233,94.98,-2.44,-3.21,023804.072*68
+Interpreted as: {'position': (1.3789296271279454, -0.14940842986106873), 'latlon': (42.43516735, -71.24240446666667), 'heading': 94.98, 'depth': 0.233, 'altitude': 0.0, 'roll': -2.44, 'pitch': -3.21, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 4), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586419.651013, Processing: $BFNVR,023804.077,0.9889,-0.0599,0.0555,0.000,-0.000,0.000*41
+Interpreted as: {'timestamp': '023804.077', 'east_velocity': 0.9889, 'north_velocity': -0.0599, 'down_velocity': 0.0555, 'pitch_rate': 0.0, 'roll_rate': -0.0, 'yaw_rate': 0.0}
+1627586419.651013, Processing: $BFNVG,023804.175,4226.110038,N,07114.544196,W,0,0.000,0.233,94.89,-5.62,-3.12,023804.172*65
+Interpreted as: {'position': (1.477490964345634, -0.1575687164440751), 'latlon': (42.4351673, -71.24240326666667), 'heading': 94.89, 'depth': 0.233, 'altitude': 0.0, 'roll': -5.62, 'pitch': -3.12, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 4), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586419.651013, Processing: $BFNVR,023804.175,1.0042,-0.0592,0.0549,0.000,-0.000,0.000*43
+Interpreted as: {'timestamp': '023804.175', 'east_velocity': 1.0042, 'north_velocity': -0.0592, 'down_velocity': 0.0549, 'pitch_rate': 0.0, 'roll_rate': -0.0, 'yaw_rate': 0.0}
+1627586419.651013, Processing: $BFNVG,023804.274,4226.110035,N,07114.544123,W,0,0.000,0.233,94.84,-8.36,-3.08,023804.272*6D
+Interpreted as: {'position': (1.5774232507683337, -0.16576522588729858), 'latlon': (42.43516725, -71.24240205), 'heading': 94.84, 'depth': 0.233, 'altitude': 0.0, 'roll': -8.36, 'pitch': -3.08, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 4), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586419.651013, Processing: $BFNVR,023804.274,1.0194,-0.0592,0.0549,0.000,-0.000,0.000*4B
+Interpreted as: {'timestamp': '023804.274', 'east_velocity': 1.0194, 'north_velocity': -0.0592, 'down_velocity': 0.0549, 'pitch_rate': 0.0, 'roll_rate': -0.0, 'yaw_rate': 0.0}
+1627586419.651013, Processing: $BFACK,023804.329,STS,212018.090,0,2,0,Received status*18
+Vehicle successfully processed request STS1627586419.651013, Processing: $BFNVG,023804.376,4226.110032,N,07114.544048,W,0,0.000,0.260,94.85,-10.61,-3.09,023804.372*59
+Interpreted as: {'position': (1.6800974231446162, -0.17403417825698853), 'latlon': (42.4351672, -71.2424008), 'heading': 94.85, 'depth': 0.26, 'altitude': 0.0, 'roll': -10.61, 'pitch': -3.09, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 4), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586419.651013, Processing: $BFNVR,023804.376,1.0351,-0.0603,0.0559,0.000,-0.000,0.000*49
+Interpreted as: {'timestamp': '023804.376', 'east_velocity': 1.0351, 'north_velocity': -0.0603, 'down_velocity': 0.0559, 'pitch_rate': 0.0, 'roll_rate': -0.0, 'yaw_rate': 0.0}
+1627586419.651013, Processing: $BFNVG,023804.476,4226.110029,N,07114.543972,W,0,0.000,0.260,94.89,-12.26,-3.10,023804.472*51
+Interpreted as: {'position': (1.7841425448423252, -0.1823393516242504), 'latlon': (42.43516715, -71.24239953333333), 'heading': 94.89, 'depth': 0.26, 'altitude': 0.0, 'roll': -12.26, 'pitch': -3.1, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 4), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586419.651013, Processing: $BFNVR,023804.476,1.0580,-0.0624,0.0574,0.000,-0.000,0.000*4E
+Interpreted as: {'timestamp': '023804.476', 'east_velocity': 1.058, 'north_velocity': -0.0624, 'down_velocity': 0.0574, 'pitch_rate': 0.0, 'roll_rate': -0.0, 'yaw_rate': 0.0}
+1627586419.651013, Processing: $BFNVG,023804.575,4226.110025,N,07114.543894,W,0,0.000,0.285,94.98,-13.37,-3.11,023804.572*5C
+Interpreted as: {'position': (1.8908806546824053, -0.19256772007793188), 'latlon': (42.43516708333333, -71.24239823333333), 'heading': 94.98, 'depth': 0.285, 'altitude': 0.0, 'roll': -13.37, 'pitch': -3.11, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 4), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586419.651013, Processing: $BFNVR,023804.575,1.0754,-0.0651,0.0586,0.000,-0.000,-0.000*65
+Interpreted as: {'timestamp': '023804.575', 'east_velocity': 1.0754, 'north_velocity': -0.0651, 'down_velocity': 0.0586, 'pitch_rate': 0.0, 'roll_rate': -0.0, 'yaw_rate': -0.0}
+1627586419.651013, Processing: $BFNVG,023804.674,4226.110021,N,07114.543816,W,0,0.000,0.285,95.13,-13.95,-3.11,023804.671*5A
+Interpreted as: {'position': (1.997618764755316, -0.20279608387500048), 'latlon': (42.43516701666667, -71.24239693333334), 'heading': 95.13, 'depth': 0.285, 'altitude': 0.0, 'roll': -13.95, 'pitch': -3.11, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 4), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586419.651013, Processing: $BFNVR,023804.674,1.0914,-0.0690,0.0595,0.000,-0.000,-0.000*62
+Interpreted as: {'timestamp': '023804.674', 'east_velocity': 1.0914, 'north_velocity': -0.069, 'down_velocity': 0.0595, 'pitch_rate': 0.0, 'roll_rate': -0.0, 'yaw_rate': -0.0}
+1627586419.651013, Processing: $BFNVG,023804.774,4226.110018,N,07114.543737,W,0,0.000,0.285,95.29,-14.22,-3.11,023804.771*5E
+Interpreted as: {'position': (2.105776719748974, -0.21120992116630077), 'latlon': (42.435166966666664, -71.24239561666667), 'heading': 95.29, 'depth': 0.285, 'altitude': 0.0, 'roll': -14.22, 'pitch': -3.11, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 4), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586419.651013, Processing: $BFNVR,023804.774,1.1074,-0.0731,0.0603,0.000,-0.000,-0.000*6B
+Interpreted as: {'timestamp': '023804.774', 'east_velocity': 1.1074, 'north_velocity': -0.0731, 'down_velocity': 0.0603, 'pitch_rate': 0.0, 'roll_rate': -0.0, 'yaw_rate': -0.0}
+1627586419.651013, Processing: $BFNVG,023804.874,4226.110013,N,07114.543655,W,0,0.000,0.308,95.46,-14.42,-3.10,023804.872*59
+Interpreted as: {'position': (2.2179497102624737, -0.223433923907578), 'latlon': (42.43516688333333, -71.24239425), 'heading': 95.46, 'depth': 0.308, 'altitude': 0.0, 'roll': -14.42, 'pitch': -3.1, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 4), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586419.651013, Processing: $BFNVR,023804.874,1.1315,-0.0781,0.0614,0.000,-0.000,-0.000*6D
+Interpreted as: {'timestamp': '023804.874', 'east_velocity': 1.1315, 'north_velocity': -0.0781, 'down_velocity': 0.0614, 'pitch_rate': 0.0, 'roll_rate': -0.0, 'yaw_rate': -0.0}
+1627590019.7331817, Sending: $BPRMB,212019.73,-5,1.0,0,1000.0,0,1*59
+
+1627590020.2340503, Sending: $BPSTS,212020.23,1,BWSI Autonomy OK*46
+
+1627586420.7349005, Processing: $BFACK,023804.877,RMB,212018.640,0,2,0,Received modify behavior*32
+Vehicle successfully processed request RMB1627586420.7349005, Processing: $BFNVG,023804.975,4226.110009,N,07114.543571,W,0,0.000,0.308,95.64,-14.61,-3.11,023804.972*56
+Interpreted as: {'position': (2.3329134907689877, -0.23387962020933628), 'latlon': (42.435166816666666, -71.24239285), 'heading': 95.64, 'depth': 0.308, 'altitude': 0.0, 'roll': -14.61, 'pitch': -3.11, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 4), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586420.7349005, Processing: $BFNVR,023804.975,1.1474,-0.0829,0.0626,-0.000,-0.000,-0.000*4C
+Interpreted as: {'timestamp': '023804.975', 'east_velocity': 1.1474, 'north_velocity': -0.0829, 'down_velocity': 0.0626, 'pitch_rate': -0.0, 'roll_rate': -0.0, 'yaw_rate': -0.0}
+1627586420.7349005, Processing: $BFNVG,023805.076,4226.110004,N,07114.543487,W,0,0.000,0.328,95.81,-14.84,-3.19,023805.072*5A
+Interpreted as: {'position': (2.4478283718344755, -0.24617606680840254), 'latlon': (42.43516673333333, -71.24239145), 'heading': 95.81, 'depth': 0.328, 'altitude': 0.0, 'roll': -14.84, 'pitch': -3.19, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 5), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586420.7349005, Processing: $BFNVR,023805.076,1.1713,-0.0879,0.0655,-0.000,-0.000,-0.000*44
+Interpreted as: {'timestamp': '023805.076', 'east_velocity': 1.1713, 'north_velocity': -0.0879, 'down_velocity': 0.0655, 'pitch_rate': -0.0, 'roll_rate': -0.0, 'yaw_rate': -0.0}
+1627586420.7349005, Processing: $BFNVG,023805.175,4226.109999,N,07114.543401,W,0,0.000,0.328,95.96,-14.88,-3.32,023805.171*52
+Interpreted as: {'position': (2.5654851451981813, -0.2585449544712901), 'latlon': (42.43516665, -71.24239001666666), 'heading': 95.96, 'depth': 0.328, 'altitude': 0.0, 'roll': -14.88, 'pitch': -3.32, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 5), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586420.7349005, Processing: $BFNVR,023805.175,1.1952,-0.0930,0.0695,-0.000,0.000,-0.000*60
+Interpreted as: {'timestamp': '023805.175', 'east_velocity': 1.1952, 'north_velocity': -0.093, 'down_velocity': 0.0695, 'pitch_rate': -0.0, 'roll_rate': 0.0, 'yaw_rate': -0.0}
+1627586420.7349005, Processing: $BFNVG,023805.276,4226.109994,N,07114.543313,W,0,0.000,0.328,96.13,-14.68,-3.50,023805.272*5F
+Interpreted as: {'position': (2.6858838067855686, -0.27098628506064415), 'latlon': (42.435166566666666, -71.24238855), 'heading': 96.13, 'depth': 0.328, 'altitude': 0.0, 'roll': -14.68, 'pitch': -3.5, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 5), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586420.7349005, Processing: $BFNVR,023805.276,1.2109,-0.0977,0.0742,-0.000,0.000,-0.000*6D
+Interpreted as: {'timestamp': '023805.276', 'east_velocity': 1.2109, 'north_velocity': -0.0977, 'down_velocity': 0.0742, 'pitch_rate': -0.0, 'roll_rate': 0.0, 'yaw_rate': -0.0}
+1627586420.7349005, Processing: $BFNVG,023805.374,4226.109989,N,07114.543225,W,0,0.000,0.348,96.30,-14.45,-3.69,023805.372*57
+Interpreted as: {'position': (2.8062824686057866, -0.2834276147186756), 'latlon': (42.43516648333333, -71.24238708333333), 'heading': 96.3, 'depth': 0.348, 'altitude': 0.0, 'roll': -14.45, 'pitch': -3.69, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 5), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586420.7349005, Processing: $BFNVR,023805.374,1.2184,-0.1019,0.0790,-0.000,0.000,-0.000*64
+Interpreted as: {'timestamp': '023805.374', 'east_velocity': 1.2184, 'north_velocity': -0.1019, 'down_velocity': 0.079, 'pitch_rate': -0.0, 'roll_rate': 0.0, 'yaw_rate': -0.0}
+1627586420.7349005, Processing: $BFACK,023805.379,STS,212019.150,0,2,0,Received status*10
+Vehicle successfully processed request STS1627586420.7349005, Processing: $BFNVG,023805.476,4226.109983,N,07114.543136,W,0,0.000,0.348,96.50,-14.41,-3.92,023805.472*58
+Interpreted as: {'position': (2.9280031761154532, -0.2977559147402644), 'latlon': (42.43516638333333, -71.2423856), 'heading': 96.5, 'depth': 0.348, 'altitude': 0.0, 'roll': -14.41, 'pitch': -3.92, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 5), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586420.7349005, Processing: $BFNVR,023805.476,1.2258,-0.1069,0.0843,-0.000,-0.000,-0.000*48
+Interpreted as: {'timestamp': '023805.476', 'east_velocity': 1.2258, 'north_velocity': -0.1069, 'down_velocity': 0.0843, 'pitch_rate': -0.0, 'roll_rate': -0.0, 'yaw_rate': -0.0}
+1627586420.7349005, Processing: $BFNVG,023805.574,4226.109977,N,07114.543046,W,0,0.000,0.364,96.75,-14.42,-4.16,023805.572*56
+Interpreted as: {'position': (3.0510948310839012, -0.31212043669074774), 'latlon': (42.43516628333333, -71.2423841), 'heading': 96.75, 'depth': 0.364, 'altitude': 0.0, 'roll': -14.42, 'pitch': -4.16, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 5), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586420.7349005, Processing: $BFNVR,023805.574,1.2411,-0.1137,0.0906,-0.000,0.000,-0.000*67
+Interpreted as: {'timestamp': '023805.574', 'east_velocity': 1.2411, 'north_velocity': -0.1137, 'down_velocity': 0.0906, 'pitch_rate': -0.0, 'roll_rate': 0.0, 'yaw_rate': -0.0}
+1627586420.7349005, Processing: $BFNVG,023805.674,4226.109970,N,07114.542955,W,0,0.000,0.364,97.05,-14.26,-4.42,023805.672*5E
+Interpreted as: {'position': (3.1755085298791528, -0.3283719262108207), 'latlon': (42.43516616666667, -71.24238258333334), 'heading': 97.05, 'depth': 0.364, 'altitude': 0.0, 'roll': -14.26, 'pitch': -4.42, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 5), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586420.7349005, Processing: $BFNVR,023805.674,1.2400,-0.1203,0.0964,-0.000,0.000,-0.000*64
+Interpreted as: {'timestamp': '023805.674', 'east_velocity': 1.24, 'north_velocity': -0.1203, 'down_velocity': 0.0964, 'pitch_rate': -0.0, 'roll_rate': 0.0, 'yaw_rate': -0.0}
+1627586420.7349005, Processing: $BFNVG,023805.774,4226.109963,N,07114.542866,W,0,0.000,0.364,97.40,-14.03,-4.73,023805.772*59
+Interpreted as: {'position': (3.2971803391119465, -0.3445509718731046), 'latlon': (42.43516605, -71.2423811), 'heading': 97.4, 'depth': 0.364, 'altitude': 0.0, 'roll': -14.03, 'pitch': -4.73, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 5), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586420.7349005, Processing: $BFNVR,023805.774,1.2388,-0.1276,0.1030,-0.000,0.000,-0.000*69
+Interpreted as: {'timestamp': '023805.774', 'east_velocity': 1.2388, 'north_velocity': -0.1276, 'down_velocity': 0.103, 'pitch_rate': -0.0, 'roll_rate': 0.0, 'yaw_rate': -0.0}
+1627586420.7349005, Processing: $BFNVG,023805.874,4226.109956,N,07114.542775,W,0,0.000,0.378,97.78,-13.88,-5.05,023805.872*50
+Interpreted as: {'position': (3.4215940387221053, -0.3608024585992098), 'latlon': (42.43516593333333, -71.24237958333333), 'heading': 97.78, 'depth': 0.378, 'altitude': 0.0, 'roll': -13.88, 'pitch': -5.05, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 5), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586420.7349005, Processing: $BFNVR,023805.874,1.2453,-0.1367,0.1107,-0.000,0.000,-0.000*63
+Interpreted as: {'timestamp': '023805.874', 'east_velocity': 1.2453, 'north_velocity': -0.1367, 'down_velocity': 0.1107, 'pitch_rate': -0.0, 'roll_rate': 0.0, 'yaw_rate': -0.0}
+1627590020.780758, Sending: $BPRMB,212020.78,-2,1.0,0,1000.0,0,1*5f
+
+1627590021.2816236, Sending: $BPSTS,212021.28,1,BWSI Autonomy OK*4c
+
+1627586421.7824676, Processing: $BFACK,023805.959,RMB,212019.730,0,2,0,Received modify behavior*39
+Vehicle successfully processed request RMB1627586421.7824676, Processing: $BFNVG,023805.977,4226.109948,N,07114.542683,W,0,0.000,0.378,98.21,-13.71,-5.38,023805.972*5F
+Interpreted as: {'position': (3.5473297864664346, -0.3789409166201949), 'latlon': (42.4351658, -71.24237805), 'heading': 98.21, 'depth': 0.378, 'altitude': 0.0, 'roll': -13.71, 'pitch': -5.38, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 5), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586421.7824676, Processing: $BFNVR,023805.977,1.2597,-0.1478,0.1194,-0.000,0.000,-0.000*6B
+Interpreted as: {'timestamp': '023805.977', 'east_velocity': 1.2597, 'north_velocity': -0.1478, 'down_velocity': 0.1194, 'pitch_rate': -0.0, 'roll_rate': 0.0, 'yaw_rate': -0.0}
+1627586421.7824676, Processing: $BFNVG,023806.076,4226.109939,N,07114.542591,W,0,0.000,0.392,98.72,-13.49,-5.71,023806.072*5C
+Interpreted as: {'position': (3.673016633314546, -0.3989301221445203), 'latlon': (42.43516565, -71.24237651666667), 'heading': 98.72, 'depth': 0.392, 'altitude': 0.0, 'roll': -13.49, 'pitch': -5.71, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 6), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586421.7824676, Processing: $BFNVR,023806.076,1.2656,-0.1601,0.1276,-0.000,0.000,-0.000*6D
+Interpreted as: {'timestamp': '023806.076', 'east_velocity': 1.2656, 'north_velocity': -0.1601, 'down_velocity': 0.1276, 'pitch_rate': -0.0, 'roll_rate': 0.0, 'yaw_rate': -0.0}
+1627586421.7824676, Processing: $BFNVG,023806.175,4226.109930,N,07114.542499,W,0,0.000,0.392,99.32,-13.36,-6.05,023806.172*52
+Interpreted as: {'position': (3.7987034806865267, -0.4189193267375231), 'latlon': (42.4351655, -71.24237498333333), 'heading': 99.32, 'depth': 0.392, 'altitude': 0.0, 'roll': -13.36, 'pitch': -6.05, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 6), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586421.7824676, Processing: $BFNVR,023806.175,1.2631,-0.1732,0.1350,-0.000,0.000,-0.000*6A
+Interpreted as: {'timestamp': '023806.175', 'east_velocity': 1.2631, 'north_velocity': -0.1732, 'down_velocity': 0.135, 'pitch_rate': -0.0, 'roll_rate': 0.0, 'yaw_rate': -0.0}
+1627586421.7824676, Processing: $BFNVG,023806.276,4226.109920,N,07114.542407,W,0,0.000,0.392,100.00,-13.13,-6.36,023806.272*60
+Interpreted as: {'position': (3.924341431411449, -0.4407592797651887), 'latlon': (42.43516533333333, -71.24237345), 'heading': 100.0, 'depth': 0.392, 'altitude': 0.0, 'roll': -13.13, 'pitch': -6.36, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 6), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586421.7824676, Processing: $BFNVR,023806.276,1.2602,-0.1881,0.1419,-0.000,0.000,-0.000*67
+Interpreted as: {'timestamp': '023806.276', 'east_velocity': 1.2602, 'north_velocity': -0.1881, 'down_velocity': 0.1419, 'pitch_rate': -0.0, 'roll_rate': 0.0, 'yaw_rate': -0.0}
+1627586421.7824676, Processing: $BFNVG,023806.374,4226.109909,N,07114.542314,W,0,0.000,0.407,100.77,-12.93,-6.70,023806.372*6C
+Interpreted as: {'position': (4.0513014264870435, -0.46448620315641165), 'latlon': (42.43516515, -71.2423719), 'heading': 100.77, 'depth': 0.407, 'altitude': 0.0, 'roll': -12.93, 'pitch': -6.7, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 6), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586421.7824676, Processing: $BFNVR,023806.374,1.2647,-0.2061,0.1506,-0.000,0.000,-0.000*6F
+Interpreted as: {'timestamp': '023806.374', 'east_velocity': 1.2647, 'north_velocity': -0.2061, 'down_velocity': 0.1506, 'pitch_rate': -0.0, 'roll_rate': 0.0, 'yaw_rate': -0.0}
+1627586421.7824676, Processing: $BFACK,023806.463,STS,212020.230,0,2,0,Received status*10
+Vehicle successfully processed request STS1627586421.7824676, Processing: $BFNVG,023806.476,4226.109897,N,07114.542222,W,0,0.000,0.407,101.52,-12.57,-7.05,023806.472*61
+Interpreted as: {'position': (4.176841577980667, -0.4900276530534029), 'latlon': (42.43516495, -71.24237036666666), 'heading': 101.52, 'depth': 0.407, 'altitude': 0.0, 'roll': -12.57, 'pitch': -7.05, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 6), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586421.7824676, Processing: $BFNVR,023806.476,1.2610,-0.2224,0.1584,-0.000,0.000,-0.000*61
+Interpreted as: {'timestamp': '023806.476', 'east_velocity': 1.261, 'north_velocity': -0.2224, 'down_velocity': 0.1584, 'pitch_rate': -0.0, 'roll_rate': 0.0, 'yaw_rate': -0.0}
+1627586421.7824676, Processing: $BFNVG,023806.574,4226.109884,N,07114.542130,W,0,0.000,0.421,102.30,-12.04,-7.37,023806.571*66
+Interpreted as: {'position': (4.302332833176479, -0.5174198523163795), 'latlon': (42.43516473333333, -71.24236883333333), 'heading': 102.3, 'depth': 0.421, 'altitude': 0.0, 'roll': -12.04, 'pitch': -7.37, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 6), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586421.7824676, Processing: $BFNVR,023806.574,1.2570,-0.2396,0.1655,-0.000,0.000,-0.000*60
+Interpreted as: {'timestamp': '023806.574', 'east_velocity': 1.257, 'north_velocity': -0.2396, 'down_velocity': 0.1655, 'pitch_rate': -0.0, 'roll_rate': 0.0, 'yaw_rate': -0.0}
+1627586421.7824676, Processing: $BFNVG,023806.674,4226.109870,N,07114.542038,W,0,0.000,0.421,103.02,-11.40,-7.68,023806.672*6E
+Interpreted as: {'position': (4.427775187941734, -0.5466627981513739), 'latlon': (42.4351645, -71.2423673), 'heading': 103.02, 'depth': 0.421, 'altitude': 0.0, 'roll': -11.4, 'pitch': -7.68, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 6), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586421.7824676, Processing: $BFNVR,023806.674,1.2530,-0.2550,0.1724,-0.000,0.000,-0.000*6C
+Interpreted as: {'timestamp': '023806.674', 'east_velocity': 1.253, 'north_velocity': -0.255, 'down_velocity': 0.1724, 'pitch_rate': -0.0, 'roll_rate': 0.0, 'yaw_rate': -0.0}
+1627586421.7824676, Processing: $BFNVG,023806.775,4226.109855,N,07114.541946,W,0,0.000,0.421,103.78,-10.86,-7.98,023806.772*62
+Interpreted as: {'position': (4.553168644430116, -0.5777564942836761), 'latlon': (42.43516425, -71.24236576666667), 'heading': 103.78, 'depth': 0.421, 'altitude': 0.0, 'roll': -10.86, 'pitch': -7.98, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 6), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586421.7824676, Processing: $BFNVR,023806.775,1.2486,-0.2715,0.1792,-0.000,0.000,-0.000*6E
+Interpreted as: {'timestamp': '023806.775', 'east_velocity': 1.2486, 'north_velocity': -0.2715, 'down_velocity': 0.1792, 'pitch_rate': -0.0, 'roll_rate': 0.0, 'yaw_rate': -0.0}
+1627586421.7824676, Processing: $BFNVG,023806.874,4226.109839,N,07114.541856,W,0,0.000,0.442,104.57,-10.53,-8.29,023806.872*6B
+Interpreted as: {'position': (4.675771314883605, -0.6106284940615296), 'latlon': (42.43516398333333, -71.24236426666667), 'heading': 104.57, 'depth': 0.442, 'altitude': 0.0, 'roll': -10.53, 'pitch': -8.29, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 6), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586421.7824676, Processing: $BFNVR,023806.874,1.2372,-0.2868,0.1851,-0.000,0.000,-0.000*69
+Interpreted as: {'timestamp': '023806.874', 'east_velocity': 1.2372, 'north_velocity': -0.2868, 'down_velocity': 0.1851, 'pitch_rate': -0.0, 'roll_rate': 0.0, 'yaw_rate': -0.0}
+1627586421.7824676, Processing: $BFNVG,023806.974,4226.109823,N,07114.541766,W,0,0.000,0.442,105.28,-10.42,-8.60,023806.972*68
+Interpreted as: {'position': (4.79837398219388, -0.643500491976738), 'latlon': (42.435163716666665, -71.24236276666667), 'heading': 105.28, 'depth': 0.442, 'altitude': 0.0, 'roll': -10.42, 'pitch': -8.6, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 6), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586421.7824676, Processing: $BFNVR,023806.974,1.2247,-0.3001,0.1908,-0.000,0.000,-0.000*64
+Interpreted as: {'timestamp': '023806.974', 'east_velocity': 1.2247, 'north_velocity': -0.3001, 'down_velocity': 0.1908, 'pitch_rate': -0.0, 'roll_rate': 0.0, 'yaw_rate': -0.0}
+1627590021.8693335, Sending: $BPRMB,212021.86,RUDDER AMIDSHIPS,1.0,0,1000.0,0,1*20
+
+1627590022.3702502, Sending: $BPSTS,212022.37,1,BWSI Autonomy OK*41
+
+1627586422.8711488, Processing: $BFACK,023807.010,RMB,212020.780,0,2,0,Received modify behavior*3E
+Vehicle successfully processed request RMB1627586422.8711488, Processing: $BFNVG,023807.075,4226.109806,N,07114.541676,W,0,0.000,0.455,106.01,-10.40,-8.89,023807.072*65
+Interpreted as: {'position': (4.920927755651064, -0.6782232373952866), 'latlon': (42.43516343333334, -71.24236126666666), 'heading': 106.01, 'depth': 0.455, 'altitude': 0.0, 'roll': -10.4, 'pitch': -8.89, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 7), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586422.8711488, Processing: $BFNVR,023807.075,1.2199,-0.3154,0.1970,-0.000,-0.000,-0.000*4E
+Interpreted as: {'timestamp': '023807.075', 'east_velocity': 1.2199, 'north_velocity': -0.3154, 'down_velocity': 0.197, 'pitch_rate': -0.0, 'roll_rate': -0.0, 'yaw_rate': -0.0}
+1627586422.8711488, Processing: $BFNVG,023807.174,4226.109788,N,07114.541587,W,0,0.000,0.455,106.75,-10.66,-9.14,023807.172*62
+Interpreted as: {'position': (5.042061686166562, -0.7147605111822486), 'latlon': (42.43516313333333, -71.24235978333333), 'heading': 106.75, 'depth': 0.455, 'altitude': 0.0, 'roll': -10.66, 'pitch': -9.14, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 7), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586422.8711488, Processing: $BFNVR,023807.174,1.2148,-0.3308,0.2027,-0.000,-0.000,-0.000*41
+Interpreted as: {'timestamp': '023807.174', 'east_velocity': 1.2148, 'north_velocity': -0.3308, 'down_velocity': 0.2027, 'pitch_rate': -0.0, 'roll_rate': -0.0, 'yaw_rate': -0.0}
+1627586422.8711488, Processing: $BFNVG,023807.275,4226.109769,N,07114.541497,W,0,0.000,0.455,107.48,-11.03,-9.40,023807.272*60
+Interpreted as: {'position': (5.164517659693956, -0.753184755332768), 'latlon': (42.43516281666667, -71.24235828333333), 'heading': 107.48, 'depth': 0.455, 'altitude': 0.0, 'roll': -11.03, 'pitch': -9.4, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 7), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586422.8711488, Processing: $BFNVR,023807.275,1.2161,-0.3478,0.2093,-0.000,-0.000,-0.000*47
+Interpreted as: {'timestamp': '023807.275', 'east_velocity': 1.2161, 'north_velocity': -0.3478, 'down_velocity': 0.2093, 'pitch_rate': -0.0, 'roll_rate': -0.0, 'yaw_rate': -0.0}
+1627586422.8711488, Processing: $BFNVG,023807.374,4226.109749,N,07114.541407,W,0,0.000,0.475,108.25,-11.32,-9.63,023807.372*6F
+Interpreted as: {'position': (5.286924739717506, -0.7934597469866276), 'latlon': (42.435162483333336, -71.24235678333334), 'heading': 108.25, 'depth': 0.475, 'altitude': 0.0, 'roll': -11.32, 'pitch': -9.63, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 7), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586422.8711488, Processing: $BFNVR,023807.374,1.2182,-0.3662,0.2159,-0.000,-0.000,-0.000*44
+Interpreted as: {'timestamp': '023807.374', 'east_velocity': 1.2182, 'north_velocity': -0.3662, 'down_velocity': 0.2159, 'pitch_rate': -0.0, 'roll_rate': -0.0, 'yaw_rate': -0.0}
+1627586422.8711488, Processing: $BFNVG,023807.474,4226.109728,N,07114.541318,W,0,0.000,0.475,109.01,-11.45,-9.85,023807.472*6E
+Interpreted as: {'position': (5.407911974936724, -0.8355492670089006), 'latlon': (42.435162133333336, -71.2423553), 'heading': 109.01, 'depth': 0.475, 'altitude': 0.0, 'roll': -11.45, 'pitch': -9.85, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 7), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586422.8711488, Processing: $BFNVR,023807.474,1.2060,-0.3801,0.2196,-0.000,0.000,-0.000*6B
+Interpreted as: {'timestamp': '023807.474', 'east_velocity': 1.206, 'north_velocity': -0.3801, 'down_velocity': 0.2196, 'pitch_rate': -0.0, 'roll_rate': 0.0, 'yaw_rate': -0.0}
+1627586422.8711488, Processing: $BFACK,023807.514,STS,212021.280,0,2,0,Received status*1A
+Vehicle successfully processed request STS1627586422.8711488, Processing: $BFNVG,023807.575,4226.109706,N,07114.541230,W,0,0.000,0.498,109.74,-11.20,-10.05,023807.572*5A
+Interpreted as: {'position': (5.527479367563501, -0.8794533116742969), 'latlon': (42.43516176666667, -71.24235383333334), 'heading': 109.74, 'depth': 0.498, 'altitude': 0.0, 'roll': -11.2, 'pitch': -10.05, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 7), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586422.8711488, Processing: $BFNVR,023807.575,1.1927,-0.3928,0.2225,-0.000,0.000,-0.000*63
+Interpreted as: {'timestamp': '023807.575', 'east_velocity': 1.1927, 'north_velocity': -0.3928, 'down_velocity': 0.2225, 'pitch_rate': -0.0, 'roll_rate': 0.0, 'yaw_rate': -0.0}
+1627586422.8711488, Processing: $BFNVG,023807.674,4226.109684,N,07114.541142,W,0,0.000,0.498,110.47,-10.61,-10.24,023807.672*59
+Interpreted as: {'position': (5.647046763682738, -0.9233573563396931), 'latlon': (42.4351614, -71.24235236666667), 'heading': 110.47, 'depth': 0.498, 'altitude': 0.0, 'roll': -10.61, 'pitch': -10.24, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 7), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586422.8711488, Processing: $BFNVR,023807.674,1.1869,-0.4077,0.2267,-0.000,0.000,-0.000*68
+Interpreted as: {'timestamp': '023807.674', 'east_velocity': 1.1869, 'north_velocity': -0.4077, 'down_velocity': 0.2267, 'pitch_rate': -0.0, 'roll_rate': 0.0, 'yaw_rate': -0.0}
+1627586422.8711488, Processing: $BFNVG,023807.774,4226.109661,N,07114.541054,W,0,0.000,0.498,111.14,-9.75,-10.45,023807.772*69
+Interpreted as: {'position': (5.766565258207265, -0.9691121485084295), 'latlon': (42.43516101666667, -71.2423509), 'heading': 111.14, 'depth': 0.498, 'altitude': 0.0, 'roll': -9.75, 'pitch': -10.45, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 7), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586422.8711488, Processing: $BFNVR,023807.774,1.1813,-0.4212,0.2314,-0.000,0.000,-0.000*60
+Interpreted as: {'timestamp': '023807.774', 'east_velocity': 1.1813, 'north_velocity': -0.4212, 'down_velocity': 0.2314, 'pitch_rate': -0.0, 'roll_rate': 0.0, 'yaw_rate': -0.0}
+1627586422.8711488, Processing: $BFNVG,023807.874,4226.109637,N,07114.540967,W,0,0.000,0.524,111.80,-8.72,-10.66,023807.872*6E
+Interpreted as: {'position': (5.884663914446719, -1.0166814681142569), 'latlon': (42.435160616666664, -71.24234945), 'heading': 111.8, 'depth': 0.524, 'altitude': 0.0, 'roll': -8.72, 'pitch': -10.66, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 7), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586422.8711488, Processing: $BFNVR,023807.874,1.1755,-0.4346,0.2359,-0.000,0.000,-0.000*6B
+Interpreted as: {'timestamp': '023807.874', 'east_velocity': 1.1755, 'north_velocity': -0.4346, 'down_velocity': 0.2359, 'pitch_rate': -0.0, 'roll_rate': 0.0, 'yaw_rate': -0.0}
+1627586422.8711488, Processing: $BFNVG,023807.974,4226.109613,N,07114.540880,W,0,0.000,0.524,112.46,-7.68,-10.86,023807.972*63
+Interpreted as: {'position': (6.002762570162304, -1.0642507867887616), 'latlon': (42.43516021666667, -71.242348), 'heading': 112.46, 'depth': 0.524, 'altitude': 0.0, 'roll': -7.68, 'pitch': -10.86, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 7), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586422.8711488, Processing: $BFNVR,023807.974,1.1759,-0.4502,0.2415,-0.000,0.000,-0.000*6F
+Interpreted as: {'timestamp': '023807.974', 'east_velocity': 1.1759, 'north_velocity': -0.4502, 'down_velocity': 0.2415, 'pitch_rate': -0.0, 'roll_rate': 0.0, 'yaw_rate': -0.0}
+1627586422.8711488, Processing: $BFNVG,023808.076,4226.109587,N,07114.540793,W,0,0.000,0.552,113.11,-6.82,-11.06,023808.072*6C
+Interpreted as: {'position': (6.120763429906219, -1.1155216014012694), 'latlon': (42.43515978333333, -71.24234655), 'heading': 113.11, 'depth': 0.552, 'altitude': 0.0, 'roll': -6.82, 'pitch': -11.06, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 8), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586422.8711488, Processing: $BFNVR,023808.076,1.1774,-0.4660,0.2476,-0.000,0.000,-0.000*66
+Interpreted as: {'timestamp': '023808.076', 'east_velocity': 1.1774, 'north_velocity': -0.466, 'down_velocity': 0.2476, 'pitch_rate': -0.0, 'roll_rate': 0.0, 'yaw_rate': -0.0}
+1627590022.9327195, Sending: $BPRMB,212022.93,8,1.0,0,1000.0,0,1*7f
+
+1627590023.433574, Sending: $BPSTS,212023.43,1,BWSI Autonomy OK*43
+
+1627586423.9344115, Processing: $BFACK,023808.102,RMB,000000.000,0,0,0,Unable to parse: Expected double (floating point number)- got "R"-(Field 2)*61
+Vehicle failed to process request RMB: Unable to parse: Expected double (floating point number)- got "R"-(Field 2)1627586423.9344115, Processing: $BFNVG,023808.174,4226.109561,N,07114.540706,W,0,0.000,0.552,113.73,-6.04,-11.28,023808.172*6C
+Interpreted as: {'position': (6.238764293375425, -1.1667924178764224), 'latlon': (42.43515935, -71.2423451), 'heading': 113.73, 'depth': 0.552, 'altitude': 0.0, 'roll': -6.04, 'pitch': -11.28, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 8), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586423.9344115, Processing: $BFNVR,023808.174,1.1714,-0.4784,0.2523,-0.000,0.000,-0.000*69
+Interpreted as: {'timestamp': '023808.174', 'east_velocity': 1.1714, 'north_velocity': -0.4784, 'down_velocity': 0.2523, 'pitch_rate': -0.0, 'roll_rate': 0.0, 'yaw_rate': -0.0}
+1627586423.9344115, Processing: $BFNVG,023808.275,4226.109534,N,07114.540620,W,0,0.000,0.552,114.35,-5.55,-11.48,023808.271*6F
+Interpreted as: {'position': (6.355345310585108, -1.219877759926021), 'latlon': (42.4351589, -71.24234366666667), 'heading': 114.35, 'depth': 0.552, 'altitude': 0.0, 'roll': -5.55, 'pitch': -11.48, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 8), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586423.9344115, Processing: $BFNVR,023808.275,1.1591,-0.4882,0.2554,-0.000,0.000,-0.000*6D
+Interpreted as: {'timestamp': '023808.275', 'east_velocity': 1.1591, 'north_velocity': -0.4882, 'down_velocity': 0.2554, 'pitch_rate': -0.0, 'roll_rate': 0.0, 'yaw_rate': -0.0}
+1627586423.9344115, Processing: $BFNVG,023808.375,4226.109506,N,07114.540535,W,0,0.000,0.584,114.98,-5.48,-11.64,023808.371*67
+Interpreted as: {'position': (6.470506489800755, -1.274777628481388), 'latlon': (42.435158433333335, -71.24234225), 'heading': 114.98, 'depth': 0.584, 'altitude': 0.0, 'roll': -5.48, 'pitch': -11.64, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 8), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586423.9344115, Processing: $BFNVR,023808.375,1.1531,-0.5005,0.2590,-0.000,-0.000,-0.000*45
+Interpreted as: {'timestamp': '023808.375', 'east_velocity': 1.1531, 'north_velocity': -0.5005, 'down_velocity': 0.259, 'pitch_rate': -0.0, 'roll_rate': -0.0, 'yaw_rate': -0.0}
+1627586423.9344115, Processing: $BFNVG,023808.474,4226.109478,N,07114.540450,W,0,0.000,0.584,115.57,-5.80,-11.78,023808.472*64
+Interpreted as: {'position': (6.58566767082084, -1.3296774961054325), 'latlon': (42.435157966666665, -71.24234083333333), 'heading': 115.57, 'depth': 0.584, 'altitude': 0.0, 'roll': -5.8, 'pitch': -11.78, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 8), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586423.9344115, Processing: $BFNVR,023808.474,1.1400,-0.5090,0.2603,-0.000,-0.000,-0.000*45
+Interpreted as: {'timestamp': '023808.474', 'east_velocity': 1.14, 'north_velocity': -0.509, 'down_velocity': 0.2603, 'pitch_rate': -0.0, 'roll_rate': -0.0, 'yaw_rate': -0.0}
+1627586423.9344115, Processing: $BFNVG,023808.575,4226.109449,N,07114.540365,W,0,0.000,0.618,116.13,-6.34,-11.86,023808.572*6E
+Interpreted as: {'position': (6.700779950711876, -1.3864281121641397), 'latlon': (42.435157483333334, -71.24233941666667), 'heading': 116.13, 'depth': 0.618, 'altitude': 0.0, 'roll': -6.34, 'pitch': -11.86, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 8), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586423.9344115, Processing: $BFNVR,023808.575,1.1346,-0.5199,0.2620,-0.000,-0.000,-0.000*49
+Interpreted as: {'timestamp': '023808.575', 'east_velocity': 1.1346, 'north_velocity': -0.5199, 'down_velocity': 0.262, 'pitch_rate': -0.0, 'roll_rate': -0.0, 'yaw_rate': -0.0}
+1627586423.9344115, Processing: $BFACK,023808.596,STS,212022.370,0,2,0,Received status*12
+Vehicle successfully processed request STS1627586423.9344115, Processing: $BFNVG,023808.676,4226.109420,N,07114.540280,W,0,0.000,0.618,116.67,-7.19,-11.89,023808.672*6A
+Interpreted as: {'position': (6.815892236656509, -1.4431787263602018), 'latlon': (42.435157, -71.242338), 'heading': 116.67, 'depth': 0.618, 'altitude': 0.0, 'roll': -7.19, 'pitch': -11.89, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 8), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586423.9344115, Processing: $BFNVR,023808.676,1.1355,-0.5334,0.2641,-0.000,-0.000,-0.000*49
+Interpreted as: {'timestamp': '023808.676', 'east_velocity': 1.1355, 'north_velocity': -0.5334, 'down_velocity': 0.2641, 'pitch_rate': -0.0, 'roll_rate': -0.0, 'yaw_rate': -0.0}
+1627586423.9344115, Processing: $BFNVG,023808.774,4226.109390,N,07114.540197,W,0,0.000,0.618,117.18,-8.23,-11.86,023808.772*61
+Interpreted as: {'position': (6.928213733423036, -1.5017076460644603), 'latlon': (42.4351565, -71.24233661666666), 'heading': 117.18, 'depth': 0.618, 'altitude': 0.0, 'roll': -8.23, 'pitch': -11.86, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 8), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586423.9344115, Processing: $BFNVR,023808.774,1.1249,-0.5406,0.2622,-0.000,-0.000,-0.000*45
+Interpreted as: {'timestamp': '023808.774', 'east_velocity': 1.1249, 'north_velocity': -0.5406, 'down_velocity': 0.2622, 'pitch_rate': -0.0, 'roll_rate': -0.0, 'yaw_rate': -0.0}
+1627586423.9344115, Processing: $BFNVG,023808.874,4226.109360,N,07114.540113,W,0,0.000,0.654,117.71,-9.27,-11.86,023808.872*60
+Interpreted as: {'position': (7.041906177182682, -1.560272785834968), 'latlon': (42.435156, -71.24233521666666), 'heading': 117.71, 'depth': 0.654, 'altitude': 0.0, 'roll': -9.27, 'pitch': -11.86, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 8), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586423.9344115, Processing: $BFNVR,023808.874,1.1258,-0.5539,0.2636,-0.000,-0.000,-0.000*42
+Interpreted as: {'timestamp': '023808.874', 'east_velocity': 1.1258, 'north_velocity': -0.5539, 'down_velocity': 0.2636, 'pitch_rate': -0.0, 'roll_rate': -0.0, 'yaw_rate': -0.0}
+1627586423.9344115, Processing: $BFNVG,023808.974,4226.109328,N,07114.540029,W,0,0.000,0.654,118.35,-9.86,-11.83,023808.972*65
+Interpreted as: {'position': (7.155500825901981, -1.6225394262000918), 'latlon': (42.435155466666664, -71.24233381666667), 'heading': 118.35, 'depth': 0.654, 'altitude': 0.0, 'roll': -9.86, 'pitch': -11.83, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 8), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586423.9344115, Processing: $BFNVR,023808.974,1.1268,-0.5701,0.2646,-0.000,-0.000,-0.000*4E
+Interpreted as: {'timestamp': '023808.974', 'east_velocity': 1.1268, 'north_velocity': -0.5701, 'down_velocity': 0.2646, 'pitch_rate': -0.0, 'roll_rate': -0.0, 'yaw_rate': -0.0}
+1627586423.9344115, Processing: $BFNVG,023809.074,4226.109296,N,07114.539946,W,0,0.000,0.693,119.04,-10.03,-11.77,023809.072*59
+Interpreted as: {'position': (7.267724531353451, -1.6847698409110308), 'latlon': (42.43515493333334, -71.24233243333333), 'heading': 119.04, 'depth': 0.693, 'altitude': 0.0, 'roll': -10.03, 'pitch': -11.77, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 9), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586423.9344115, Processing: $BFNVR,023809.074,1.1142,-0.5807,0.2619,0.000,0.000,-0.000*4E
+Interpreted as: {'timestamp': '023809.074', 'east_velocity': 1.1142, 'north_velocity': -0.5807, 'down_velocity': 0.2619, 'pitch_rate': 0.0, 'roll_rate': 0.0, 'yaw_rate': -0.0}
+1627590023.9806883, Sending: $BPRMB,212023.98,-2,1.0,0,1000.0,0,1*52
+
+1627590024.4815478, Sending: $BPSTS,212024.48,1,BWSI Autonomy OK*4f
+
+1627586424.9823895, Processing: $BFACK,023809.159,RMB,212022.930,0,2,0,Received modify behavior*3B
+Vehicle successfully processed request RMB1627586424.9823895, Processing: $BFNVG,023809.176,4226.109264,N,07114.539864,W,0,0.000,0.693,119.69,-9.99,-11.70,023809.172*60
+Interpreted as: {'position': (7.37857729557436, -1.7469640336930752), 'latlon': (42.4351544, -71.24233106666667), 'heading': 119.69, 'depth': 0.693, 'altitude': 0.0, 'roll': -9.99, 'pitch': -11.7, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 9), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586424.9823895, Processing: $BFNVR,023809.176,1.1008,-0.5897,0.2587,0.000,0.000,-0.000*4F
+Interpreted as: {'timestamp': '023809.176', 'east_velocity': 1.1008, 'north_velocity': -0.5897, 'down_velocity': 0.2587, 'pitch_rate': 0.0, 'roll_rate': 0.0, 'yaw_rate': -0.0}
+1627586424.9823895, Processing: $BFNVG,023809.274,4226.109231,N,07114.539783,W,0,0.000,0.693,120.34,-9.54,-11.63,023809.272*65
+Interpreted as: {'position': (7.488010216038674, -1.8109727539122105), 'latlon': (42.43515385, -71.24232971666666), 'heading': 120.34, 'depth': 0.693, 'altitude': 0.0, 'roll': -9.54, 'pitch': -11.63, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 9), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586424.9823895, Processing: $BFNVR,023809.274,1.0943,-0.6022,0.2571,0.000,0.000,-0.000*45
+Interpreted as: {'timestamp': '023809.274', 'east_velocity': 1.0943, 'north_velocity': -0.6022, 'down_velocity': 0.2571, 'pitch_rate': 0.0, 'roll_rate': 0.0, 'yaw_rate': -0.0}
+1627586424.9823895, Processing: $BFNVG,023809.374,4226.109197,N,07114.539703,W,0,0.000,0.734,120.98,-8.93,-11.56,023809.372*64
+Interpreted as: {'position': (7.596023294958286, -1.8767960015684366), 'latlon': (42.435153283333335, -71.24232838333333), 'heading': 120.98, 'depth': 0.734, 'altitude': 0.0, 'roll': -8.93, 'pitch': -11.56, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 9), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586424.9823895, Processing: $BFNVR,023809.374,1.0878,-0.6145,0.2555,0.000,0.000,-0.000*4B
+Interpreted as: {'timestamp': '023809.374', 'east_velocity': 1.0878, 'north_velocity': -0.6145, 'down_velocity': 0.2555, 'pitch_rate': 0.0, 'roll_rate': 0.0, 'yaw_rate': -0.0}
+1627586424.9823895, Processing: $BFNVG,023809.474,4226.109162,N,07114.539622,W,0,0.000,0.734,121.59,-8.10,-11.48,023809.472*64
+Interpreted as: {'position': (7.7053584206150845, -1.9445062195882201), 'latlon': (42.4351527, -71.24232703333334), 'heading': 121.59, 'depth': 0.734, 'altitude': 0.0, 'roll': -8.1, 'pitch': -11.48, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 9), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586424.9823895, Processing: $BFNVR,023809.474,1.0815,-0.6263,0.2537,0.000,0.000,-0.000*44
+Interpreted as: {'timestamp': '023809.474', 'east_velocity': 1.0815, 'north_velocity': -0.6263, 'down_velocity': 0.2537, 'pitch_rate': 0.0, 'roll_rate': 0.0, 'yaw_rate': -0.0}
+1627586424.9823895, Processing: $BFNVG,023809.574,4226.109127,N,07114.539542,W,0,0.000,0.777,122.19,-7.15,-11.40,023809.572*62
+Interpreted as: {'position': (7.813322607195005, -2.012180213816464), 'latlon': (42.435152116666664, -71.2423257), 'heading': 122.19, 'depth': 0.777, 'altitude': 0.0, 'roll': -7.15, 'pitch': -11.4, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 9), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586424.9823895, Processing: $BFNVR,023809.574,1.0809,-0.6412,0.2534,0.000,0.000,-0.000*4B
+Interpreted as: {'timestamp': '023809.574', 'east_velocity': 1.0809, 'north_velocity': -0.6412, 'down_velocity': 0.2534, 'pitch_rate': 0.0, 'roll_rate': 0.0, 'yaw_rate': -0.0}
+1627586424.9823895, Processing: $BFACK,023809.662,STS,212023.430,0,2,0,Received status*19
+Vehicle successfully processed request STS1627586424.9823895, Processing: $BFNVG,023809.675,4226.109091,N,07114.539461,W,0,0.000,0.777,122.77,-6.16,-11.34,023809.672*66
+Interpreted as: {'position': (7.922608840977773, -2.0817411802709103), 'latlon': (42.435151516666664, -71.24232435), 'heading': 122.77, 'depth': 0.777, 'altitude': 0.0, 'roll': -6.16, 'pitch': -11.34, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 9), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586424.9823895, Processing: $BFNVR,023809.675,1.0814,-0.6565,0.2536,0.000,0.000,-0.000*46
+Interpreted as: {'timestamp': '023809.675', 'east_velocity': 1.0814, 'north_velocity': -0.6565, 'down_velocity': 0.2536, 'pitch_rate': 0.0, 'roll_rate': 0.0, 'yaw_rate': -0.0}
+1627586424.9823895, Processing: $BFNVG,023809.774,4226.109054,N,07114.539382,W,0,0.000,0.777,123.33,-4.97,-11.29,023809.772*62
+Interpreted as: {'position': (8.029104287852533, -2.153080452233553), 'latlon': (42.4351509, -71.24232303333334), 'heading': 123.33, 'depth': 0.777, 'altitude': 0.0, 'roll': -4.97, 'pitch': -11.29, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 9), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586424.9823895, Processing: $BFNVR,023809.774,1.0752,-0.6671,0.2525,0.000,0.000,-0.000*4F
+Interpreted as: {'timestamp': '023809.774', 'east_velocity': 1.0752, 'north_velocity': -0.6671, 'down_velocity': 0.2525, 'pitch_rate': 0.0, 'roll_rate': 0.0, 'yaw_rate': -0.0}
+1627586424.9823895, Processing: $BFNVG,023809.874,4226.109017,N,07114.539302,W,0,0.000,0.821,123.79,-3.93,-11.21,023809.872*64
+Interpreted as: {'position': (8.136970682418905, -2.2244559423998), 'latlon': (42.435150283333336, -71.2423217), 'heading': 123.79, 'depth': 0.821, 'altitude': 0.0, 'roll': -3.93, 'pitch': -11.21, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 9), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586424.9823895, Processing: $BFNVR,023809.874,1.0644,-0.6723,0.2495,0.000,0.000,-0.000*4A
+Interpreted as: {'timestamp': '023809.874', 'east_velocity': 1.0644, 'north_velocity': -0.6723, 'down_velocity': 0.2495, 'pitch_rate': 0.0, 'roll_rate': 0.0, 'yaw_rate': -0.0}
+1627586424.9823895, Processing: $BFNVG,023809.974,4226.108980,N,07114.539225,W,0,0.000,0.821,124.09,-3.02,-11.14,023809.972*68
+Interpreted as: {'position': (8.240724242990837, -2.2957227686420083), 'latlon': (42.43514966666667, -71.24232041666667), 'heading': 124.09, 'depth': 0.821, 'altitude': 0.0, 'roll': -3.02, 'pitch': -11.14, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 9), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586424.9823895, Processing: $BFNVR,023809.974,1.0544,-0.6737,0.2465,0.000,0.000,-0.000*42
+Interpreted as: {'timestamp': '023809.974', 'east_velocity': 1.0544, 'north_velocity': -0.6737, 'down_velocity': 0.2465, 'pitch_rate': 0.0, 'roll_rate': 0.0, 'yaw_rate': -0.0}
+1627586424.9823895, Processing: $BFNVG,023810.074,4226.108943,N,07114.539146,W,0,0.000,0.865,124.22,-2.37,-11.13,023810.072*68
+Interpreted as: {'position': (8.34721969848033, -2.3670620350167155), 'latlon': (42.43514905, -71.2423191), 'heading': 124.22, 'depth': 0.865, 'altitude': 0.0, 'roll': -2.37, 'pitch': -11.13, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 10), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586424.9823895, Processing: $BFNVR,023810.074,1.0529,-0.6760,0.2462,0.000,0.000,-0.000*4D
+Interpreted as: {'timestamp': '023810.074', 'east_velocity': 1.0529, 'north_velocity': -0.676, 'down_velocity': 0.2462, 'pitch_rate': 0.0, 'roll_rate': 0.0, 'yaw_rate': -0.0}
+1627586424.9823895, Processing: $BFNVG,023810.174,4226.108906,N,07114.539068,W,0,0.000,0.865,124.29,-2.02,-11.08,023810.172*63
+Interpreted as: {'position': (8.452344208606519, -2.4383650794625282), 'latlon': (42.43514843333333, -71.2423178), 'heading': 124.29, 'depth': 0.865, 'altitude': 0.0, 'roll': -2.02, 'pitch': -11.08, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 10), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586424.9823895, Processing: $BFNVR,023810.174,1.0523,-0.6774,0.2450,0.000,0.000,-0.000*42
+Interpreted as: {'timestamp': '023810.174', 'east_velocity': 1.0523, 'north_velocity': -0.6774, 'down_velocity': 0.245, 'pitch_rate': 0.0, 'roll_rate': 0.0, 'yaw_rate': -0.0}
+1627590025.0620358, Sending: $BPRMB,212025.06,2,1.0,0,1000.0,0,1*7e
+
+1627590025.5628977, Sending: $BPSTS,212025.56,1,BWSI Autonomy OK*41
+
+1627586426.0637429, Processing: $BFACK,023810.211,RMB,212023.980,0,2,0,Received modify behavior*36
+Vehicle successfully processed request RMB1627586426.0637429, Processing: $BFNVG,023810.275,4226.108868,N,07114.538990,W,0,0.000,0.865,124.29,-2.06,-10.98,023810.272*68
+Interpreted as: {'position': (8.557419822900556, -2.511518869549036), 'latlon': (42.4351478, -71.2423165), 'heading': 124.29, 'depth': 0.865, 'altitude': 0.0, 'roll': -2.06, 'pitch': -10.98, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 10), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586426.0637429, Processing: $BFNVR,023810.275,1.0526,-0.6777,0.2429,0.000,-0.000,-0.000*65
+Interpreted as: {'timestamp': '023810.275', 'east_velocity': 1.0526, 'north_velocity': -0.6777, 'down_velocity': 0.2429, 'pitch_rate': 0.0, 'roll_rate': -0.0, 'yaw_rate': -0.0}
+1627586426.0637429, Processing: $BFNVG,023810.374,4226.108831,N,07114.538912,W,0,0.000,0.912,124.22,-2.45,-10.85,023810.372*6E
+Interpreted as: {'position': (8.662544337334111, -2.582821911200881), 'latlon': (42.435147183333335, -71.2423152), 'heading': 124.22, 'depth': 0.912, 'altitude': 0.0, 'roll': -2.45, 'pitch': -10.85, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 10), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586426.0637429, Processing: $BFNVR,023810.374,1.0595,-0.6803,0.2414,0.000,-0.000,-0.000*6F
+Interpreted as: {'timestamp': '023810.374', 'east_velocity': 1.0595, 'north_velocity': -0.6803, 'down_velocity': 0.2414, 'pitch_rate': 0.0, 'roll_rate': -0.0, 'yaw_rate': -0.0}
+1627586426.0637429, Processing: $BFNVG,023810.474,4226.108794,N,07114.538833,W,0,0.000,0.912,124.13,-3.04,-10.73,023810.472*63
+Interpreted as: {'position': (8.769039799226448, -2.6541611701250076), 'latlon': (42.43514656666667, -71.24231388333334), 'heading': 124.13, 'depth': 0.912, 'altitude': 0.0, 'roll': -3.04, 'pitch': -10.73, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 10), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586426.0637429, Processing: $BFNVR,023810.474,1.0610,-0.6790,0.2387,0.000,-0.000,0.000*43
+Interpreted as: {'timestamp': '023810.474', 'east_velocity': 1.061, 'north_velocity': -0.679, 'down_velocity': 0.2387, 'pitch_rate': 0.0, 'roll_rate': -0.0, 'yaw_rate': 0.0}
+1627586426.0637429, Processing: $BFNVG,023810.574,4226.108757,N,07114.538754,W,0,0.000,0.959,124.07,-4.11,-10.60,023810.572*69
+Interpreted as: {'position': (8.875535263330676, -2.7255004281178117), 'latlon': (42.43514595, -71.24231256666667), 'heading': 124.07, 'depth': 0.959, 'altitude': 0.0, 'roll': -4.11, 'pitch': -10.6, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 10), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586426.0637429, Processing: $BFNVR,023810.574,1.0689,-0.6824,0.2374,0.000,-0.000,0.000*4E
+Interpreted as: {'timestamp': '023810.574', 'east_velocity': 1.0689, 'north_velocity': -0.6824, 'down_velocity': 0.2374, 'pitch_rate': 0.0, 'roll_rate': -0.0, 'yaw_rate': 0.0}
+1627586426.0637429, Processing: $BFNVG,023810.674,4226.108719,N,07114.538675,W,0,0.000,0.959,124.06,-5.57,-10.45,023810.672*64
+Interpreted as: {'position': (8.981981831602752, -2.798690435476601), 'latlon': (42.43514531666667, -71.24231125), 'heading': 124.06, 'depth': 0.959, 'altitude': 0.0, 'roll': -5.57, 'pitch': -10.45, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 10), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586426.0637429, Processing: $BFNVR,023810.674,1.0639,-0.6790,0.2327,0.000,-0.000,-0.000*6D
+Interpreted as: {'timestamp': '023810.674', 'east_velocity': 1.0639, 'north_velocity': -0.679, 'down_velocity': 0.2327, 'pitch_rate': 0.0, 'roll_rate': -0.0, 'yaw_rate': -0.0}
+1627586426.0637429, Processing: $BFACK,023810.705,STS,212024.480,0,2,0,Received status*1D
+Vehicle successfully processed request STS1627586426.0637429, Processing: $BFNVG,023810.774,4226.108682,N,07114.538596,W,0,0.000,0.959,124.11,-7.37,-10.28,023810.772*60
+Interpreted as: {'position': (9.088477302051615, -2.87002969160676), 'latlon': (42.4351447, -71.24230993333333), 'heading': 124.11, 'depth': 0.959, 'altitude': 0.0, 'roll': -7.37, 'pitch': -10.28, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 10), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586426.0637429, Processing: $BFNVR,023810.774,1.0639,-0.6803,0.2289,0.000,-0.000,-0.000*6C
+Interpreted as: {'timestamp': '023810.774', 'east_velocity': 1.0639, 'north_velocity': -0.6803, 'down_velocity': 0.2289, 'pitch_rate': 0.0, 'roll_rate': -0.0, 'yaw_rate': -0.0}
+1627586426.0637429, Processing: $BFNVG,023810.874,4226.108645,N,07114.538518,W,0,0.000,1.006,124.22,-8.94,-10.07,023810.872*64
+Interpreted as: {'position': (9.193601825099904, -2.9413327239453793), 'latlon': (42.435144083333334, -71.24230863333334), 'heading': 124.22, 'depth': 1.006, 'altitude': 0.0, 'roll': -8.94, 'pitch': -10.07, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 10), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586426.0637429, Processing: $BFNVR,023810.874,1.0566,-0.6784,0.2231,0.000,-0.000,-0.000*69
+Interpreted as: {'timestamp': '023810.874', 'east_velocity': 1.0566, 'north_velocity': -0.6784, 'down_velocity': 0.2231, 'pitch_rate': 0.0, 'roll_rate': -0.0, 'yaw_rate': -0.0}
+1627586426.0637429, Processing: $BFNVG,023810.974,4226.108608,N,07114.538440,W,0,0.000,1.006,124.33,-9.97,-9.83,023810.972*57
+Interpreted as: {'position': (9.298726354376413, -3.0126357534900308), 'latlon': (42.435143466666666, -71.24230733333333), 'heading': 124.33, 'depth': 1.006, 'altitude': 0.0, 'roll': -9.97, 'pitch': -9.83, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 10), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586426.0637429, Processing: $BFNVR,023810.974,1.0561,-0.6809,0.2177,0.000,-0.000,-0.000*64
+Interpreted as: {'timestamp': '023810.974', 'east_velocity': 1.0561, 'north_velocity': -0.6809, 'down_velocity': 0.2177, 'pitch_rate': 0.0, 'roll_rate': -0.0, 'yaw_rate': -0.0}
+1627586426.0637429, Processing: $BFNVG,023811.074,4226.108570,N,07114.538362,W,0,0.000,1.052,124.46,-10.52,-9.59,023811.072*69
+Interpreted as: {'position': (9.403801983688027, -3.0857895333319902), 'latlon': (42.43514283333333, -71.24230603333334), 'heading': 124.46, 'depth': 1.052, 'altitude': 0.0, 'roll': -10.52, 'pitch': -9.59, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 11), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586426.0637429, Processing: $BFNVR,023811.074,1.0552,-0.6839,0.2125,0.000,-0.000,-0.000*68
+Interpreted as: {'timestamp': '023811.074', 'east_velocity': 1.0552, 'north_velocity': -0.6839, 'down_velocity': 0.2125, 'pitch_rate': 0.0, 'roll_rate': -0.0, 'yaw_rate': -0.0}
+1627586426.0637429, Processing: $BFNVG,023811.174,4226.108533,N,07114.538284,W,0,0.000,1.052,124.63,-10.57,-9.35,023811.172*6F
+Interpreted as: {'position': (9.508926517271902, -3.1570925591513515), 'latlon': (42.43514221666667, -71.24230473333333), 'heading': 124.63, 'depth': 1.052, 'altitude': 0.0, 'roll': -10.57, 'pitch': -9.35, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 11), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586426.0637429, Processing: $BFNVR,023811.174,1.0540,-0.6874,0.2072,0.000,0.000,-0.000*4D
+Interpreted as: {'timestamp': '023811.174', 'east_velocity': 1.054, 'north_velocity': -0.6874, 'down_velocity': 0.2072, 'pitch_rate': 0.0, 'roll_rate': 0.0, 'yaw_rate': -0.0}
+1627586426.0637429, Processing: $BFNVG,023811.277,4226.108494,N,07114.538206,W,0,0.000,1.052,124.84,-10.16,-9.11,023811.272*60
+Interpreted as: {'position': (9.613953255291563, -3.2320970874279737), 'latlon': (42.435141566666665, -71.24230343333333), 'heading': 124.84, 'depth': 1.052, 'altitude': 0.0, 'roll': -10.16, 'pitch': -9.11, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 11), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586426.0637429, Processing: $BFNVR,023811.277,1.0577,-0.6955,0.2029,0.000,0.000,-0.000*45
+Interpreted as: {'timestamp': '023811.277', 'east_velocity': 1.0577, 'north_velocity': -0.6955, 'down_velocity': 0.2029, 'pitch_rate': 0.0, 'roll_rate': 0.0, 'yaw_rate': -0.0}
+1627590026.1203465, Sending: $BPRMB,212026.12,25,1.0,0,1000.0,0,1*4d
+
+1627590026.621223, Sending: $BPSTS,212026.62,1,BWSI Autonomy OK*45
+
+1627586427.1220775, Processing: $BFACK,023811.294,RMB,212025.060,0,2,0,Received modify behavior*3B
+Vehicle successfully processed request RMB1627586427.1220775, Processing: $BFNVG,023811.374,4226.108456,N,07114.538128,W,0,0.000,1.098,125.08,-9.72,-8.88,023811.372*5A
+Interpreted as: {'position': (9.719028893276118, -3.305250860750675), 'latlon': (42.43514093333334, -71.24230213333334), 'heading': 125.08, 'depth': 1.098, 'altitude': 0.0, 'roll': -9.72, 'pitch': -8.88, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 11), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586427.1220775, Processing: $BFNVR,023811.374,1.0622,-0.7049,0.1992,0.000,0.000,-0.000*4B
+Interpreted as: {'timestamp': '023811.374', 'east_velocity': 1.0622, 'north_velocity': -0.7049, 'down_velocity': 0.1992, 'pitch_rate': 0.0, 'roll_rate': 0.0, 'yaw_rate': -0.0}
+1627586427.1220775, Processing: $BFNVG,023811.474,4226.108418,N,07114.538050,W,0,0.000,1.098,125.37,-9.08,-8.66,023811.472*5F
+Interpreted as: {'position': (9.824104533414356, -3.3784046350046992), 'latlon': (42.4351403, -71.24230083333333), 'heading': 125.37, 'depth': 1.098, 'altitude': 0.0, 'roll': -9.08, 'pitch': -8.66, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 11), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586427.1220775, Processing: $BFNVR,023811.474,1.0537,-0.7068,0.1931,0.000,0.000,-0.000*41
+Interpreted as: {'timestamp': '023811.474', 'east_velocity': 1.0537, 'north_velocity': -0.7068, 'down_velocity': 0.1931, 'pitch_rate': 0.0, 'roll_rate': 0.0, 'yaw_rate': -0.0}
+1627586427.1220775, Processing: $BFNVG,023811.574,4226.108379,N,07114.537973,W,0,0.000,1.144,125.67,-8.41,-8.43,023811.572*56
+Interpreted as: {'position': (9.927760332473554, -3.4533729357644916), 'latlon': (42.435139649999996, -71.24229955), 'heading': 125.67, 'depth': 1.144, 'altitude': 0.0, 'roll': -8.41, 'pitch': -8.43, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 11), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586427.1220775, Processing: $BFNVR,023811.574,1.0439,-0.7083,0.1870,0.000,0.000,-0.000*4E
+Interpreted as: {'timestamp': '023811.574', 'east_velocity': 1.0439, 'north_velocity': -0.7083, 'down_velocity': 0.187, 'pitch_rate': 0.0, 'roll_rate': 0.0, 'yaw_rate': -0.0}
+1627586427.1220775, Processing: $BFNVG,023811.674,4226.108340,N,07114.537897,W,0,0.000,1.144,126.00,-7.62,-8.20,023811.672*5E
+Interpreted as: {'position': (10.03004519030219, -3.528305012732744), 'latlon': (42.435139, -71.24229828333333), 'heading': 126.0, 'depth': 1.144, 'altitude': 0.0, 'roll': -7.62, 'pitch': -8.2, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 11), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586427.1220775, Processing: $BFNVR,023811.674,1.0404,-0.7147,0.1819,0.000,0.000,-0.000*45
+Interpreted as: {'timestamp': '023811.674', 'east_velocity': 1.0404, 'north_velocity': -0.7147, 'down_velocity': 0.1819, 'pitch_rate': 0.0, 'roll_rate': 0.0, 'yaw_rate': -0.0}
+1627586427.1220775, Processing: $BFNVG,023811.774,4226.108301,N,07114.537820,W,0,0.000,1.144,126.33,-6.88,-7.98,023811.772*5E
+Interpreted as: {'position': (10.133700991689693, -3.603273310698569), 'latlon': (42.43513835, -71.242297), 'heading': 126.33, 'depth': 1.144, 'altitude': 0.0, 'roll': -6.88, 'pitch': -7.98, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 11), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586427.1220775, Processing: $BFNVR,023811.774,1.0368,-0.7210,0.1771,0.000,0.000,-0.000*49
+Interpreted as: {'timestamp': '023811.774', 'east_velocity': 1.0368, 'north_velocity': -0.721, 'down_velocity': 0.1771, 'pitch_rate': 0.0, 'roll_rate': 0.0, 'yaw_rate': -0.0}
+1627586427.1220775, Processing: $BFACK,023811.786,STS,212025.560,0,2,0,Received status*19
+Vehicle successfully processed request STS1627586427.1220775, Processing: $BFNVG,023811.874,4226.108261,N,07114.537744,W,0,0.000,1.201,126.64,-6.46,-7.76,023811.872*56
+Interpreted as: {'position': (10.235936954151839, -3.6800561361014843), 'latlon': (42.43513768333333, -71.24229573333334), 'heading': 126.64, 'depth': 1.201, 'altitude': 0.0, 'roll': -6.46, 'pitch': -7.76, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 11), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586427.1220775, Processing: $BFNVR,023811.874,1.0390,-0.7309,0.1731,0.000,0.000,-0.000*4C
+Interpreted as: {'timestamp': '023811.874', 'east_velocity': 1.039, 'north_velocity': -0.7309, 'down_velocity': 0.1731, 'pitch_rate': 0.0, 'roll_rate': 0.0, 'yaw_rate': -0.0}
+1627586427.1220775, Processing: $BFNVG,023811.974,4226.108221,N,07114.537668,W,0,0.000,1.201,126.92,-6.17,-7.55,023811.972*51
+Interpreted as: {'position': (10.338172918884084, -3.756838960573077), 'latlon': (42.435137016666665, -71.24229446666666), 'heading': 126.92, 'depth': 1.201, 'altitude': 0.0, 'roll': -6.17, 'pitch': -7.55, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 11), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586427.1220775, Processing: $BFNVR,023811.974,1.0424,-0.7411,0.1695,0.000,0.000,-0.000*44
+Interpreted as: {'timestamp': '023811.974', 'east_velocity': 1.0424, 'north_velocity': -0.7411, 'down_velocity': 0.1695, 'pitch_rate': 0.0, 'roll_rate': 0.0, 'yaw_rate': -0.0}
+1627586427.1220775, Processing: $BFNVG,023812.074,4226.108180,N,07114.537591,W,0,0.000,1.231,127.22,-5.98,-7.42,023812.072*57
+Interpreted as: {'position': (10.441730935999658, -3.835508754476905), 'latlon': (42.43513633333333, -71.24229318333333), 'heading': 127.22, 'depth': 1.231, 'altitude': 0.0, 'roll': -5.98, 'pitch': -7.42, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 12), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586427.1220775, Processing: $BFNVR,023812.074,1.0389,-0.7468,0.1666,0.000,0.000,-0.000*4C
+Interpreted as: {'timestamp': '023812.074', 'east_velocity': 1.0389, 'north_velocity': -0.7468, 'down_velocity': 0.1666, 'pitch_rate': 0.0, 'roll_rate': 0.0, 'yaw_rate': -0.0}
+1627586427.1220775, Processing: $BFNVG,023812.174,4226.108139,N,07114.537515,W,0,0.000,1.231,127.48,-6.00,-7.31,023812.172*53
+Interpreted as: {'position': (10.543918005540036, -3.9141423292458057), 'latlon': (42.43513565, -71.24229191666667), 'heading': 127.48, 'depth': 1.231, 'altitude': 0.0, 'roll': -6.0, 'pitch': -7.31, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 12), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586427.1220775, Processing: $BFNVR,023812.174,1.0302,-0.7477,0.1633,0.000,-0.000,-0.000*6D
+Interpreted as: {'timestamp': '023812.174', 'east_velocity': 1.0302, 'north_velocity': -0.7477, 'down_velocity': 0.1633, 'pitch_rate': 0.0, 'roll_rate': -0.0, 'yaw_rate': -0.0}
+1627586427.1220775, Processing: $BFNVG,023812.275,4226.108099,N,07114.537441,W,0,0.000,1.231,127.56,-6.28,-7.15,023812.271*59
+Interpreted as: {'position': (10.643412087811157, -3.9908527061343193), 'latlon': (42.435134983333334, -71.24229068333334), 'heading': 127.56, 'depth': 1.231, 'altitude': 0.0, 'roll': -6.28, 'pitch': -7.15, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 12), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586427.1220775, Processing: $BFNVR,023812.275,1.0230,-0.7447,0.1588,0.000,-0.000,-0.000*6F
+Interpreted as: {'timestamp': '023812.275', 'east_velocity': 1.023, 'north_velocity': -0.7447, 'down_velocity': 0.1588, 'pitch_rate': 0.0, 'roll_rate': -0.0, 'yaw_rate': -0.0}
+1627590027.1814141, Sending: $BPRMB,212027.18,25,1.0,0,1000.0,0,1*46
+
+1627590027.6823275, Sending: $BPSTS,212027.68,1,BWSI Autonomy OK*4e
+
+1627586428.1832235, Processing: $BFACK,023812.346,RMB,212026.120,0,2,0,Received modify behavior*30
+Vehicle successfully processed request RMB1627586428.1832235, Processing: $BFNVG,023812.376,4226.108058,N,07114.537365,W,0,0.000,1.273,127.61,-6.62,-6.99,023812.372*5C
+Interpreted as: {'position': (10.745599161891732, -4.069486275315285), 'latlon': (42.4351343, -71.24228941666667), 'heading': 127.61, 'depth': 1.273, 'altitude': 0.0, 'roll': -6.62, 'pitch': -6.99, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 12), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586428.1832235, Processing: $BFNVR,023812.376,1.0228,-0.7457,0.1551,0.000,-0.000,-0.000*61
+Interpreted as: {'timestamp': '023812.376', 'east_velocity': 1.0228, 'north_velocity': -0.7457, 'down_velocity': 0.1551, 'pitch_rate': 0.0, 'roll_rate': -0.0, 'yaw_rate': -0.0}
+1627586428.1832235, Processing: $BFNVG,023812.475,4226.108018,N,07114.537291,W,0,0.000,1.273,127.76,-7.12,-6.83,023812.472*5A
+Interpreted as: {'position': (10.845093248528428, -4.146196649409831), 'latlon': (42.435133633333336, -71.24228818333333), 'heading': 127.76, 'depth': 1.273, 'altitude': 0.0, 'roll': -7.12, 'pitch': -6.83, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 12), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586428.1832235, Processing: $BFNVR,023812.475,1.0147,-0.7439,0.1506,0.000,-0.000,-0.000*65
+Interpreted as: {'timestamp': '023812.475', 'east_velocity': 1.0147, 'north_velocity': -0.7439, 'down_velocity': 0.1506, 'pitch_rate': 0.0, 'roll_rate': -0.0, 'yaw_rate': -0.0}
+1627586428.1832235, Processing: $BFNVG,023812.576,4226.107977,N,07114.537216,W,0,0.000,1.309,128.04,-8.38,-6.59,023812.572*5F
+Interpreted as: {'position': (10.945909383590333, -4.224793994799256), 'latlon': (42.43513295, -71.24228693333333), 'heading': 128.04, 'depth': 1.309, 'altitude': 0.0, 'roll': -8.38, 'pitch': -6.59, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 12), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586428.1832235, Processing: $BFNVR,023812.576,1.0170,-0.7532,0.1461,0.000,-0.000,-0.000*69
+Interpreted as: {'timestamp': '023812.576', 'east_velocity': 1.017, 'north_velocity': -0.7532, 'down_velocity': 0.1461, 'pitch_rate': 0.0, 'roll_rate': -0.0, 'yaw_rate': -0.0}
+1627586428.1832235, Processing: $BFNVG,023812.674,4226.107936,N,07114.537142,W,0,0.000,1.309,128.41,-10.05,-6.27,023812.672*65
+Interpreted as: {'position': (11.045354575151578, -4.303355118259788), 'latlon': (42.43513226666666, -71.2422857), 'heading': 128.41, 'depth': 1.309, 'altitude': 0.0, 'roll': -10.05, 'pitch': -6.27, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 12), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586428.1832235, Processing: $BFNVR,023812.674,1.0127,-0.7603,0.1391,0.000,-0.000,-0.000*63
+Interpreted as: {'timestamp': '023812.674', 'east_velocity': 1.0127, 'north_velocity': -0.7603, 'down_velocity': 0.1391, 'pitch_rate': 0.0, 'roll_rate': -0.0, 'yaw_rate': -0.0}
+1627586428.1832235, Processing: $BFNVG,023812.774,4226.107894,N,07114.537069,W,0,0.000,1.309,128.90,-12.31,-5.86,023812.772*65
+Interpreted as: {'position': (11.143379923771136, -4.383730768226087), 'latlon': (42.43513156666667, -71.24228448333334), 'heading': 128.9, 'depth': 1.309, 'altitude': 0.0, 'roll': -12.31, 'pitch': -5.86, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 12), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586428.1832235, Processing: $BFNVR,023812.774,1.0015,-0.7655,0.1293,0.000,-0.000,-0.000*62
+Interpreted as: {'timestamp': '023812.774', 'east_velocity': 1.0015, 'north_velocity': -0.7655, 'down_velocity': 0.1293, 'pitch_rate': 0.0, 'roll_rate': -0.0, 'yaw_rate': -0.0}
+1627586428.1832235, Processing: $BFACK,023812.849,STS,212026.620,0,2,0,Received status*12
+Vehicle successfully processed request STS1627586428.1832235, Processing: $BFNVG,023812.875,4226.107852,N,07114.536997,W,0,0.000,1.342,129.50,-15.77,-5.30,023812.871*6E
+Interpreted as: {'position': (11.240034333080985, -4.464070198126137), 'latlon': (42.43513086666667, -71.24228328333334), 'heading': 129.5, 'depth': 1.342, 'altitude': 0.0, 'roll': -15.77, 'pitch': -5.3, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 12), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586428.1832235, Processing: $BFNVR,023812.875,0.9944,-0.7766,0.1171,0.000,-0.000,-0.000*67
+Interpreted as: {'timestamp': '023812.875', 'east_velocity': 0.9944, 'north_velocity': -0.7766, 'down_velocity': 0.1171, 'pitch_rate': 0.0, 'roll_rate': -0.0, 'yaw_rate': -0.0}
+1627586428.1832235, Processing: $BFNVG,023812.974,4226.107810,N,07114.536925,W,0,0.000,1.342,130.22,-19.16,-4.66,023812.972*67
+Interpreted as: {'position': (11.336688740411773, -4.54440962523222), 'latlon': (42.43513016666667, -71.24228208333334), 'heading': 130.22, 'depth': 1.342, 'altitude': 0.0, 'roll': -19.16, 'pitch': -4.66, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 12), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586428.1832235, Processing: $BFNVR,023812.974,0.9793,-0.7847,0.1023,0.000,-0.000,-0.000*69
+Interpreted as: {'timestamp': '023812.974', 'east_velocity': 0.9793, 'north_velocity': -0.7847, 'down_velocity': 0.1023, 'pitch_rate': 0.0, 'roll_rate': -0.0, 'yaw_rate': -0.0}
+1627586428.1832235, Processing: $BFNVG,023813.075,4226.107767,N,07114.536854,W,0,0.000,1.372,131.00,-21.71,-3.95,023813.072*6D
+Interpreted as: {'position': (11.431923311087303, -4.626563581638038), 'latlon': (42.43512945, -71.2422809), 'heading': 131.0, 'depth': 1.372, 'altitude': 0.0, 'roll': -21.71, 'pitch': -3.95, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 13), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586428.1832235, Processing: $BFNVR,023813.075,0.9632,-0.7935,0.0861,0.000,-0.000,-0.000*61
+Interpreted as: {'timestamp': '023813.075', 'east_velocity': 0.9632, 'north_velocity': -0.7935, 'down_velocity': 0.0861, 'pitch_rate': 0.0, 'roll_rate': -0.0, 'yaw_rate': -0.0}
+1627586428.1832235, Processing: $BFNVG,023813.174,4226.107723,N,07114.536785,W,0,0.927,1.372,131.59,-22.04,-3.25,023813.171*66
+Interpreted as: {'position': (11.524367093108594, -4.710495846346021), 'latlon': (42.43512871666667, -71.24227975), 'heading': 131.59, 'depth': 1.372, 'altitude': 0.927, 'roll': -22.04, 'pitch': -3.25, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 13), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586428.1832235, Processing: $BFNVR,023813.174,0.9556,-0.8041,0.0710,0.000,0.000,-0.000*41
+Interpreted as: {'timestamp': '023813.174', 'east_velocity': 0.9556, 'north_velocity': -0.8041, 'down_velocity': 0.071, 'pitch_rate': 0.0, 'roll_rate': 0.0, 'yaw_rate': -0.0}
+1627586428.1832235, Processing: $BFNVG,023813.274,4226.107679,N,07114.536715,W,0,0.927,1.372,132.17,-20.13,-2.71,023813.272*6F
+Interpreted as: {'position': (11.618181823170744, -4.7944643292576075), 'latlon': (42.43512798333333, -71.24227858333333), 'heading': 132.17, 'depth': 1.372, 'altitude': 0.927, 'roll': -20.13, 'pitch': -2.71, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 13), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586428.1832235, Processing: $BFNVR,023813.274,0.9479,-0.8141,0.0592,0.000,0.000,-0.000*47
+Interpreted as: {'timestamp': '023813.274', 'east_velocity': 0.9479, 'north_velocity': -0.8141, 'down_velocity': 0.0592, 'pitch_rate': 0.0, 'roll_rate': 0.0, 'yaw_rate': -0.0}
+1627586428.1832235, Processing: $BFNVG,023813.375,4226.107634,N,07114.536646,W,0,0.927,1.395,132.71,-16.80,-2.31,023813.372*62
+Interpreted as: {'position': (11.710576712561306, -4.880247342400253), 'latlon': (42.43512723333333, -71.24227743333333), 'heading': 132.71, 'depth': 1.395, 'altitude': 0.927, 'roll': -16.8, 'pitch': -2.31, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 13), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586428.1832235, Processing: $BFNVR,023813.375,0.9456,-0.8276,0.0507,0.000,0.000,-0.000*41
+Interpreted as: {'timestamp': '023813.375', 'east_velocity': 0.9456, 'north_velocity': -0.8276, 'down_velocity': 0.0507, 'pitch_rate': 0.0, 'roll_rate': 0.0, 'yaw_rate': -0.0}
+1627590028.206527, Sending: $BPRMB,212028.20,25,1.0,0,1000.0,0,1*42
+
+1627590028.7074425, Sending: $BPSTS,212028.70,1,BWSI Autonomy OK*48
+
+1627586429.2083406, Processing: $BFACK,023813.407,RMB,212027.180,0,2,0,Received modify behavior*38
+Vehicle successfully processed request RMB1627586429.2083406, Processing: $BFNVG,023813.475,4226.107589,N,07114.536577,W,0,0.927,1.395,133.16,-12.55,-2.01,023813.472*69
+Interpreted as: {'position': (11.802971604163758, -4.966030354611576), 'latlon': (42.435126483333335, -71.24227628333334), 'heading': 133.16, 'depth': 1.395, 'altitude': 0.927, 'roll': -12.55, 'pitch': -2.01, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 13), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586429.2083406, Processing: $BFNVR,023813.475,0.9514,-0.8460,0.0448,0.000,0.000,-0.000*4A
+Interpreted as: {'timestamp': '023813.475', 'east_velocity': 0.9514, 'north_velocity': -0.846, 'down_velocity': 0.0448, 'pitch_rate': 0.0, 'roll_rate': 0.0, 'yaw_rate': -0.0}
+1627586429.2083406, Processing: $BFNVG,023813.574,4226.107543,N,07114.536508,W,0,0.927,1.414,133.48,-8.01,-1.81,023813.572*52
+Interpreted as: {'position': (11.895317598828115, -5.053664114326239), 'latlon': (42.43512571666667, -71.24227513333334), 'heading': 133.48, 'depth': 1.414, 'altitude': 0.927, 'roll': -8.01, 'pitch': -1.81, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 13), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586429.2083406, Processing: $BFNVR,023813.574,0.9468,-0.8514,0.0402,0.000,0.000,-0.000*4C
+Interpreted as: {'timestamp': '023813.574', 'east_velocity': 0.9468, 'north_velocity': -0.8514, 'down_velocity': 0.0402, 'pitch_rate': 0.0, 'roll_rate': 0.0, 'yaw_rate': -0.0}
+1627586429.2083406, Processing: $BFNVG,023813.674,4226.107497,N,07114.536439,W,0,0.927,1.414,133.67,-3.24,-1.72,023813.672*54
+Interpreted as: {'position': (11.987663600011729, -5.141297874040902), 'latlon': (42.43512495, -71.24227398333333), 'heading': 133.67, 'depth': 1.414, 'altitude': 0.927, 'roll': -3.24, 'pitch': -1.72, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 13), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586429.2083406, Processing: $BFNVR,023813.674,0.9439,-0.8546,0.0383,0.000,0.000,-0.000*42
+Interpreted as: {'timestamp': '023813.674', 'east_velocity': 0.9439, 'north_velocity': -0.8546, 'down_velocity': 0.0383, 'pitch_rate': 0.0, 'roll_rate': 0.0, 'yaw_rate': -0.0}
+1627586429.2083406, Processing: $BFNVG,023813.776,4226.107450,N,07114.536370,W,0,0.927,1.414,133.70,0.87,-1.71,023813.773*74
+Interpreted as: {'position': (12.079960702219978, -5.23078238312155), 'latlon': (42.43512416666667, -71.24227283333333), 'heading': 133.7, 'depth': 1.414, 'altitude': 0.927, 'roll': 0.87, 'pitch': -1.71, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 13), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586429.2083406, Processing: $BFNVR,023813.776,0.9435,-0.8551,0.0380,0.000,0.000,0.000*65
+Interpreted as: {'timestamp': '023813.776', 'east_velocity': 0.9435, 'north_velocity': -0.8551, 'down_velocity': 0.038, 'pitch_rate': 0.0, 'roll_rate': 0.0, 'yaw_rate': 0.0}
+1627586429.2083406, Processing: $BFNVG,023813.874,4226.107404,N,07114.536302,W,0,0.927,1.428,133.61,3.89,-1.70,023813.872*70
+Interpreted as: {'position': (12.17093576217303, -5.318379919044673), 'latlon': (42.4351234, -71.2422717), 'heading': 133.61, 'depth': 1.428, 'altitude': 0.927, 'roll': 3.89, 'pitch': -1.7, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 13), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586429.2083406, Processing: $BFNVR,023813.874,0.9510,-0.8590,0.0381,-0.000,0.000,0.000*4F
+Interpreted as: {'timestamp': '023813.874', 'east_velocity': 0.951, 'north_velocity': -0.859, 'down_velocity': 0.0381, 'pitch_rate': -0.0, 'roll_rate': 0.0, 'yaw_rate': 0.0}
+1627586429.2083406, Processing: $BFACK,023813.911,STS,212027.680,0,2,0,Received status*14
+Vehicle successfully processed request STS1627586429.2083406, Processing: $BFNVG,023813.974,4226.107358,N,07114.536232,W,0,0.927,1.428,133.37,6.00,-1.72,023813.972*79
+Interpreted as: {'position': (12.264652712095995, -5.406049896031618), 'latlon': (42.435122633333336, -71.24227053333334), 'heading': 133.37, 'depth': 1.428, 'altitude': 0.927, 'roll': 6.0, 'pitch': -1.72, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 13), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586429.2083406, Processing: $BFNVR,023813.974,0.9605,-0.8606,0.0388,-0.000,0.000,0.000*4C
+Interpreted as: {'timestamp': '023813.974', 'east_velocity': 0.9605, 'north_velocity': -0.8606, 'down_velocity': 0.0388, 'pitch_rate': -0.0, 'roll_rate': 0.0, 'yaw_rate': 0.0}
+1627586429.2083406, Processing: $BFNVG,023814.074,4226.107312,N,07114.536161,W,0,0.927,1.439,132.94,6.92,-1.73,023814.072*70
+Interpreted as: {'position': (12.359740614541806, -5.49375609215349), 'latlon': (42.43512186666667, -71.24226935), 'heading': 132.94, 'depth': 1.439, 'altitude': 0.927, 'roll': 6.92, 'pitch': -1.73, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 14), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586429.2083406, Processing: $BFNVR,023814.074,0.9669,-0.8534,0.0389,-0.000,0.000,0.000*4B
+Interpreted as: {'timestamp': '023814.074', 'east_velocity': 0.9669, 'north_velocity': -0.8534, 'down_velocity': 0.0389, 'pitch_rate': -0.0, 'roll_rate': 0.0, 'yaw_rate': 0.0}
+1627586429.2083406, Processing: $BFNVG,023814.174,4226.107266,N,07114.536090,W,0,0.959,1.439,132.36,6.66,-1.70,023814.172*74
+Interpreted as: {'position': (12.454828517278656, -5.581462283618748), 'latlon': (42.4351211, -71.24226816666666), 'heading': 132.36, 'depth': 1.439, 'altitude': 0.959, 'roll': 6.66, 'pitch': -1.7, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 14), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586429.2083406, Processing: $BFNVR,023814.174,0.9755,-0.8436,0.0383,-0.000,-0.000,0.000*60
+Interpreted as: {'timestamp': '023814.174', 'east_velocity': 0.9755, 'north_velocity': -0.8436, 'down_velocity': 0.0383, 'pitch_rate': -0.0, 'roll_rate': -0.0, 'yaw_rate': 0.0}
+1627586429.2083406, Processing: $BFNVG,023814.277,4226.107221,N,07114.536017,W,0,0.990,1.439,131.75,5.53,-1.66,023814.273*79
+Interpreted as: {'position': (12.552707211347297, -5.667390167713165), 'latlon': (42.43512035, -71.24226695), 'heading': 131.75, 'depth': 1.439, 'altitude': 0.99, 'roll': 5.53, 'pitch': -1.66, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 14), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586429.2083406, Processing: $BFNVR,023814.277,0.9845,-0.8331,0.0375,-0.000,-0.000,0.000*67
+Interpreted as: {'timestamp': '023814.277', 'east_velocity': 0.9845, 'north_velocity': -0.8331, 'down_velocity': 0.0375, 'pitch_rate': -0.0, 'roll_rate': -0.0, 'yaw_rate': 0.0}
+1627586429.2083406, Processing: $BFNVG,023814.376,4226.107176,N,07114.535945,W,0,1.018,1.448,131.09,4.02,-1.61,023814.372*72
+Interpreted as: {'position': (12.649214959703386, -5.753281828016043), 'latlon': (42.4351196, -71.24226575), 'heading': 131.09, 'depth': 1.448, 'altitude': 1.018, 'roll': 4.02, 'pitch': -1.61, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 14), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586429.2083406, Processing: $BFNVR,023814.376,1.0004,-0.8270,0.0365,0.000,-0.000,0.000*4A
+Interpreted as: {'timestamp': '023814.376', 'east_velocity': 1.0004, 'north_velocity': -0.827, 'down_velocity': 0.0365, 'pitch_rate': 0.0, 'roll_rate': -0.0, 'yaw_rate': 0.0}
+1627590029.2294903, Sending: $BPRMB,212029.22,25,1.0,0,1000.0,0,1*41
+
+1627590029.7304087, Sending: $BPSTS,212029.73,1,BWSI Autonomy OK*4a
+
+1627586430.2313063, Processing: $BFACK,023814.432,RMB,212028.200,0,2,0,Received modify behavior*3D
+Vehicle successfully processed request RMB1627586430.2313063, Processing: $BFNVG,023814.476,4226.107133,N,07114.535872,W,0,1.046,1.448,130.43,2.44,-1.57,023814.472*73
+Interpreted as: {'position': (12.747191454458516, -5.835508206859231), 'latlon': (42.43511888333333, -71.24226453333333), 'heading': 130.43, 'depth': 1.448, 'altitude': 1.046, 'roll': 2.44, 'pitch': -1.57, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 14), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586430.2313063, Processing: $BFNVR,023814.476,1.0100,-0.8153,0.0357,0.000,-0.000,0.000*4B
+Interpreted as: {'timestamp': '023814.476', 'east_velocity': 1.01, 'north_velocity': -0.8153, 'down_velocity': 0.0357, 'pitch_rate': 0.0, 'roll_rate': -0.0, 'yaw_rate': 0.0}
+1627586430.2313063, Processing: $BFNVG,023814.574,4226.107090,N,07114.535798,W,0,1.072,1.455,129.68,0.95,-1.55,023814.572*74
+Interpreted as: {'position': (12.846538893412799, -5.9177708039060235), 'latlon': (42.43511816666667, -71.2422633), 'heading': 129.68, 'depth': 1.455, 'altitude': 1.072, 'roll': 0.95, 'pitch': -1.55, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 14), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586430.2313063, Processing: $BFNVR,023814.574,1.0151,-0.7979,0.0349,0.000,-0.000,0.000*4C
+Interpreted as: {'timestamp': '023814.574', 'east_velocity': 1.0151, 'north_velocity': -0.7979, 'down_velocity': 0.0349, 'pitch_rate': 0.0, 'roll_rate': -0.0, 'yaw_rate': 0.0}
+1627586430.2313063, Processing: $BFNVG,023814.674,4226.107047,N,07114.535723,W,0,1.097,1.455,128.87,-0.23,-1.54,023814.671*57
+Interpreted as: {'position': (12.947257284831721, -6.000069620087743), 'latlon': (42.43511745, -71.24226205), 'heading': 128.87, 'depth': 1.455, 'altitude': 1.097, 'roll': -0.23, 'pitch': -1.54, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 14), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586430.2313063, Processing: $BFNVR,023814.674,1.0262,-0.7835,0.0347,0.000,-0.000,0.000*4B
+Interpreted as: {'timestamp': '023814.674', 'east_velocity': 1.0262, 'north_velocity': -0.7835, 'down_velocity': 0.0347, 'pitch_rate': 0.0, 'roll_rate': -0.0, 'yaw_rate': 0.0}
+1627586430.2313063, Processing: $BFNVG,023814.775,4226.107005,N,07114.535647,W,0,1.121,1.455,128.03,-0.97,-1.54,023814.773*5E
+Interpreted as: {'position': (13.049395517329685, -6.080553904175758), 'latlon': (42.43511675, -71.24226078333334), 'heading': 128.03, 'depth': 1.455, 'altitude': 1.121, 'roll': -0.97, 'pitch': -1.54, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 14), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586430.2313063, Processing: $BFNVR,023814.775,1.0377,-0.7683,0.0347,0.000,-0.000,0.000*4D
+Interpreted as: {'timestamp': '023814.775', 'east_velocity': 1.0377, 'north_velocity': -0.7683, 'down_velocity': 0.0347, 'pitch_rate': 0.0, 'roll_rate': -0.0, 'yaw_rate': 0.0}
+1627586430.2313063, Processing: $BFNVG,023814.874,4226.106966,N,07114.535572,W,0,1.144,1.460,127.17,-1.16,-1.55,023814.871*53
+Interpreted as: {'position': (13.150309500691947, -6.15544971358031), 'latlon': (42.4351161, -71.24225953333334), 'heading': 127.17, 'depth': 1.46, 'altitude': 1.144, 'roll': -1.16, 'pitch': -1.55, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 14), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586430.2313063, Processing: $BFNVR,023814.874,1.0424,-0.7478,0.0346,0.000,0.000,0.000*68
+Interpreted as: {'timestamp': '023814.874', 'east_velocity': 1.0424, 'north_velocity': -0.7478, 'down_velocity': 0.0346, 'pitch_rate': 0.0, 'roll_rate': 0.0, 'yaw_rate': 0.0}
+1627586430.2313063, Processing: $BFACK,023814.935,STS,212028.700,0,2,0,Received status*13
+Vehicle successfully processed request STS1627586430.2313063, Processing: $BFNVG,023814.974,4226.106926,N,07114.535495,W,0,1.165,1.460,126.35,-0.96,-1.55,023814.972*57
+Interpreted as: {'position': (13.253916477435268, -6.2322687124833465), 'latlon': (42.43511543333334, -71.24225825), 'heading': 126.35, 'depth': 1.46, 'altitude': 1.165, 'roll': -0.96, 'pitch': -1.55, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 14), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586430.2313063, Processing: $BFNVR,023814.974,1.0530,-0.7329,0.0348,0.000,0.000,0.000*60
+Interpreted as: {'timestamp': '023814.974', 'east_velocity': 1.053, 'north_velocity': -0.7329, 'down_velocity': 0.0348, 'pitch_rate': 0.0, 'roll_rate': 0.0, 'yaw_rate': 0.0}
+1627586430.2313063, Processing: $BFNVG,023815.074,4226.106887,N,07114.535417,W,0,1.186,1.463,125.54,-0.58,-1.56,023815.072*5C
+Interpreted as: {'position': (13.358943303348497, -6.307273181155324), 'latlon': (42.43511478333333, -71.24225695), 'heading': 125.54, 'depth': 1.463, 'altitude': 1.186, 'roll': -0.58, 'pitch': -1.56, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 15), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586430.2313063, Processing: $BFNVR,023815.074,1.0633,-0.7179,0.0350,0.000,0.000,0.000*66
+Interpreted as: {'timestamp': '023815.074', 'east_velocity': 1.0633, 'north_velocity': -0.7179, 'down_velocity': 0.035, 'pitch_rate': 0.0, 'roll_rate': 0.0, 'yaw_rate': 0.0}
+1627586430.2313063, Processing: $BFNVG,023815.174,4226.106849,N,07114.535339,W,0,1.177,1.463,124.70,-0.15,-1.57,023815.172*54
+Interpreted as: {'position': (13.464019026141614, -6.380426896736026), 'latlon': (42.43511415, -71.24225565), 'heading': 124.7, 'depth': 1.463, 'altitude': 1.177, 'roll': -0.15, 'pitch': -1.57, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 15), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586430.2313063, Processing: $BFNVR,023815.174,1.0737,-0.7022,0.0351,0.000,0.000,0.000*6C
+Interpreted as: {'timestamp': '023815.174', 'east_velocity': 1.0737, 'north_velocity': -0.7022, 'down_velocity': 0.0351, 'pitch_rate': 0.0, 'roll_rate': 0.0, 'yaw_rate': 0.0}
+1627586430.2313063, Processing: $BFNVG,023815.276,4226.106812,N,07114.535259,W,0,1.168,1.463,123.91,0.28,-1.57,023815.273*7B
+Interpreted as: {'position': (13.571885540091898, -6.451802298426628), 'latlon': (42.435113533333336, -71.24225431666666), 'heading': 123.91, 'depth': 1.463, 'altitude': 1.168, 'roll': 0.28, 'pitch': -1.57, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 15), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586430.2313063, Processing: $BFNVR,023815.276,1.0833,-0.6873,0.0351,0.000,0.000,0.000*6B
+Interpreted as: {'timestamp': '023815.276', 'east_velocity': 1.0833, 'north_velocity': -0.6873, 'down_velocity': 0.0351, 'pitch_rate': 0.0, 'roll_rate': 0.0, 'yaw_rate': 0.0}
+1627586430.2313063, Processing: $BFNVG,023815.376,4226.106776,N,07114.535180,W,0,1.160,1.468,123.07,0.85,-1.56,023815.372*7A
+Interpreted as: {'position': (13.678430006606504, -6.521290727891028), 'latlon': (42.435112933333336, -71.242253), 'heading': 123.07, 'depth': 1.468, 'altitude': 1.16, 'roll': 0.85, 'pitch': -1.56, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 15), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586430.2313063, Processing: $BFNVR,023815.376,1.0932,-0.6715,0.0349,0.000,0.000,0.000*6C
+Interpreted as: {'timestamp': '023815.376', 'east_velocity': 1.0932, 'north_velocity': -0.6715, 'down_velocity': 0.0349, 'pitch_rate': 0.0, 'roll_rate': 0.0, 'yaw_rate': 0.0}
+1627590030.2672358, Sending: $BPRMB,212030.26,8,1.0,0,1000.0,0,1*72
+
+1627590030.7681475, Sending: $BPSTS,212030.76,1,BWSI Autonomy OK*47
+
+1627586431.2690418, Processing: $BFACK,023815.458,RMB,212029.220,0,2,0,Received modify behavior*33
+Vehicle successfully processed request RMB1627586431.2690418, Processing: $BFNVG,023815.477,4226.106740,N,07114.535100,W,0,1.152,1.468,122.24,1.33,-1.55,023815.472*78
+Interpreted as: {'position': (13.786345423548482, -6.590815378353), 'latlon': (42.435112333333336, -71.24225166666666), 'heading': 122.24, 'depth': 1.468, 'altitude': 1.152, 'roll': 1.33, 'pitch': -1.55, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 15), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586431.2690418, Processing: $BFNVR,023815.477,1.1028,-0.6555,0.0346,0.000,0.000,0.000*60
+Interpreted as: {'timestamp': '023815.477', 'east_velocity': 1.1028, 'north_velocity': -0.6555, 'down_velocity': 0.0346, 'pitch_rate': 0.0, 'roll_rate': 0.0, 'yaw_rate': 0.0}
+1627586431.2690418, Processing: $BFNVG,023815.574,4226.106706,N,07114.535019,W,0,1.145,1.471,121.35,1.31,-1.53,023815.572*79
+Interpreted as: {'position': (13.89572957972996, -6.656674743629992), 'latlon': (42.435111766666665, -71.24225031666667), 'heading': 121.35, 'depth': 1.471, 'altitude': 1.145, 'roll': 1.31, 'pitch': -1.53, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 15), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586431.2690418, Processing: $BFNVR,023815.574,1.1188,-0.6417,0.0344,0.000,-0.000,0.000*41
+Interpreted as: {'timestamp': '023815.574', 'east_velocity': 1.1188, 'north_velocity': -0.6417, 'down_velocity': 0.0344, 'pitch_rate': 0.0, 'roll_rate': -0.0, 'yaw_rate': 0.0}
+1627586431.2690418, Processing: $BFNVG,023815.674,4226.106672,N,07114.534936,W,0,1.138,1.471,120.42,0.95,-1.51,023815.672*78
+Interpreted as: {'position': (14.007855630363338, -6.7226065481081605), 'latlon': (42.4351112, -71.24224893333333), 'heading': 120.42, 'depth': 1.471, 'altitude': 1.138, 'roll': 0.95, 'pitch': -1.51, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 15), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586431.2690418, Processing: $BFNVR,023815.674,1.1291,-0.6234,0.0339,0.000,-0.000,0.000*44
+Interpreted as: {'timestamp': '023815.674', 'east_velocity': 1.1291, 'north_velocity': -0.6234, 'down_velocity': 0.0339, 'pitch_rate': 0.0, 'roll_rate': -0.0, 'yaw_rate': 0.0}
+1627586431.2690418, Processing: $BFNVG,023815.774,4226.106640,N,07114.534853,W,0,1.131,1.471,119.38,0.47,-1.50,023815.772*7B
+Interpreted as: {'position': (14.120079476037063, -6.784836849197745), 'latlon': (42.43511066666667, -71.24224755), 'heading': 119.38, 'depth': 1.471, 'altitude': 1.131, 'roll': 0.47, 'pitch': -1.5, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 15), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586431.2690418, Processing: $BFNVR,023815.774,1.1402,-0.6029,0.0337,0.000,-0.000,0.000*49
+Interpreted as: {'timestamp': '023815.774', 'east_velocity': 1.1402, 'north_velocity': -0.6029, 'down_velocity': 0.0337, 'pitch_rate': 0.0, 'roll_rate': -0.0, 'yaw_rate': 0.0}
+1627586431.2690418, Processing: $BFNVG,023815.874,4226.106608,N,07114.534769,W,0,1.125,1.474,118.29,-0.05,-1.49,023815.872*53
+Interpreted as: {'position': (14.233674269868061, -6.847103369422257), 'latlon': (42.43511013333333, -71.24224615), 'heading': 118.29, 'depth': 1.474, 'altitude': 1.125, 'roll': -0.05, 'pitch': -1.49, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 15), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586431.2690418, Processing: $BFNVR,023815.874,1.1514,-0.5812,0.0336,0.000,-0.000,0.000*42
+Interpreted as: {'timestamp': '023815.874', 'east_velocity': 1.1514, 'north_velocity': -0.5812, 'down_velocity': 0.0336, 'pitch_rate': 0.0, 'roll_rate': -0.0, 'yaw_rate': 0.0}
+1627586431.2690418, Processing: $BFACK,023815.962,STS,212029.730,0,2,0,Received status*12
+Vehicle successfully processed request STS1627586431.2690418, Processing: $BFNVG,023815.976,4226.106578,N,07114.534685,W,0,1.119,1.474,117.20,-0.58,-1.45,023815.972*5B
+Interpreted as: {'position': (14.347366858564783, -6.90566838439554), 'latlon': (42.43510963333333, -71.24224475), 'heading': 117.2, 'depth': 1.474, 'altitude': 1.119, 'roll': -0.58, 'pitch': -1.45, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 15), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586431.2690418, Processing: $BFNVR,023815.976,1.1623,-0.5591,0.0328,0.000,-0.000,0.000*4F
+Interpreted as: {'timestamp': '023815.976', 'east_velocity': 1.1623, 'north_velocity': -0.5591, 'down_velocity': 0.0328, 'pitch_rate': 0.0, 'roll_rate': -0.0, 'yaw_rate': 0.0}
+1627586431.2690418, Processing: $BFNVG,023816.074,4226.106549,N,07114.534599,W,0,1.113,1.477,116.08,-0.76,-1.40,023816.072*5E
+Interpreted as: {'position': (14.463850240106694, -6.962455086410046), 'latlon': (42.43510915, -71.24224331666667), 'heading': 116.08, 'depth': 1.477, 'altitude': 1.113, 'roll': -0.76, 'pitch': -1.4, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 16), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586431.2690418, Processing: $BFNVR,023816.074,1.1731,-0.5363,0.0315,0.000,-0.000,0.000*40
+Interpreted as: {'timestamp': '023816.074', 'east_velocity': 1.1731, 'north_velocity': -0.5363, 'down_velocity': 0.0315, 'pitch_rate': 0.0, 'roll_rate': -0.0, 'yaw_rate': 0.0}
+1627586431.2690418, Processing: $BFNVG,023816.174,4226.106522,N,07114.534514,W,0,1.107,1.477,114.96,-0.61,-1.32,023816.171*56
+Interpreted as: {'position': (14.579060467891395, -7.015504066832364), 'latlon': (42.4351087, -71.2422419), 'heading': 114.96, 'depth': 1.477, 'altitude': 1.107, 'roll': -0.61, 'pitch': -1.32, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 16), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586431.2690418, Processing: $BFNVR,023816.174,1.1834,-0.5133,0.0296,0.000,0.000,0.000*6B
+Interpreted as: {'timestamp': '023816.174', 'east_velocity': 1.1834, 'north_velocity': -0.5133, 'down_velocity': 0.0296, 'pitch_rate': 0.0, 'roll_rate': 0.0, 'yaw_rate': 0.0}
+1627586431.2690418, Processing: $BFNVG,023816.276,4226.106495,N,07114.534426,W,0,1.102,1.477,113.83,-0.30,-1.24,023816.272*5F
+Interpreted as: {'position': (14.69838353607338, -7.068661702796817), 'latlon': (42.43510825, -71.24224043333334), 'heading': 113.83, 'depth': 1.477, 'altitude': 1.102, 'roll': -0.3, 'pitch': -1.24, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 16), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586431.2690418, Processing: $BFNVR,023816.276,1.1933,-0.4898,0.0279,0.000,0.000,0.000*64
+Interpreted as: {'timestamp': '023816.276', 'east_velocity': 1.1933, 'north_velocity': -0.4898, 'down_velocity': 0.0279, 'pitch_rate': 0.0, 'roll_rate': 0.0, 'yaw_rate': 0.0}
+1627586431.2690418, Processing: $BFNVG,023816.374,4226.106470,N,07114.534338,W,0,1.097,1.481,112.62,-0.14,-1.16,023816.372*53
+Interpreted as: {'position': (14.817804400750902, -7.1181178372353315), 'latlon': (42.43510783333333, -71.24223896666666), 'heading': 112.62, 'depth': 1.481, 'altitude': 1.097, 'roll': -0.14, 'pitch': -1.16, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 16), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586431.2690418, Processing: $BFNVR,023816.374,1.2112,-0.4674,0.0264,0.000,0.000,0.000*6F
+Interpreted as: {'timestamp': '023816.374', 'east_velocity': 1.2112, 'north_velocity': -0.4674, 'down_velocity': 0.0264, 'pitch_rate': 0.0, 'roll_rate': 0.0, 'yaw_rate': 0.0}
+1627586431.2690418, Processing: $BFNVG,023816.474,4226.106446,N,07114.534250,W,0,1.092,1.481,111.34,0.07,-1.07,023816.472*73
+Interpreted as: {'position': (14.937274159106892, -7.165723217651248), 'latlon': (42.435107433333336, -71.2422375), 'heading': 111.34, 'depth': 1.481, 'altitude': 1.092, 'roll': 0.07, 'pitch': -1.07, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 16), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586431.2690418, Processing: $BFNVR,023816.474,1.2148,-0.4380,0.0240,0.000,0.000,0.000*6F
+Interpreted as: {'timestamp': '023816.474', 'east_velocity': 1.2148, 'north_velocity': -0.438, 'down_velocity': 0.024, 'pitch_rate': 0.0, 'roll_rate': 0.0, 'yaw_rate': 0.0}
+1627590031.3504264, Sending: $BPRMB,212031.35,RUDDER AMIDSHIPS,1.0,0,1000.0,0,1*29
+
+1627590031.8513541, Sending: $BPSTS,212031.85,1,BWSI Autonomy OK*4a
+
+1627586432.3522577, Processing: $BFACK,023816.494,RMB,212030.260,0,2,0,Received modify behavior*3C
+Vehicle successfully processed request RMB1627586432.3522577, Processing: $BFNVG,023816.577,4226.106424,N,07114.534161,W,0,1.088,1.484,110.00,0.15,-0.95,023816.572*74
+Interpreted as: {'position': (15.058212661999278, -7.209663313813508), 'latlon': (42.43510706666667, -71.24223601666667), 'heading': 110.0, 'depth': 1.484, 'altitude': 1.088, 'roll': 0.15, 'pitch': -0.95, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 16), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586432.3522577, Processing: $BFNVR,023816.577,1.2170,-0.4069,0.0213,0.000,-0.000,0.000*49
+Interpreted as: {'timestamp': '023816.577', 'east_velocity': 1.217, 'north_velocity': -0.4069, 'down_velocity': 0.0213, 'pitch_rate': 0.0, 'roll_rate': -0.0, 'yaw_rate': 0.0}
+1627586432.3522577, Processing: $BFNVG,023816.675,4226.106404,N,07114.534073,W,0,1.084,1.484,108.64,0.05,-0.83,023816.672*77
+Interpreted as: {'position': (15.177878008340485, -7.249865688383579), 'latlon': (42.435106733333335, -71.24223455), 'heading': 108.64, 'depth': 1.484, 'altitude': 1.084, 'roll': 0.05, 'pitch': -0.83, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 16), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586432.3522577, Processing: $BFNVR,023816.675,1.2186,-0.3755,0.0184,0.000,-0.000,0.000*43
+Interpreted as: {'timestamp': '023816.675', 'east_velocity': 1.2186, 'north_velocity': -0.3755, 'down_velocity': 0.0184, 'pitch_rate': 0.0, 'roll_rate': -0.0, 'yaw_rate': 0.0}
+1627586432.3522577, Processing: $BFNVG,023816.774,4226.106385,N,07114.533983,W,0,1.080,1.484,107.26,-0.29,-0.68,023816.772*52
+Interpreted as: {'position': (15.300334148923866, -7.288289749063551), 'latlon': (42.43510641666666, -71.24223305), 'heading': 107.26, 'depth': 1.484, 'altitude': 1.08, 'roll': -0.29, 'pitch': -0.68, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 16), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586432.3522577, Processing: $BFNVR,023816.774,1.2274,-0.3460,0.0152,0.000,-0.000,0.000*43
+Interpreted as: {'timestamp': '023816.774', 'east_velocity': 1.2274, 'north_velocity': -0.346, 'down_velocity': 0.0152, 'pitch_rate': 0.0, 'roll_rate': -0.0, 'yaw_rate': 0.0}
+1627586432.3522577, Processing: $BFNVG,023816.874,4226.106368,N,07114.533893,W,0,1.076,1.488,105.91,-0.77,-0.55,023816.872*5F
+Interpreted as: {'position': (15.422888083034195, -7.323012305423617), 'latlon': (42.435106133333335, -71.24223155), 'heading': 105.91, 'depth': 1.488, 'altitude': 1.076, 'roll': -0.77, 'pitch': -0.55, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 16), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586432.3522577, Processing: $BFNVR,023816.874,1.2352,-0.3171,0.0123,0.000,-0.000,0.000*4A
+Interpreted as: {'timestamp': '023816.874', 'east_velocity': 1.2352, 'north_velocity': -0.3171, 'down_velocity': 0.0123, 'pitch_rate': 0.0, 'roll_rate': -0.0, 'yaw_rate': 0.0}
+1627586432.3522577, Processing: $BFNVG,023816.974,4226.106353,N,07114.533803,W,0,1.072,1.488,104.64,-1.24,-0.44,023816.972*56
+Interpreted as: {'position': (15.545539806364104, -7.3540333583951), 'latlon': (42.435105883333335, -71.24223005), 'heading': 104.64, 'depth': 1.488, 'altitude': 1.072, 'roll': -1.24, 'pitch': -0.44, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 16), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586432.3522577, Processing: $BFNVR,023816.974,1.2419,-0.2896,0.0097,0.000,-0.000,0.000*4C
+Interpreted as: {'timestamp': '023816.974', 'east_velocity': 1.2419, 'north_velocity': -0.2896, 'down_velocity': 0.0097, 'pitch_rate': 0.0, 'roll_rate': -0.0, 'yaw_rate': 0.0}
+1627586432.3522577, Processing: $BFACK,023816.997,STS,212030.760,0,2,0,Received status*16
+Vehicle successfully processed request STS1627586432.3522577, Processing: $BFNVG,023817.075,4226.106339,N,07114.533712,W,0,1.068,1.490,103.43,-1.64,-0.32,023817.072*51
+Interpreted as: {'position': (15.669611377234105, -7.383239877410233), 'latlon': (42.43510565, -71.24222853333333), 'heading': 103.43, 'depth': 1.49, 'altitude': 1.068, 'roll': -1.64, 'pitch': -0.32, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 17), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586432.3522577, Processing: $BFNVR,023817.075,1.2478,-0.2632,0.0072,0.000,-0.000,0.000*49
+Interpreted as: {'timestamp': '023817.075', 'east_velocity': 1.2478, 'north_velocity': -0.2632, 'down_velocity': 0.0072, 'pitch_rate': 0.0, 'roll_rate': -0.0, 'yaw_rate': 0.0}
+1627586432.3522577, Processing: $BFNVG,023817.174,4226.106326,N,07114.533621,W,0,1.065,1.490,102.26,-1.76,-0.23,023817.171*50
+Interpreted as: {'position': (15.79373184510041, -7.410595645196736), 'latlon': (42.435105433333334, -71.24222701666666), 'heading': 102.26, 'depth': 1.49, 'altitude': 1.065, 'roll': -1.76, 'pitch': -0.23, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 17), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586432.3522577, Processing: $BFNVR,023817.174,1.2595,-0.2391,0.0052,0.000,-0.000,0.000*45
+Interpreted as: {'timestamp': '023817.174', 'east_velocity': 1.2595, 'north_velocity': -0.2391, 'down_velocity': 0.0052, 'pitch_rate': 0.0, 'roll_rate': -0.0, 'yaw_rate': 0.0}
+1627586432.3522577, Processing: $BFNVG,023817.274,4226.106314,N,07114.533529,W,0,1.062,1.490,101.16,-1.76,-0.13,023817.272*5D
+Interpreted as: {'position': (15.91927215398755, -7.436136878095567), 'latlon': (42.43510523333333, -71.24222548333333), 'heading': 101.16, 'depth': 1.49, 'altitude': 1.062, 'roll': -1.76, 'pitch': -0.13, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 17), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586432.3522577, Processing: $BFNVR,023817.274,1.2720,-0.2162,0.0029,0.000,0.000,0.000*65
+Interpreted as: {'timestamp': '023817.274', 'east_velocity': 1.272, 'north_velocity': -0.2162, 'down_velocity': 0.0029, 'pitch_rate': 0.0, 'roll_rate': 0.0, 'yaw_rate': 0.0}
+1627586432.3522577, Processing: $BFNVG,023817.374,4226.106304,N,07114.533437,W,0,1.059,1.494,100.15,-1.80,0.01,023817.372*7B
+Interpreted as: {'position': (16.04491025581956, -7.45797660574317), 'latlon': (42.435105066666665, -71.24222395), 'heading': 100.15, 'depth': 1.494, 'altitude': 1.059, 'roll': -1.8, 'pitch': 0.01, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 17), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586432.3522577, Processing: $BFNVR,023817.374,1.2689,-0.1927,-0.0002,0.000,-0.000,0.000*65
+Interpreted as: {'timestamp': '023817.374', 'east_velocity': 1.2689, 'north_velocity': -0.1927, 'down_velocity': -0.0002, 'pitch_rate': 0.0, 'roll_rate': -0.0, 'yaw_rate': 0.0}
+1627586432.3522577, Processing: $BFNVG,023817.474,4226.106295,N,07114.533344,W,0,1.056,1.494,99.23,-2.21,0.16,023817.472*44
+Interpreted as: {'position': (16.171968200535048, -7.478001803159714), 'latlon': (42.43510491666667, -71.2422224), 'heading': 99.23, 'depth': 1.494, 'altitude': 1.056, 'roll': -2.21, 'pitch': 0.16, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 17), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586432.3522577, Processing: $BFNVR,023817.474,1.2718,-0.1723,-0.0037,0.000,-0.000,0.000*67
+Interpreted as: {'timestamp': '023817.474', 'east_velocity': 1.2718, 'north_velocity': -0.1723, 'down_velocity': -0.0037, 'pitch_rate': 0.0, 'roll_rate': -0.0, 'yaw_rate': 0.0}
+1627586432.3522577, Processing: $BFNVG,023817.574,4226.106286,N,07114.533252,W,0,1.053,1.497,98.41,-2.76,0.34,023817.572*41
+Interpreted as: {'position': (16.29765519942157, -7.497990776784718), 'latlon': (42.43510476666667, -71.24222086666667), 'heading': 98.41, 'depth': 1.497, 'altitude': 1.053, 'roll': -2.76, 'pitch': 0.34, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 17), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586432.3522577, Processing: $BFNVR,023817.574,1.2741,-0.1542,-0.0076,0.000,-0.000,0.000*6A
+Interpreted as: {'timestamp': '023817.574', 'east_velocity': 1.2741, 'north_velocity': -0.1542, 'down_velocity': -0.0076, 'pitch_rate': 0.0, 'roll_rate': -0.0, 'yaw_rate': 0.0}
+1627590032.404236, Sending: $BPRMB,212032.40,2,1.0,0,1000.0,0,1*7a
+
+1627590032.9050944, Sending: $BPSTS,212032.90,1,BWSI Autonomy OK*4d
+
+1627586433.4059362, Processing: $BFACK,023817.581,RMB,000000.000,0,0,0,Unable to parse: Expected double (floating point number)- got "R"-(Field 2)*60
+Vehicle failed to process request RMB: Unable to parse: Expected double (floating point number)- got "R"-(Field 2)1627586433.4059362, Processing: $BFNVG,023817.674,4226.106279,N,07114.533160,W,0,1.051,1.497,97.69,-3.48,0.54,023817.672*4E
+Interpreted as: {'position': (16.423439992940985, -7.514278247021139), 'latlon': (42.43510465, -71.24221933333334), 'heading': 97.69, 'depth': 1.497, 'altitude': 1.051, 'roll': -3.48, 'pitch': 0.54, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 17), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586433.4059362, Processing: $BFNVR,023817.674,1.2678,-0.1373,-0.0121,0.000,-0.000,0.000*65
+Interpreted as: {'timestamp': '023817.674', 'east_velocity': 1.2678, 'north_velocity': -0.1373, 'down_velocity': -0.0121, 'pitch_rate': 0.0, 'roll_rate': -0.0, 'yaw_rate': 0.0}
+1627586433.4059362, Processing: $BFNVG,023817.774,4226.106272,N,07114.533068,W,0,1.048,1.497,97.05,-4.32,0.76,023817.772*44
+Interpreted as: {'position': (16.549224784772377, -7.530565714463592), 'latlon': (42.43510453333333, -71.2422178), 'heading': 97.05, 'depth': 1.497, 'altitude': 1.048, 'roll': -4.32, 'pitch': 0.76, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 17), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586433.4059362, Processing: $BFNVR,023817.774,1.2692,-0.1230,-0.0170,0.000,-0.000,0.000*62
+Interpreted as: {'timestamp': '023817.774', 'east_velocity': 1.2692, 'north_velocity': -0.123, 'down_velocity': -0.017, 'pitch_rate': 0.0, 'roll_rate': -0.0, 'yaw_rate': 0.0}
+1627586433.4059362, Processing: $BFNVG,023817.874,4226.106266,N,07114.532976,W,0,1.046,1.498,96.48,-4.96,0.98,023817.872*41
+Interpreted as: {'position': (16.675058472901583, -7.545002427883446), 'latlon': (42.435104433333336, -71.24221626666667), 'heading': 96.48, 'depth': 1.498, 'altitude': 1.046, 'roll': -4.96, 'pitch': 0.98, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 17), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586433.4059362, Processing: $BFNVR,023817.874,1.2703,-0.1103,-0.0219,0.000,-0.000,0.000*6B
+Interpreted as: {'timestamp': '023817.874', 'east_velocity': 1.2703, 'north_velocity': -0.1103, 'down_velocity': -0.0219, 'pitch_rate': 0.0, 'roll_rate': -0.0, 'yaw_rate': 0.0}
+1627586433.4059362, Processing: $BFNVG,023817.976,4226.106261,N,07114.532885,W,0,1.044,1.498,95.98,-5.33,1.23,023817.972*4A
+Interpreted as: {'position': (16.799570112954825, -7.5575521709397435), 'latlon': (42.43510435, -71.24221475), 'heading': 95.98, 'depth': 1.498, 'altitude': 1.044, 'roll': -5.33, 'pitch': 1.23, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 17), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586433.4059362, Processing: $BFNVR,023817.976,1.2711,-0.0993,-0.0274,0.000,-0.000,0.000*60
+Interpreted as: {'timestamp': '023817.976', 'east_velocity': 1.2711, 'north_velocity': -0.0993, 'down_velocity': -0.0274, 'pitch_rate': 0.0, 'roll_rate': -0.0, 'yaw_rate': 0.0}
+1627586433.4059362, Processing: $BFNVG,023818.075,4226.106256,N,07114.532792,W,0,1.041,1.501,95.60,-5.44,1.46,023818.071*47
+Interpreted as: {'position': (16.92682364396751, -7.570174350403249), 'latlon': (42.43510426666667, -71.2422132), 'heading': 95.6, 'depth': 1.501, 'altitude': 1.041, 'roll': -5.44, 'pitch': 1.46, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 18), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586433.4059362, Processing: $BFNVR,023818.075,1.2784,-0.0912,-0.0328,0.000,-0.000,0.000*68
+Interpreted as: {'timestamp': '023818.075', 'east_velocity': 1.2784, 'north_velocity': -0.0912, 'down_velocity': -0.0328, 'pitch_rate': 0.0, 'roll_rate': -0.0, 'yaw_rate': 0.0}
+1627586433.4059362, Processing: $BFACK,023818.084,STS,212031.850,0,2,0,Received status*1E
+Vehicle successfully processed request STS1627586433.4059362, Processing: $BFNVG,023818.174,4226.106252,N,07114.532699,W,0,1.039,1.501,95.28,-5.42,1.68,023818.172*42
+Interpreted as: {'position': (17.054126070870552, -7.580945776775479), 'latlon': (42.4351042, -71.24221165), 'heading': 95.28, 'depth': 1.501, 'altitude': 1.039, 'roll': -5.42, 'pitch': 1.68, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 18), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586433.4059362, Processing: $BFNVR,023818.174,1.2869,-0.0847,-0.0379,0.000,0.000,0.000*4C
+Interpreted as: {'timestamp': '023818.174', 'east_velocity': 1.2869, 'north_velocity': -0.0847, 'down_velocity': -0.0379, 'pitch_rate': 0.0, 'roll_rate': 0.0, 'yaw_rate': 0.0}
+1627586433.4059362, Processing: $BFNVG,023818.274,4226.106247,N,07114.532607,W,0,1.037,1.501,95.03,-5.29,1.91,023818.272*4D
+Interpreted as: {'position': (17.180008658207953, -7.5935317305848), 'latlon': (42.435104116666665, -71.24221011666667), 'heading': 95.03, 'depth': 1.501, 'altitude': 1.037, 'roll': -5.29, 'pitch': 1.91, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 18), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586433.4059362, Processing: $BFNVR,023818.274,1.2803,-0.0786,-0.0429,0.000,0.000,0.000*43
+Interpreted as: {'timestamp': '023818.274', 'east_velocity': 1.2803, 'north_velocity': -0.0786, 'down_velocity': -0.0429, 'pitch_rate': 0.0, 'roll_rate': 0.0, 'yaw_rate': 0.0}
+1627586433.4059362, Processing: $BFNVG,023818.374,4226.106243,N,07114.532514,W,0,1.035,1.500,94.83,-5.16,2.15,023818.372*41
+Interpreted as: {'position': (17.30731108575128, -7.604303152300417), 'latlon': (42.43510405, -71.24220856666666), 'heading': 94.83, 'depth': 1.5, 'altitude': 1.035, 'roll': -5.16, 'pitch': 2.15, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 18), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586433.4059362, Processing: $BFNVR,023818.374,1.2804,-0.0741,-0.0482,0.000,0.000,0.000*4F
+Interpreted as: {'timestamp': '023818.374', 'east_velocity': 1.2804, 'north_velocity': -0.0741, 'down_velocity': -0.0482, 'pitch_rate': 0.0, 'roll_rate': 0.0, 'yaw_rate': 0.0}
+1627586433.4059362, Processing: $BFNVG,023818.474,4226.106240,N,07114.532423,W,0,1.033,1.500,94.65,-4.79,2.40,023818.471*42
+Interpreted as: {'position': (17.43192051659571, -7.61315138079226), 'latlon': (42.435104, -71.24220705), 'heading': 94.65, 'depth': 1.5, 'altitude': 1.033, 'roll': -4.79, 'pitch': 2.4, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 18), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586433.4059362, Processing: $BFNVR,023818.474,1.2723,-0.0697,-0.0534,0.000,0.000,0.000*44
+Interpreted as: {'timestamp': '023818.474', 'east_velocity': 1.2723, 'north_velocity': -0.0697, 'down_velocity': -0.0534, 'pitch_rate': 0.0, 'roll_rate': 0.0, 'yaw_rate': 0.0}
+1627586433.4059362, Processing: $BFNVG,023818.574,4226.106236,N,07114.532331,W,0,1.031,1.500,94.48,-4.07,2.66,023818.571*47
+Interpreted as: {'position': (17.557852000405546, -7.623886577785015), 'latlon': (42.43510393333333, -71.24220551666667), 'heading': 94.48, 'depth': 1.5, 'altitude': 1.031, 'roll': -4.07, 'pitch': 2.66, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 18), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586433.4059362, Processing: $BFNVR,023818.574,1.2722,-0.0660,-0.0592,0.000,0.000,0.000*40
+Interpreted as: {'timestamp': '023818.574', 'east_velocity': 1.2722, 'north_velocity': -0.066, 'down_velocity': -0.0592, 'pitch_rate': 0.0, 'roll_rate': 0.0, 'yaw_rate': 0.0}
+1627590033.4806252, Sending: $BPRMB,212033.48,3,1.0,0,1000.0,0,1*72
+
+1627590033.9814787, Sending: $BPSTS,212033.98,1,BWSI Autonomy OK*44
+
+1627586434.4823146, Processing: $BFACK,023818.636,RMB,212032.400,0,2,0,Received modify behavior*3A
+Vehicle successfully processed request RMB1627586434.4823146, Processing: $BFNVG,023818.674,4226.106233,N,07114.532240,W,0,1.030,1.500,94.31,-3.48,2.91,023818.672*4D
+Interpreted as: {'position': (17.682461431599222, -7.6327348025515676), 'latlon': (42.43510388333333, -71.242204), 'heading': 94.31, 'depth': 1.5, 'altitude': 1.03, 'roll': -3.48, 'pitch': 2.91, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 18), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586434.4823146, Processing: $BFNVR,023818.674,1.2721,-0.0622,-0.0648,0.000,0.000,0.000*42
+Interpreted as: {'timestamp': '023818.674', 'east_velocity': 1.2721, 'north_velocity': -0.0622, 'down_velocity': -0.0648, 'pitch_rate': 0.0, 'roll_rate': 0.0, 'yaw_rate': 0.0}
+1627586434.4823146, Processing: $BFNVG,023818.774,4226.106230,N,07114.532148,W,0,1.028,1.500,94.17,-3.21,3.19,023818.772*46
+Interpreted as: {'position': (17.808441809320357, -7.641619243659079), 'latlon': (42.435103833333336, -71.24220246666667), 'heading': 94.17, 'depth': 1.5, 'altitude': 1.028, 'roll': -3.21, 'pitch': 3.19, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 18), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586434.4823146, Processing: $BFNVR,023818.774,1.2787,-0.0593,-0.0713,0.000,0.000,0.000*49
+Interpreted as: {'timestamp': '023818.774', 'east_velocity': 1.2787, 'north_velocity': -0.0593, 'down_velocity': -0.0713, 'pitch_rate': 0.0, 'roll_rate': 0.0, 'yaw_rate': 0.0}
+1627586434.4823146, Processing: $BFNVG,023818.874,4226.106227,N,07114.532055,W,0,1.026,1.495,94.04,-3.34,3.46,023818.872*42
+Interpreted as: {'position': (17.935793135664426, -7.650539902038872), 'latlon': (42.43510378333333, -71.24220091666666), 'heading': 94.04, 'depth': 1.495, 'altitude': 1.026, 'roll': -3.34, 'pitch': 3.46, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 18), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586434.4823146, Processing: $BFNVR,023818.874,1.2866,-0.0569,-0.0778,0.000,-0.000,0.000*63
+Interpreted as: {'timestamp': '023818.874', 'east_velocity': 1.2866, 'north_velocity': -0.0569, 'down_velocity': -0.0778, 'pitch_rate': 0.0, 'roll_rate': -0.0, 'yaw_rate': 0.0}
+1627586434.4823146, Processing: $BFNVG,023818.974,4226.106224,N,07114.531963,W,0,1.025,1.495,93.91,-3.54,3.71,023818.972*44
+Interpreted as: {'position': (18.0617735136766, -7.6594243394210935), 'latlon': (42.435103733333335, -71.24219938333333), 'heading': 93.91, 'depth': 1.495, 'altitude': 1.025, 'roll': -3.54, 'pitch': 3.71, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 18), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586434.4823146, Processing: $BFNVR,023818.974,1.2796,-0.0535,-0.0830,0.000,-0.000,0.000*68
+Interpreted as: {'timestamp': '023818.974', 'east_velocity': 1.2796, 'north_velocity': -0.0535, 'down_velocity': -0.083, 'pitch_rate': 0.0, 'roll_rate': -0.0, 'yaw_rate': 0.0}
+1627586434.4823146, Processing: $BFNVG,023819.074,4226.106221,N,07114.531872,W,0,1.023,1.489,93.76,-3.66,3.95,023819.071*4A
+Interpreted as: {'position': (18.18638294568518, -7.668272555805743), 'latlon': (42.43510368333333, -71.24219786666667), 'heading': 93.76, 'depth': 1.489, 'altitude': 1.023, 'roll': -3.66, 'pitch': 3.95, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 19), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586434.4823146, Processing: $BFNVR,023819.074,1.2713,-0.0499,-0.0879,0.000,-0.000,0.000*67
+Interpreted as: {'timestamp': '023819.074', 'east_velocity': 1.2713, 'north_velocity': -0.0499, 'down_velocity': -0.0879, 'pitch_rate': 0.0, 'roll_rate': -0.0, 'yaw_rate': 0.0}
+1627586434.4823146, Processing: $BFACK,023819.130,STS,212032.900,0,2,0,Received status*16
+Vehicle successfully processed request STS1627586434.4823146, Processing: $BFNVG,023819.175,4226.106219,N,07114.531780,W,0,1.022,1.489,93.63,-4.02,4.17,023819.172*4C
+Interpreted as: {'position': (18.312412219587713, -7.675306236371398), 'latlon': (42.43510365, -71.24219633333334), 'heading': 93.63, 'depth': 1.489, 'altitude': 1.022, 'roll': -4.02, 'pitch': 4.17, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 19), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586434.4823146, Processing: $BFNVR,023819.175,1.2710,-0.0470,-0.0927,0.000,-0.000,0.000*69
+Interpreted as: {'timestamp': '023819.175', 'east_velocity': 1.271, 'north_velocity': -0.047, 'down_velocity': -0.0927, 'pitch_rate': 0.0, 'roll_rate': -0.0, 'yaw_rate': 0.0}
+1627586434.4823146, Processing: $BFNVG,023819.274,4226.106216,N,07114.531690,W,0,1.021,1.489,93.55,-4.83,4.36,023819.271*4D
+Interpreted as: {'position': (18.43565070547629, -7.684118228033185), 'latlon': (42.4351036, -71.24219483333333), 'heading': 93.55, 'depth': 1.489, 'altitude': 1.021, 'roll': -4.83, 'pitch': 4.36, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 19), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586434.4823146, Processing: $BFNVR,023819.274,1.2708,-0.0451,-0.0969,0.000,-0.000,0.000*6B
+Interpreted as: {'timestamp': '023819.274', 'east_velocity': 1.2708, 'north_velocity': -0.0451, 'down_velocity': -0.0969, 'pitch_rate': 0.0, 'roll_rate': -0.0, 'yaw_rate': 0.0}
+1627586434.4823146, Processing: $BFNVG,023819.374,4226.106214,N,07114.531598,W,0,1.019,1.479,93.51,-5.78,4.52,023819.372*40
+Interpreted as: {'position': (18.561679981765337, -7.6911519058048725), 'latlon': (42.43510356666667, -71.2421933), 'heading': 93.51, 'depth': 1.479, 'altitude': 1.019, 'roll': -5.78, 'pitch': 4.52, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 19), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586434.4823146, Processing: $BFNVR,023819.374,1.2705,-0.0443,-0.1006,0.000,-0.000,0.000*65
+Interpreted as: {'timestamp': '023819.374', 'east_velocity': 1.2705, 'north_velocity': -0.0443, 'down_velocity': -0.1006, 'pitch_rate': 0.0, 'roll_rate': -0.0, 'yaw_rate': 0.0}
+1627586434.4823146, Processing: $BFNVG,023819.474,4226.106212,N,07114.531507,W,0,1.018,1.479,93.54,-6.55,4.68,023819.472*41
+Interpreted as: {'position': (18.686338309780695, -7.6981493616476655), 'latlon': (42.43510353333333, -71.24219178333334), 'heading': 93.54, 'depth': 1.479, 'altitude': 1.018, 'roll': -6.55, 'pitch': 4.68, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 19), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586434.4823146, Processing: $BFNVR,023819.474,1.2770,-0.0451,-0.1046,0.000,-0.000,0.000*67
+Interpreted as: {'timestamp': '023819.474', 'east_velocity': 1.277, 'north_velocity': -0.0451, 'down_velocity': -0.1046, 'pitch_rate': 0.0, 'roll_rate': -0.0, 'yaw_rate': 0.0}
+1627586434.4823146, Processing: $BFNVG,023819.574,4226.106209,N,07114.531415,W,0,1.017,1.465,93.58,-7.03,4.80,023819.572*43
+Interpreted as: {'position': (18.812318688840605, -7.707033785060048), 'latlon': (42.435103483333336, -71.24219025), 'heading': 93.58, 'depth': 1.465, 'altitude': 1.017, 'roll': -7.03, 'pitch': 4.8, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 19), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586434.4823146, Processing: $BFNVR,023819.574,1.2849,-0.0463,-0.1080,0.000,-0.000,0.000*68
+Interpreted as: {'timestamp': '023819.574', 'east_velocity': 1.2849, 'north_velocity': -0.0463, 'down_velocity': -0.108, 'pitch_rate': 0.0, 'roll_rate': -0.0, 'yaw_rate': 0.0}
+1627586434.4823146, Processing: $BFNVG,023819.674,4226.106207,N,07114.531323,W,0,1.016,1.465,93.64,-6.85,4.90,023819.672*4F
+Interpreted as: {'position': (18.938347965478897, -7.714067455381155), 'latlon': (42.43510345, -71.24218871666666), 'heading': 93.64, 'depth': 1.465, 'altitude': 1.016, 'roll': -6.85, 'pitch': 4.9, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 19), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586434.4823146, Processing: $BFNVR,023819.674,1.2778,-0.0475,-0.1096,0.000,0.000,-0.000*66
+Interpreted as: {'timestamp': '023819.674', 'east_velocity': 1.2778, 'north_velocity': -0.0475, 'down_velocity': -0.1096, 'pitch_rate': 0.0, 'roll_rate': 0.0, 'yaw_rate': -0.0}
+1627590034.5362654, Sending: $BPRMB,212034.53,25,1.0,0,1000.0,0,1*4b
+
+1627590035.0371168, Sending: $BPSTS,212035.03,1,BWSI Autonomy OK*40
+
+1627586435.5379503, Processing: $BFACK,023819.713,RMB,212033.480,0,2,0,Received modify behavior*34
+Vehicle successfully processed request RMB1627586435.5379503, Processing: $BFNVG,023819.776,4226.106204,N,07114.531231,W,0,1.015,1.465,93.77,-6.09,4.98,023819.772*41
+Interpreted as: {'position': (19.06432834494626, -7.722951874136925), 'latlon': (42.4351034, -71.24218718333333), 'heading': 93.77, 'depth': 1.465, 'altitude': 1.015, 'roll': -6.09, 'pitch': 4.98, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 19), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586435.5379503, Processing: $BFNVR,023819.776,1.2776,-0.0504,-0.1115,0.000,0.000,-0.000*66
+Interpreted as: {'timestamp': '023819.776', 'east_velocity': 1.2776, 'north_velocity': -0.0504, 'down_velocity': -0.1115, 'pitch_rate': 0.0, 'roll_rate': 0.0, 'yaw_rate': -0.0}
+1627586435.5379503, Processing: $BFNVG,023819.874,4226.106201,N,07114.531139,W,0,1.014,1.446,93.91,-5.33,5.03,023819.872*4C
+Interpreted as: {'position': (19.19030872453004, -7.731836291030049), 'latlon': (42.43510335, -71.24218565), 'heading': 93.91, 'depth': 1.446, 'altitude': 1.014, 'roll': -5.33, 'pitch': 5.03, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 19), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586435.5379503, Processing: $BFNVR,023819.874,1.2773,-0.0534,-0.1126,0.000,0.000,-0.000*6D
+Interpreted as: {'timestamp': '023819.874', 'east_velocity': 1.2773, 'north_velocity': -0.0534, 'down_velocity': -0.1126, 'pitch_rate': 0.0, 'roll_rate': 0.0, 'yaw_rate': -0.0}
+1627586435.5379503, Processing: $BFNVG,023819.974,4226.106198,N,07114.531047,W,0,1.013,1.446,94.04,-4.67,5.06,023819.972*4E
+Interpreted as: {'position': (19.316289106500335, -7.740720705129206), 'latlon': (42.4351033, -71.24218411666666), 'heading': 94.04, 'depth': 1.446, 'altitude': 1.013, 'roll': -4.67, 'pitch': 5.06, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 19), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586435.5379503, Processing: $BFNVR,023819.974,1.2691,-0.0560,-0.1125,0.000,0.000,-0.000*63
+Interpreted as: {'timestamp': '023819.974', 'east_velocity': 1.2691, 'north_velocity': -0.056, 'down_velocity': -0.1125, 'pitch_rate': 0.0, 'roll_rate': 0.0, 'yaw_rate': -0.0}
+1627586435.5379503, Processing: $BFNVG,023820.075,4226.106195,N,07114.530956,W,0,1.012,1.427,94.12,-4.08,5.07,023820.072*43
+Interpreted as: {'position': (19.440898538101465, -7.749568898230791), 'latlon': (42.43510325, -71.2421826), 'heading': 94.12, 'depth': 1.427, 'altitude': 1.012, 'roll': -4.08, 'pitch': 5.07, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 20), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586435.5379503, Processing: $BFNVR,023820.075,1.2690,-0.0578,-0.1128,0.000,0.000,-0.000*64
+Interpreted as: {'timestamp': '023820.075', 'east_velocity': 1.269, 'north_velocity': -0.0578, 'down_velocity': -0.1128, 'pitch_rate': 0.0, 'roll_rate': 0.0, 'yaw_rate': -0.0}
+1627586435.5379503, Processing: $BFNVG,023820.174,4226.106192,N,07114.530865,W,0,1.016,1.427,94.14,-3.99,5.05,023820.171*48
+Interpreted as: {'position': (19.565507974126376, -7.758417089469731), 'latlon': (42.4351032, -71.24218108333334), 'heading': 94.14, 'depth': 1.427, 'altitude': 1.016, 'roll': -3.99, 'pitch': 5.05, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 20), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586435.5379503, Processing: $BFNVR,023820.174,1.2690,-0.0583,-0.1122,-0.000,-0.000,-0.000*6A
+Interpreted as: {'timestamp': '023820.174', 'east_velocity': 1.269, 'north_velocity': -0.0583, 'down_velocity': -0.1122, 'pitch_rate': -0.0, 'roll_rate': -0.0, 'yaw_rate': -0.0}
+1627586435.5379503, Processing: $BFACK,023820.206,STS,212033.980,0,2,0,Received status*13
+Vehicle successfully processed request STS1627586435.5379503, Processing: $BFNVG,023820.276,4226.106189,N,07114.530773,W,0,1.020,1.427,94.11,-4.10,4.95,023820.271*46
+Interpreted as: {'position': (19.69148835662054, -7.767301496118307), 'latlon': (42.43510315, -71.24217955), 'heading': 94.11, 'depth': 1.427, 'altitude': 1.02, 'roll': -4.1, 'pitch': 4.95, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 20), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586435.5379503, Processing: $BFNVR,023820.276,1.2692,-0.0576,-0.1100,-0.000,-0.000,-0.000*63
+Interpreted as: {'timestamp': '023820.276', 'east_velocity': 1.2692, 'north_velocity': -0.0576, 'down_velocity': -0.11, 'pitch_rate': -0.0, 'roll_rate': -0.0, 'yaw_rate': -0.0}
+1627586435.5379503, Processing: $BFNVG,023820.374,4226.106186,N,07114.530681,W,0,1.024,1.403,94.04,-4.28,4.86,023820.372*4B
+Interpreted as: {'position': (19.81746873515658, -7.776185902766883), 'latlon': (42.4351031, -71.24217801666667), 'heading': 94.04, 'depth': 1.403, 'altitude': 1.024, 'roll': -4.28, 'pitch': 4.86, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 20), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586435.5379503, Processing: $BFNVR,023820.374,1.2762,-0.0563,-0.1086,-0.000,-0.000,-0.000*65
+Interpreted as: {'timestamp': '023820.374', 'east_velocity': 1.2762, 'north_velocity': -0.0563, 'down_velocity': -0.1086, 'pitch_rate': -0.0, 'roll_rate': -0.0, 'yaw_rate': -0.0}
+1627586435.5379503, Processing: $BFNVG,023820.474,4226.106183,N,07114.530589,W,0,1.027,1.403,93.95,-4.63,4.76,023820.472*49
+Interpreted as: {'position': (19.943449118058197, -7.785070303827524), 'latlon': (42.43510305, -71.24217648333334), 'heading': 93.95, 'depth': 1.403, 'altitude': 1.027, 'roll': -4.63, 'pitch': 4.76, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 20), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586435.5379503, Processing: $BFNVR,023820.474,1.2765,-0.0542,-0.1064,-0.000,-0.000,-0.000*6A
+Interpreted as: {'timestamp': '023820.474', 'east_velocity': 1.2765, 'north_velocity': -0.0542, 'down_velocity': -0.1064, 'pitch_rate': -0.0, 'roll_rate': -0.0, 'yaw_rate': -0.0}
+1627586435.5379503, Processing: $BFNVG,023820.575,4226.106180,N,07114.530498,W,0,1.030,1.377,93.86,-5.14,4.62,023820.572*4E
+Interpreted as: {'position': (20.0680585547816, -7.793918487615883), 'latlon': (42.435103, -71.24217496666667), 'heading': 93.86, 'depth': 1.377, 'altitude': 1.03, 'roll': -5.14, 'pitch': 4.62, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 20), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586435.5379503, Processing: $BFNVR,023820.575,1.2701,-0.0521,-0.1028,-0.000,-0.000,-0.000*65
+Interpreted as: {'timestamp': '023820.575', 'east_velocity': 1.2701, 'north_velocity': -0.0521, 'down_velocity': -0.1028, 'pitch_rate': -0.0, 'roll_rate': -0.0, 'yaw_rate': -0.0}
+1627586435.5379503, Processing: $BFNVG,023820.676,4226.106177,N,07114.530406,W,0,1.033,1.377,93.80,-5.82,4.47,023820.672*4F
+Interpreted as: {'position': (20.19403893384151, -7.802802885882556), 'latlon': (42.43510295, -71.24217343333333), 'heading': 93.8, 'depth': 1.377, 'altitude': 1.033, 'roll': -5.82, 'pitch': 4.47, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 20), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586435.5379503, Processing: $BFNVR,023820.676,1.2771,-0.0509,-0.0998,-0.000,-0.000,-0.000*6B
+Interpreted as: {'timestamp': '023820.676', 'east_velocity': 1.2771, 'north_velocity': -0.0509, 'down_velocity': -0.0998, 'pitch_rate': -0.0, 'roll_rate': -0.0, 'yaw_rate': -0.0}
+1627590035.5839252, Sending: $BPRMB,212035.58,RUDDER AMIDSHIPS,1.0,0,1000.0,0,1*26
+
+1627590036.0847719, Sending: $BPSTS,212036.08,1,BWSI Autonomy OK*48
+
+1627586436.5856016, Processing: $BFACK,023820.769,RMB,212034.530,0,2,0,Received modify behavior*3E
+Vehicle successfully processed request RMB1627586436.5856016, Processing: $BFNVG,023820.776,4226.106175,N,07114.530314,W,0,1.036,1.377,93.70,-6.29,4.31,023820.772*40
+Interpreted as: {'position': (20.320068212109618, -7.809836532920599), 'latlon': (42.435102916666665, -71.2421719), 'heading': 93.7, 'depth': 1.377, 'altitude': 1.036, 'roll': -6.29, 'pitch': 4.31, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 20), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586436.5856016, Processing: $BFNVR,023820.776,1.2775,-0.0489,-0.0964,-0.000,-0.000,-0.000*64
+Interpreted as: {'timestamp': '023820.776', 'east_velocity': 1.2775, 'north_velocity': -0.0489, 'down_velocity': -0.0964, 'pitch_rate': -0.0, 'roll_rate': -0.0, 'yaw_rate': -0.0}
+1627586436.5856016, Processing: $BFNVG,023820.874,4226.106172,N,07114.530224,W,0,1.039,1.349,93.56,-6.29,4.13,023820.872*41
+Interpreted as: {'position': (20.443306700966787, -7.8186484863981605), 'latlon': (42.43510286666667, -71.2421704), 'heading': 93.56, 'depth': 1.349, 'altitude': 1.039, 'roll': -6.29, 'pitch': 4.13, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 20), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586436.5856016, Processing: $BFNVR,023820.874,1.2712,-0.0455,-0.0918,-0.000,0.000,-0.000*4F
+Interpreted as: {'timestamp': '023820.874', 'east_velocity': 1.2712, 'north_velocity': -0.0455, 'down_velocity': -0.0918, 'pitch_rate': -0.0, 'roll_rate': 0.0, 'yaw_rate': -0.0}
+1627586436.5856016, Processing: $BFNVG,023820.974,4226.106170,N,07114.530132,W,0,1.041,1.349,93.42,-6.03,3.95,023820.972*4C
+Interpreted as: {'position': (20.569335977430455, -7.8256821278482676), 'latlon': (42.43510283333333, -71.24216886666666), 'heading': 93.42, 'depth': 1.349, 'altitude': 1.041, 'roll': -6.03, 'pitch': 3.95, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 20), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586436.5856016, Processing: $BFNVR,023820.974,1.2715,-0.0422,-0.0879,-0.000,0.000,-0.000*4F
+Interpreted as: {'timestamp': '023820.974', 'east_velocity': 1.2715, 'north_velocity': -0.0422, 'down_velocity': -0.0879, 'pitch_rate': -0.0, 'roll_rate': 0.0, 'yaw_rate': -0.0}
+1627586436.5856016, Processing: $BFNVG,023821.075,4226.106168,N,07114.530041,W,0,1.044,1.322,93.29,-5.56,3.78,023821.071*47
+Interpreted as: {'position': (20.693994309869595, -7.83267954736948), 'latlon': (42.4351028, -71.24216735), 'heading': 93.29, 'depth': 1.322, 'altitude': 1.044, 'roll': -5.56, 'pitch': 3.78, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 21), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586436.5856016, Processing: $BFNVR,023821.075,1.2787,-0.0396,-0.0844,-0.000,0.000,-0.000*4B
+Interpreted as: {'timestamp': '023821.075', 'east_velocity': 1.2787, 'north_velocity': -0.0396, 'down_velocity': -0.0844, 'pitch_rate': -0.0, 'roll_rate': 0.0, 'yaw_rate': -0.0}
+1627586436.5856016, Processing: $BFNVG,023821.176,4226.106166,N,07114.529949,W,0,1.052,1.322,93.19,-4.99,3.60,023821.172*4F
+Interpreted as: {'position': (20.820023586507887, -7.839713183231652), 'latlon': (42.43510276666667, -71.24216581666667), 'heading': 93.19, 'depth': 1.322, 'altitude': 1.052, 'roll': -4.99, 'pitch': 3.6, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 21), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586436.5856016, Processing: $BFNVR,023821.176,1.2871,-0.0377,-0.0811,-0.000,0.000,-0.000*40
+Interpreted as: {'timestamp': '023821.176', 'east_velocity': 1.2871, 'north_velocity': -0.0377, 'down_velocity': -0.0811, 'pitch_rate': -0.0, 'roll_rate': 0.0, 'yaw_rate': -0.0}
+1627586436.5856016, Processing: $BFACK,023821.262,STS,212035.030,0,2,0,Received status*14
+Vehicle successfully processed request STS1627586436.5856016, Processing: $BFNVG,023821.277,4226.106164,N,07114.529857,W,0,1.060,1.322,93.10,-4.60,3.43,023821.272*4D
+Interpreted as: {'position': (20.94605286337901, -7.846746817231178), 'latlon': (42.43510273333333, -71.24216428333334), 'heading': 93.1, 'depth': 1.322, 'altitude': 1.06, 'roll': -4.6, 'pitch': 3.43, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 21), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586436.5856016, Processing: $BFNVR,023821.277,1.2874,-0.0356,-0.0771,-0.000,0.000,-0.000*4D
+Interpreted as: {'timestamp': '023821.277', 'east_velocity': 1.2874, 'north_velocity': -0.0356, 'down_velocity': -0.0771, 'pitch_rate': -0.0, 'roll_rate': 0.0, 'yaw_rate': -0.0}
+1627586436.5856016, Processing: $BFNVG,023821.374,4226.106162,N,07114.529766,W,0,1.067,1.294,93.04,-4.30,3.23,023821.372*48
+Interpreted as: {'position': (21.070711196167395, -7.853744230233133), 'latlon': (42.4351027, -71.24216276666667), 'heading': 93.04, 'depth': 1.294, 'altitude': 1.067, 'roll': -4.3, 'pitch': 3.23, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 21), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586436.5856016, Processing: $BFNVR,023821.374,1.2809,-0.0342,-0.0724,-0.000,0.000,-0.000*40
+Interpreted as: {'timestamp': '023821.374', 'east_velocity': 1.2809, 'north_velocity': -0.0342, 'down_velocity': -0.0724, 'pitch_rate': -0.0, 'roll_rate': 0.0, 'yaw_rate': -0.0}
+1627586436.5856016, Processing: $BFNVG,023821.474,4226.106161,N,07114.529676,W,0,1.074,1.294,92.93,-4.10,3.04,023821.472*41
+Interpreted as: {'position': (21.1940474731382, -7.8588546719402075), 'latlon': (42.435102683333334, -71.24216126666667), 'heading': 92.93, 'depth': 1.294, 'altitude': 1.074, 'roll': -4.1, 'pitch': 3.04, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 21), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586436.5856016, Processing: $BFNVR,023821.474,1.2812,-0.0318,-0.0680,-0.000,0.000,-0.000*4D
+Interpreted as: {'timestamp': '023821.474', 'east_velocity': 1.2812, 'north_velocity': -0.0318, 'down_velocity': -0.068, 'pitch_rate': -0.0, 'roll_rate': 0.0, 'yaw_rate': -0.0}
+1627586436.5856016, Processing: $BFNVG,023821.574,4226.106159,N,07114.529586,W,0,1.081,1.266,92.72,-4.02,2.86,023821.571*45
+Interpreted as: {'position': (21.317334859631956, -7.8658158630132675), 'latlon': (42.43510265, -71.24215976666666), 'heading': 92.72, 'depth': 1.266, 'altitude': 1.081, 'roll': -4.02, 'pitch': 2.86, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 21), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586436.5856016, Processing: $BFNVR,023821.574,1.2734,-0.0269,-0.0636,-0.000,0.000,-0.000*4D
+Interpreted as: {'timestamp': '023821.574', 'east_velocity': 1.2734, 'north_velocity': -0.0269, 'down_velocity': -0.0636, 'pitch_rate': -0.0, 'roll_rate': 0.0, 'yaw_rate': -0.0}
+1627586436.5856016, Processing: $BFNVG,023821.676,4226.106158,N,07114.529497,W,0,1.087,1.266,92.42,-3.78,2.68,023821.672*4B
+Interpreted as: {'position': (21.439300192520022, -7.87089007999748), 'latlon': (42.43510263333334, -71.24215828333334), 'heading': 92.42, 'depth': 1.266, 'altitude': 1.087, 'roll': -3.78, 'pitch': 2.68, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 21), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586436.5856016, Processing: $BFNVR,023821.676,1.2737,-0.0203,-0.0597,-0.000,0.000,0.000*66
+Interpreted as: {'timestamp': '023821.676', 'east_velocity': 1.2737, 'north_velocity': -0.0203, 'down_velocity': -0.0597, 'pitch_rate': -0.0, 'roll_rate': 0.0, 'yaw_rate': 0.0}
+1627586436.5856016, Processing: $BFNVG,023821.775,4226.106158,N,07114.529409,W,0,1.093,1.266,92.11,-3.17,2.49,023821.772*46
+Interpreted as: {'position': (21.55994347354863, -7.874077325686812), 'latlon': (42.43510263333334, -71.24215681666666), 'heading': 92.11, 'depth': 1.266, 'altitude': 1.093, 'roll': -3.17, 'pitch': 2.49, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 21), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586436.5856016, Processing: $BFNVR,023821.775,1.2740,-0.0133,-0.0554,-0.000,0.000,0.000*6B
+Interpreted as: {'timestamp': '023821.775', 'east_velocity': 1.274, 'north_velocity': -0.0133, 'down_velocity': -0.0554, 'pitch_rate': -0.0, 'roll_rate': 0.0, 'yaw_rate': 0.0}
+1627590036.60691, Sending: $BPRMB,212036.60,RUDDER AMIDSHIPS,1.0,0,1000.0,0,1*2e
+
+1627590037.1078093, Sending: $BPSTS,212037.10,1,BWSI Autonomy OK*40
+
+1627586437.6086924, Processing: $BFACK,023821.809,RMB,000000.000,0,0,0,Unable to parse: Expected double (floating point number)- got "R"-(Field 2)*68
+Vehicle failed to process request RMB: Unable to parse: Expected double (floating point number)- got "R"-(Field 2)1627586437.6086924, Processing: $BFNVG,023821.876,4226.106157,N,07114.529334,W,0,1.099,1.231,91.73,-2.33,2.30,023821.872*45
+Interpreted as: {'position': (21.662715559650678, -7.87864447850734), 'latlon': (42.43510261666667, -71.24215556666667), 'heading': 91.73, 'depth': 1.231, 'altitude': 1.099, 'roll': -2.33, 'pitch': 2.3, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 21), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586437.6086924, Processing: $BFNVR,023821.876,1.2742,-0.0048,-0.0511,-0.000,0.000,0.000*69
+Interpreted as: {'timestamp': '023821.876', 'east_velocity': 1.2742, 'north_velocity': -0.0048, 'down_velocity': -0.0511, 'pitch_rate': -0.0, 'roll_rate': 0.0, 'yaw_rate': 0.0}
+1627586437.6086924, Processing: $BFNVG,023821.974,4226.106158,N,07114.529224,W,0,1.104,1.231,91.29,-1.32,2.11,023821.972*43
+Interpreted as: {'position': (21.813568554935046, -7.880777779966593), 'latlon': (42.43510263333334, -71.24215373333334), 'heading': 91.29, 'depth': 1.231, 'altitude': 1.104, 'roll': -1.32, 'pitch': 2.11, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 21), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586437.6086924, Processing: $BFNVR,023821.974,1.2812,0.0049,-0.0472,-0.000,0.000,0.000*48
+Interpreted as: {'timestamp': '023821.974', 'east_velocity': 1.2812, 'north_velocity': 0.0049, 'down_velocity': -0.0472, 'pitch_rate': -0.0, 'roll_rate': 0.0, 'yaw_rate': 0.0}
+1627586437.6086924, Processing: $BFNVG,023822.075,4226.106159,N,07114.529125,W,0,1.110,1.213,90.79,-0.01,1.93,023822.072*48
+Interpreted as: {'position': (21.949341140221804, -7.882512675598264), 'latlon': (42.43510265, -71.24215208333334), 'heading': 90.79, 'depth': 1.213, 'altitude': 1.11, 'roll': -0.01, 'pitch': 1.93, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 22), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586437.6086924, Processing: $BFNVR,023822.075,1.2894,0.0163,-0.0434,-0.000,0.000,0.000*46
+Interpreted as: {'timestamp': '023822.075', 'east_velocity': 1.2894, 'north_velocity': 0.0163, 'down_velocity': -0.0434, 'pitch_rate': -0.0, 'roll_rate': 0.0, 'yaw_rate': 0.0}
+1627586437.6086924, Processing: $BFNVG,023822.174,4226.106160,N,07114.529028,W,0,0.000,1.213,90.20,1.69,1.75,023822.172*68
+Interpreted as: {'position': (22.082371834898368, -7.884175128303468), 'latlon': (42.435102666666666, -71.24215046666667), 'heading': 90.2, 'depth': 1.213, 'altitude': 0.0, 'roll': 1.69, 'pitch': 1.75, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 22), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586437.6086924, Processing: $BFNVR,023822.174,1.2893,0.0297,-0.0393,-0.000,0.000,0.000*43
+Interpreted as: {'timestamp': '023822.174', 'east_velocity': 1.2893, 'north_velocity': 0.0297, 'down_velocity': -0.0393, 'pitch_rate': -0.0, 'roll_rate': 0.0, 'yaw_rate': 0.0}
+1627586437.6086924, Processing: $BFNVG,023822.276,4226.106163,N,07114.528931,W,0,0.000,1.213,89.48,3.15,1.57,023822.273*67
+Interpreted as: {'position': (22.21550031605875, -7.882136078551412), 'latlon': (42.43510271666667, -71.24214885), 'heading': 89.48, 'depth': 1.213, 'altitude': 0.0, 'roll': 3.15, 'pitch': 1.57, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 22), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586437.6086924, Processing: $BFNVR,023822.276,1.2889,0.0457,-0.0354,-0.000,0.000,0.000*48
+Interpreted as: {'timestamp': '023822.276', 'east_velocity': 1.2889, 'north_velocity': 0.0457, 'down_velocity': -0.0354, 'pitch_rate': -0.0, 'roll_rate': 0.0, 'yaw_rate': 0.0}
+1627586437.6086924, Processing: $BFACK,023822.313,STS,212036.080,0,2,0,Received status*18
+Vehicle successfully processed request STS1627586437.6086924, Processing: $BFNVG,023822.375,4226.106166,N,07114.528838,W,0,0.000,1.188,88.68,4.17,1.41,023822.371*6B
+Interpreted as: {'position': (22.34314501157496, -7.879952152259648), 'latlon': (42.43510276666667, -71.2421473), 'heading': 88.68, 'depth': 1.188, 'altitude': 0.0, 'roll': 4.17, 'pitch': 1.41, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 22), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586437.6086924, Processing: $BFNVR,023822.375,1.2733,0.0629,-0.0314,-0.000,0.000,0.000*4B
+Interpreted as: {'timestamp': '023822.375', 'east_velocity': 1.2733, 'north_velocity': 0.0629, 'down_velocity': -0.0314, 'pitch_rate': -0.0, 'roll_rate': 0.0, 'yaw_rate': 0.0}
+1627586437.6086924, Processing: $BFNVG,023822.474,4226.106171,N,07114.528744,W,0,0.000,1.188,87.76,4.80,1.29,023822.472*6B
+Interpreted as: {'position': (22.472258443944156, -7.874102939851582), 'latlon': (42.43510285, -71.24214573333333), 'heading': 87.76, 'depth': 1.188, 'altitude': 0.0, 'roll': 4.8, 'pitch': 1.29, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 22), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586437.6086924, Processing: $BFNVR,023822.474,1.2722,0.0834,-0.0286,-0.000,0.000,0.000*45
+Interpreted as: {'timestamp': '023822.474', 'east_velocity': 1.2722, 'north_velocity': 0.0834, 'down_velocity': -0.0286, 'pitch_rate': -0.0, 'roll_rate': 0.0, 'yaw_rate': 0.0}
+1627586437.6086924, Processing: $BFNVG,023822.574,4226.106177,N,07114.528650,W,0,0.000,1.166,86.74,4.70,1.16,023822.572*69
+Interpreted as: {'position': (22.601420770166442, -7.866402975283563), 'latlon': (42.43510295, -71.24214416666666), 'heading': 86.74, 'depth': 1.166, 'altitude': 0.0, 'roll': 4.7, 'pitch': 1.16, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 22), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586437.6086924, Processing: $BFNVR,023822.574,1.2773,0.1067,-0.0260,-0.000,-0.000,0.000*6A
+Interpreted as: {'timestamp': '023822.574', 'east_velocity': 1.2773, 'north_velocity': 0.1067, 'down_velocity': -0.026, 'pitch_rate': -0.0, 'roll_rate': -0.0, 'yaw_rate': 0.0}
+1627586437.6086924, Processing: $BFNVG,023822.674,4226.106184,N,07114.528556,W,0,0.000,1.166,85.70,4.08,1.05,023822.672*6A
+Interpreted as: {'position': (22.73063198820455, -7.856852255761623), 'latlon': (42.43510306666667, -71.2421426), 'heading': 85.7, 'depth': 1.166, 'altitude': 0.0, 'roll': 4.08, 'pitch': 1.05, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 22), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586437.6086924, Processing: $BFNVR,023822.674,1.2752,0.1299,-0.0236,-0.000,-0.000,0.000*6A
+Interpreted as: {'timestamp': '023822.674', 'east_velocity': 1.2752, 'north_velocity': 0.1299, 'down_velocity': -0.0236, 'pitch_rate': -0.0, 'roll_rate': -0.0, 'yaw_rate': 0.0}
+1627586437.6086924, Processing: $BFNVG,023822.775,4226.106192,N,07114.528463,W,0,0.000,1.166,84.66,3.30,0.97,023822.771*68
+Interpreted as: {'position': (22.85852115356829, -7.845414566807449), 'latlon': (42.4351032, -71.24214105), 'heading': 84.66, 'depth': 1.166, 'altitude': 0.0, 'roll': 3.3, 'pitch': 0.97, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 22), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586437.6086924, Processing: $BFNVR,023822.775,1.2727,0.1530,-0.0217,-0.000,-0.000,0.000*6F
+Interpreted as: {'timestamp': '023822.775', 'east_velocity': 1.2727, 'north_velocity': 0.153, 'down_velocity': -0.0217, 'pitch_rate': -0.0, 'roll_rate': -0.0, 'yaw_rate': 0.0}
+1627590037.631995, Sending: $BPRMB,212037.63,RUDDER AMIDSHIPS,1.0,0,1000.0,0,1*2c
+
+1627590038.132901, Sending: $BPSTS,212038.13,1,BWSI Autonomy OK*4c
+
+1627586438.633791, Processing: $BFACK,023822.833,RMB,000000.000,0,0,0,Unable to parse: Expected double (floating point number)- got "R"-(Field 2)*62
+Vehicle failed to process request RMB: Unable to parse: Expected double (floating point number)- got "R"-(Field 2)1627586438.633791, Processing: $BFNVG,023822.876,4226.106202,N,07114.528370,W,0,0.000,1.145,83.63,2.52,0.89,023822.872*6E
+Interpreted as: {'position': (22.98650810867548, -7.8302753726020455), 'latlon': (42.43510336666667, -71.2421395), 'heading': 83.63, 'depth': 1.145, 'altitude': 0.0, 'roll': 2.52, 'pitch': 0.89, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 22), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586438.633791, Processing: $BFNVR,023822.876,1.2779,0.1770,-0.0200,-0.000,-0.000,0.000*68
+Interpreted as: {'timestamp': '023822.876', 'east_velocity': 1.2779, 'north_velocity': 0.177, 'down_velocity': -0.02, 'pitch_rate': -0.0, 'roll_rate': -0.0, 'yaw_rate': 0.0}
+1627586438.633791, Processing: $BFNVG,023822.974,4226.106212,N,07114.528276,W,0,0.000,1.145,82.60,1.89,0.80,023822.972*64
+Interpreted as: {'position': (23.115866005420685, -7.815172394737601), 'latlon': (42.43510353333333, -71.24213793333334), 'heading': 82.6, 'depth': 1.145, 'altitude': 0.0, 'roll': 1.89, 'pitch': 0.8, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 22), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586438.633791, Processing: $BFNVR,023822.974,1.2678,0.1988,-0.0180,-0.000,-0.000,0.000*69
+Interpreted as: {'timestamp': '023822.974', 'east_velocity': 1.2678, 'north_velocity': 0.1988, 'down_velocity': -0.018, 'pitch_rate': -0.0, 'roll_rate': -0.0, 'yaw_rate': 0.0}
+1627586438.633791, Processing: $BFNVG,023823.075,4226.106224,N,07114.528184,W,0,0.000,1.125,81.58,1.49,0.73,023823.072*60
+Interpreted as: {'position': (23.242579801008105, -7.79629547521472), 'latlon': (42.435103733333335, -71.2421364), 'heading': 81.58, 'depth': 1.125, 'altitude': 0.0, 'roll': 1.49, 'pitch': 0.73, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 23), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586438.633791, Processing: $BFNVR,023823.075,1.2561,0.2200,-0.0162,-0.000,-0.000,0.000*6F
+Interpreted as: {'timestamp': '023823.075', 'east_velocity': 1.2561, 'north_velocity': 0.22, 'down_velocity': -0.0162, 'pitch_rate': -0.0, 'roll_rate': -0.0, 'yaw_rate': 0.0}
+1627586438.633791, Processing: $BFNVG,023823.174,4226.106238,N,07114.528093,W,0,0.000,1.125,80.57,1.29,0.68,023823.172*69
+Interpreted as: {'position': (23.368020435562357, -7.77368083409965), 'latlon': (42.43510396666667, -71.24213488333334), 'heading': 80.57, 'depth': 1.125, 'altitude': 0.0, 'roll': 1.29, 'pitch': 0.68, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 23), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586438.633791, Processing: $BFNVR,023823.174,1.2520,0.2422,-0.0152,-0.000,-0.000,0.000*6F
+Interpreted as: {'timestamp': '023823.174', 'east_velocity': 1.252, 'north_velocity': 0.2422, 'down_velocity': -0.0152, 'pitch_rate': -0.0, 'roll_rate': -0.0, 'yaw_rate': 0.0}
+1627586438.633791, Processing: $BFNVG,023823.278,4226.106252,N,07114.527999,W,0,0.000,1.125,79.56,1.31,0.69,023823.274*6C
+Interpreted as: {'position': (23.49757390806917, -7.751174847595394), 'latlon': (42.4351042, -71.24213331666667), 'heading': 79.56, 'depth': 1.125, 'altitude': 0.0, 'roll': 1.31, 'pitch': 0.69, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 23), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586438.633791, Processing: $BFNVR,023823.278,1.2475,0.2642,-0.0153,0.000,0.000,0.000*64
+Interpreted as: {'timestamp': '023823.278', 'east_velocity': 1.2475, 'north_velocity': 0.2642, 'down_velocity': -0.0153, 'pitch_rate': 0.0, 'roll_rate': 0.0, 'yaw_rate': 0.0}
+1627586438.633791, Processing: $BFACK,023823.337,STS,212037.100,0,2,0,Received status*17
+Vehicle successfully processed request STS1627586438.633791, Processing: $BFNVG,023823.374,4226.106267,N,07114.527911,W,0,0.000,1.107,78.50,1.25,0.70,023823.372*6A
+Interpreted as: {'position': (23.618950597883668, -7.726600795984268), 'latlon': (42.43510445, -71.24213185), 'heading': 78.5, 'depth': 1.107, 'altitude': 0.0, 'roll': 1.25, 'pitch': 0.7, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 23), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586438.633791, Processing: $BFNVR,023823.374,1.2424,0.2872,-0.0157,-0.000,-0.000,0.000*64
+Interpreted as: {'timestamp': '023823.374', 'east_velocity': 1.2424, 'north_velocity': 0.2872, 'down_velocity': -0.0157, 'pitch_rate': -0.0, 'roll_rate': -0.0, 'yaw_rate': 0.0}
+1627586438.633791, Processing: $BFNVG,023823.474,4226.106284,N,07114.527820,W,0,0.000,1.107,77.45,1.22,0.72,023823.472*6A
+Interpreted as: {'position': (23.744537911494263, -7.698433896526694), 'latlon': (42.43510473333333, -71.24213033333334), 'heading': 77.45, 'depth': 1.107, 'altitude': 0.0, 'roll': 1.22, 'pitch': 0.72, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 23), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586438.633791, Processing: $BFNVR,023823.474,1.2436,0.3114,-0.0161,0.000,-0.000,0.000*40
+Interpreted as: {'timestamp': '023823.474', 'east_velocity': 1.2436, 'north_velocity': 0.3114, 'down_velocity': -0.0161, 'pitch_rate': 0.0, 'roll_rate': -0.0, 'yaw_rate': 0.0}
+1627586438.633791, Processing: $BFNVG,023823.574,4226.106302,N,07114.527728,W,0,0.000,1.090,76.40,1.12,0.74,023823.572*6C
+Interpreted as: {'position': (23.87154506414663, -7.668452461250126), 'latlon': (42.435105033333336, -71.2421288), 'heading': 76.4, 'depth': 1.09, 'altitude': 0.0, 'roll': 1.12, 'pitch': 0.74, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 23), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586438.633791, Processing: $BFNVR,023823.574,1.2455,0.3364,-0.0166,0.000,-0.000,0.000*46
+Interpreted as: {'timestamp': '023823.574', 'east_velocity': 1.2455, 'north_velocity': 0.3364, 'down_velocity': -0.0166, 'pitch_rate': 0.0, 'roll_rate': -0.0, 'yaw_rate': 0.0}
+1627586438.633791, Processing: $BFNVG,023823.676,4226.106322,N,07114.527638,W,0,0.000,1.090,75.31,0.81,0.75,023823.672*63
+Interpreted as: {'position': (23.995908112847246, -7.634697087109089), 'latlon': (42.43510536666667, -71.2421273), 'heading': 75.31, 'depth': 1.09, 'altitude': 0.0, 'roll': 0.81, 'pitch': 0.75, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 23), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586438.633791, Processing: $BFNVR,023823.676,1.2389,0.3601,-0.0169,0.000,-0.000,0.000*48
+Interpreted as: {'timestamp': '023823.676', 'east_velocity': 1.2389, 'north_velocity': 0.3601, 'down_velocity': -0.0169, 'pitch_rate': 0.0, 'roll_rate': -0.0, 'yaw_rate': 0.0}
+1627586438.633791, Processing: $BFNVG,023823.775,4226.106343,N,07114.527547,W,0,0.000,1.090,74.20,0.46,0.75,023823.773*67
+Interpreted as: {'position': (24.121690998377744, -7.599127176217735), 'latlon': (42.43510571666667, -71.24212578333334), 'heading': 74.2, 'depth': 1.09, 'altitude': 0.0, 'roll': 0.46, 'pitch': 0.75, 'last_fix_time': datetime.datetime(2021, 7, 29, 2, 38, 23), 'rudder': None, 'datum': (42.435168366666666, -71.24242126666667)}
+1627586438.633791, Processing: $BFNVR,023823.775,1.2317,0.3839,-0.0170,0.000,-0.000,0.000*40
+Interpreted as: {'timestamp': '023823.775', 'east_velocity': 1.2317, 'north_velocity': 0.3839, 'down_velocity': -0.017, 'pitch_rate': 0.0, 'roll_rate': -0.0, 'yaw_rate': 0.0}
+1627590038.6558135, Sending: $BPRMB,212038.65,RUDDER AMIDSHIPS,1.0,0,1000.0,0,1*25
+
