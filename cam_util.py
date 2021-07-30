@@ -25,7 +25,7 @@ def sensor_angle(sensor_pos_x, sensor_pos_y, f):
 
 
 def find_centers(filter_image, rgb_image, thresh):
-    object_detection_surface = cv2.boxFilter(filter_image.astype(int), -1, (25, 25), normalize=False)
+    object_detection_surface = cv2.boxFilter(filter_image.astype(int), -1, (30, 30), normalize=False)
 
     if np.max(object_detection_surface) <= 0:
         return [], []
@@ -45,19 +45,19 @@ def find_centers(filter_image, rgb_image, thresh):
     centers = []
     angles = []
     for contour in contours:
-        np.max([item[0][0] for item in contour])
+        max = np.max([item[0][0] for item in contour])
 
-        point = np.mean(contour, axis = 0)[0,:]
-        centers.append(point)
+        center = np.mean(contour, axis = 0)[0,:]
+        centers.append(center)
         
-        a = sensor_position(point[0], point[1], rgb_image.shape[1], rgb_image.shape[0])
+        a = sensor_position(center[0], center[1], rgb_image.shape[1], rgb_image.shape[0])
         b = sensor_angle(a[0], a[1], focal_length)
         
         angles.append(b)
     return centers, angles
 
 def get_ranges(red_range, green_range, blue_range, rgb_image):
-    rgb_filt = cv2.boxFilter(rgb_image, -1, (8,8))
+    rgb_filt = cv2.boxFilter(rgb_image, -1, (9,9))
 
     red_filt = rgb_filt[:,:,0]
     green_filt = rgb_filt[:,:,1]
