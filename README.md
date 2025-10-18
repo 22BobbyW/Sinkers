@@ -69,9 +69,9 @@ shutdown safe
 
 ## Setup & Duplication Guide
 
-###1. Prepare System
+### Prepare System
 
-Use a Linux-based embedded board (e.g., Raspberry Pi, Nvidia Jetson).
+Use a Linux-based embedded board (e.g., Raspberry Pi, Nvidia Jetson). We used a Raspberry Pi 4B+ in our modified AUV BlueFin Sandshark.
 
 Install OS, enable network/SSH, update packages.
 
@@ -82,14 +82,14 @@ git clone https://github.com/ArcKnight01/Sinkers.git
 cd Sinkers
 ```
 
-###2. Install Dependencies
+### Install Dependencies
 ```bash
 sudo apt update && sudo apt upgrade -y
 sudo apt install python3-pip python3-gpiozero python3-opencv
 pip3 install numpy opencv-python pyserial
 ```
 
-###4. Hardware Wiring / Pin-Mapping
+### Hardware Wiring / Pin-Mapping
 
 Key summary:
 
@@ -103,38 +103,30 @@ Cameras → CSI (Raspberry Pi camera interface) or USB
 
 Battery cutoff, safety switch, kill-switch wiring must be confirmed.
 
-###4. Calibrate Sensors
+### Calibrate Sensors
+Run:
 
-Run scripts/calibrate_imu.py until stable readings achieved.
-
-Run scripts/check_depth_sensor.py in known water depth for zero‐offset.
-
+``` bash
+python3 scripts/calibrate_imu.py
+python3 scripts/check_depth_sensor.py
+```
 Verify thruster direction and motor command response before launch (on a test stand).
 
-### 5. Run Mission
+### Run Mission
+```bash
 python3 main.py --mode autonomous --config configs/mission1.yaml
-
-
+```
 Use --mode manual for teleop.
 
 Logs are stored in logs/YYYY_MM_DD_HHMMSS/ and include sensor dump, command trace, state transitions.
 
-### 6. Post-Test Procedures
+### Post-Test Procedures
 
 Download logs for analysis.
 
 Review visual camera feed recordings under videos/.
 
 For multiple runs, compare mission performance metrics in analysis/.
-
-Testing & Validation
-
-Use the image below from pool testing to verify vehicle behaviour and instrumentation.
-
-Record surface logs and compare commanded vs. executed trajectory.
-
-Use visual markers and known distances in pool for range/vision calibration.
-
 
 ## License
 
