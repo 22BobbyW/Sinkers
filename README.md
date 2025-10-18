@@ -1,57 +1,42 @@
+
 # Sinkers – MIT BWSI AUV Challenge
 
-## Project Overview  
-The *Sinkers* project was developed for the MIT Lincoln Labs Beaver Works Summer Institute (BWSI) Autonomous Underwater Vehicle Challenge — a rigorous underwater robotics competition where teams design, build, and program a BlueFin Sandshark autonomous underwater vehicle  (AUV) to navigate a buoy field course.
-This repository contains the flight-software, sensor drivers, control logic, mission automation and test protocols for the team’s AUV using the Bluefin Sandshark hull. 
+## Project Overview
+The **Sinkers** project was developed for the MIT Lincoln Labs **Beaver Works Summer Institute** (BWSI) Autonomous Underwater Vehicle Challenge.  In this competition teams design, build and program a BlueFin Sandshark AUV to navigate a buoy field course.  This repository contains the flight‑software, sensor drivers, control logic, mission automation and test protocols used by the team’s AUV. For additional context and media, see this project page [https://www.aidanrc.com/mit-bwsi-auv-challenge
+](https://www.aidanrc.com/mit-bwsi-auv-challenge)
 
-See this project page for more information: [https://www.aidanrc.com/mit-bwsi-auv-challenge](https://www.aidanrc.com/mit-bwsi-auv-challenge)
-This team consisted of Aidan Carrier, Bobby Wang, Naomi Naranjo, and Matthew Weng 
+## Hardware Architecture
+This AUV uses a modular architecture with the following major subsystems:
+| Subsystem        | Description                                                                 | Interface/Notes         |
+|------------------|-----------------------------------------------------------------------------|-------------------------|
+| **Hull/Buoyancy**| Pressure‑rated cylinder with sealed through‑hull wiring and a main battery pack | Physical structure      |
+| **Propulsion & Steering** | Thrusters for forward/reverse and vertical motion; rudders for yaw control | PWM thruster drivers    |
+| **Sensors**      | IMU for orientation, depth/pressure sensor, optional sonar/pinger, and cameras for vision | I²C/SPI/CSI/USB         |
+| **Compute**      | Embedded computer (e.g., Raspberry Pi 4B+) running Python and C++ control software | GPIO, I²C, SPI          |
+| **Power**        | 12 V battery with 5 V logic regulator; common ground and waterproof connectors | Power distribution      |
+
+### Pinout Summary
+The original BlueFin Sandshark hardware uses the following pin mappings.  If you modify the wiring or use a different board, update these accordingly.
+
+| Device/Signal      | Pin(s)                        | Notes                                     |
+|--------------------|-------------------------------|-------------------------------------------|
+| **Thrusters**      | GPIO 12, GPIO 13, GPIO 18, GPIO 19 | PWM channels for left, right and vertical thrusters |
+| **IMU (I²C)**      | SDA → GPIO 2; SCL → GPIO 3     | 9‑DOF orientation sensor |
+| **Depth sensor**   | SPI/I²C bus (config‑dependent) | Pressure sensor for depth |
+| **Cameras**        | CSI or USB ports              | Pi camera module |
+| **Safety switches**| Additional GPIO lines         | Battery cutoff and kill‑switch (verify wiring) |
 
 
-## Demonstration  
-Test Run #3
-[![Sinkers AUV Test Run](https://img.youtube.com/vi/z71xyqpF_E0/0.jpg)](https://www.youtube.com/watch?v=z71xyqpF_E0)
+## Software Architecture
+The code is written primarily in Python 3.x and depends on `numpy`, `opencv‑python` and various sensor libraries.  The repository currently contains camera processing utilities and a network interface for the BlueFin Sandshark front‑ and back‑seat computers.  Key modules include:
 
-## Key Capabilities  
-- Autonomous mission execution: waypoint navigation, object detection, buoy manipulation, return to base.  
-- Sensor integration: IMU, depth sensor, cameras, sonar/range sensors.  
-- Modular software architecture: separate layers for hardware interface, control logic, mission automation.  
-- Build replicability: hardware pin-map, software dependencies, build/run instructions included.  
-- Logging & telemetry: onboard and surface logs for debugging, test-campaign summaries.
+- **Image_Processor.py** – captures images from the Pi camera or simulation and detects buoys.
+- **MissionReconstruction.py** – reconstructs mission logs for analysis.
+- **Sandshark_Interface.py** – TCP server/client providing command and telemetry exchange between the ‘front seat’ (payload computer) and ‘back seat’ (navigation computer).  It handles socket communications and message queuing.
+- **cam_util.py**, **camera_util.py**, **pool_cam_util.py** – helper functions for pixel‑to‑angle conversions and buoy detection.
 
-## Hardware Overview  
-The AUV is built on the following primary subsystems:  
-- **Hull / Buoyancy:** Pressure‐rated cylinder, sealed through-hull wiring, main battery pack.  
-- **Propulsion & Steering:** Thrusters (forward/reverse), vertical control, rudder/sides for yaw.  
-- **Sensors:** IMU (orientation), depth/pressure sensor, forward-looking sonar or pinger, cameras for visual feedback.  
-- **Compute:** Embedded board (e.g., Raspberry Pi or equivalent) running Python/C++ control software.  
-- **Power & Interfaces:** 12 V battery, 5 V logic regulator, common ground, waterproof connectors for sensors/thrusters.
-
-## Software Architecture  
-### Language & Dependencies  
-- Core control logic in **Python 3.x** (with optional C++ modules for performance-critical tasks).  
-- Key libraries: `numpy`, `opencv-python`, sensor drivers (I²C, SPI, UART), ROS or custom message framework (if used).  
-- Versioning of dependencies and environment scripts included in `/env` (or requirements file).
-
-### Module Structure  
-```bash
-/src
-├─ hardware_interface/
-│ ├ motors.py
-│ ├ sensors.py
-│ ├ imu.py
-│ └ thrusters.py
-├─ control/
-│ ├ state_machine.py
-│ ├ autonomy.py
-│ └ manual_control.py
-├─ mission/
-│ ├ mission_planner.py
-│ └ waypoints.py
-└─ main.py
-```
-
-### Runtime Control Loop (Simplified Pseudocode)  
+## Control Loop
+The overall control loop for an autonomous mission follows this logic:
 ```python
 initialize all modules (hardware, sensors, control)
 select mode (manual or autonomous)
@@ -66,72 +51,60 @@ while mission_not_done:
 shutdown safe
 ```
 
+Although the core loop remains, this repository only implements the camera and communication utilities.  The full autonomy and control algorithms reside in the main Sinkers repository.
 
 ## Setup & Duplication Guide
+1. **Clone this repo:**
 
-### Prepare System
+   ```bash
+   git clone https://github.com/ArcKnight01/Sinkers.git
+   cd Sinkers
+   ```
 
-Use a Linux-based embedded board (e.g., Raspberry Pi, Nvidia Jetson). We used a Raspberry Pi 4B+ in our modified AUV BlueFin Sandshark.
+2. **Install dependencies:**
 
-Install OS, enable network/SSH, update packages.
+   ```bash
+   sudo apt update && sudo apt upgrade -y
+   sudo apt install python3-pip python3-gpiozero python3-opencv
+   pip3 install numpy opencv-python pyserial
+   ```
 
-Clone this repo:
+3. **Calibrate sensors:**
 
-```bash
-git clone https://github.com/ArcKnight01/Sinkers.git
-cd Sinkers
-```
+   Run the calibration scripts (if available) to zero your IMU and depth sensor:
 
-### Install Dependencies
-```bash
-sudo apt update && sudo apt upgrade -y
-sudo apt install python3-pip python3-gpiozero python3-opencv
-pip3 install numpy opencv-python pyserial
-```
+   ```bash
+   python3 scripts/calibrate_imu.py
+   python3 scripts/check_depth_sensor.py
+   ```
 
-### Hardware Wiring / Pin-Mapping
+4. **Run a mission:**
 
-Key summary:
+   Execute the main program with a configuration filehttps://github.com/ArcKnight01/Sinkers/blob/HEAD/README.md#L115-L120:
 
-Thruster PWM → GPIO pins 12, 13, 18, 19
+   ```bash
+   python3 main.py --mode autonomous --config configs/mission1.yaml
+   ```
 
-IMU I²C → SDA (GPIO 2), SCL (GPIO 3)
+   Use `--mode manual` for tele‑operation.  Logs are saved under `logs/YYYY_MM_DD_HHMMSS/` for post‑run analysis.
 
-Depth sensor → SPI / I²C as configured
+5. **Analyze results:**
 
-Cameras → CSI (Raspberry Pi camera interface) or USB
+   Use `MissionReconstruction.py` and Jupyter notebooks to reconstruct missions, plot trajectories and evaluate performance.  See the `analysis/` folder for examples.
 
-Battery cutoff, safety switch, kill-switch wiring must be confirmed.
+## Demonstration Videos
+Below are test runs from our AUV challenge playlist.  Each thumbnail links to the corresponding YouTube video:
 
-### Calibrate Sensors
-Run:
-
-``` bash
-python3 scripts/calibrate_imu.py
-python3 scripts/check_depth_sensor.py
-```
-Verify thruster direction and motor command response before launch (on a test stand).
-
-### Run Mission
-```bash
-python3 main.py --mode autonomous --config configs/mission1.yaml
-```
-Use --mode manual for teleop.
-
-Logs are stored in logs/YYYY_MM_DD_HHMMSS/ and include sensor dump, command trace, state transitions.
-
-### Post-Test Procedures
-
-Download logs for analysis.
-
-Review visual camera feed recordings under videos/.
-
-For multiple runs, compare mission performance metrics in analysis/.
+| Run | Embedded Video | Summary |
+|----|---|---|
+| **Test Run #2** | [![Run 2](https://img.youtube.com/vi/rft1sYsLbGc/0.jpg)](https://www.youtube.com/watch?v=rft1sYsLbGc) | Early trial navigating buoys  |
+| **Test Run #3** | [![Run 3](https://img.youtube.com/vi/z71xyqpF_E0/0.jpg)](https://www.youtube.com/watch?v=z71xyqpF_E0) | Improved run with slower speedview |
+| **Test Run Fail** | [![Fail](https://img.youtube.com/vi/G_wWVP8iRcc/0.jpg)](https://www.youtube.com/watch?v=G_wWVP8iRcc) | Failure mode demonstration |
 
 ## License
-
-This project is released under the MIT License.
+This project is released under the **MIT License**
 
 ## Acknowledgements
+Thanks to the MIT BWSI instructors and mentors (especially Madeleine Miller and Joseph Edwards), BWSI director Joel Grimm, and our awesome TA Joseph Ntaimo, and to our teammates Aidan Carrier, Bobby Wang, Naomi Naranjo, and Matthew Weng for their contributions.
 
-Thanks to the MIT BWSI program, including instructors/mentors Madeleine Miller and Jospeph Edwards, our awesome TA Joseph Ntaimo, and the BWSI director Joel Grimm, as well as the broader open-source robotics community for resources and support.
+---
